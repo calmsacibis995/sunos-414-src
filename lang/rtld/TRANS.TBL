@@ -1,0 +1,13 @@
+F CACHE.H;1                         	cache.h
+F CACHE_CO.C;1                      	cache_common.c
+F CACHE_RT.C;1                      	cache_rtld.c
+F CHECK_ST.C;1                      	check_stack.c
+F ERRORS.C;1                        	errors.c
+F GENASSYM.C;1                      	genassym.c
+F LDCONFIG.C;1                      	ldconfig.c
+F MAKECOMM.;1                       	MakeCommon
+F MAKEFILE.;1                       	Makefile
+F RTLD.C;1                          	rtld.c
+F RTLD.H;1                          	rtld.h
+F RTSUBRS.C;1                       	rtsubrs.c
+D SPARC                             	sparc

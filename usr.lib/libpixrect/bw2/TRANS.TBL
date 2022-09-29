@@ -1,0 +1,6 @@
+F BW2.C;1                           	bw2.c
+F BW2.MK;1                          	bw2.mk
+F BW2VAR.H;1                        	bw2var.h
+F BW2_LINT.C;1                      	bw2_lint.c
+F BW2_OPS.C;1                       	bw2_ops.c
+L SCCS.;1                           	SCCS	../SCCS/../bw2/SCCS

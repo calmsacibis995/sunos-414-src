@@ -1,0 +1,12 @@
+F GT.UCO;1                          	gt.ucode
+F GTCONFIG.C;1                      	gtconfig.c
+F GTCONFIG.H;1                      	gtconfig.h
+F GT_C30.UCO;1                      	gt.c30.ucode
+F GT_C31.UCO;1                      	gt.c31.ucode
+F GT_LPCON.C;1                      	gt_lpconfig.c
+F GT_LPCON.H;1                      	gt_lpconfig_icon.h
+D INCLUDE                           	include
+D LIB                               	lib
+F MAKEFILE.;1                       	Makefile
+D PROBE                             	probe
+D QUICKTES                          	quicktest

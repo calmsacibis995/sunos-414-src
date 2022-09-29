@@ -1,0 +1,7 @@
+F ALIGN_EQ.C;1                      	align_equals.c
+F BRACKET_.C;1                      	bracket_misc.c
+F CAPITALI.C;1                      	capitalize.c
+F INSERT_B.C;1                      	insert_brackets.c
+F MAKEFILE.;1                       	Makefile
+F REMOVE_B.C;1                      	remove_brackets.c
+F SHIFT_LI.C;1                      	shift_lines.c

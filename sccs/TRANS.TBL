@@ -1,0 +1,6 @@
+D HDR                               	hdr
+D HELPDIR                           	helpdir
+D LIB                               	lib
+D LIBPW                             	libPW
+F MAKEFILE.;1                       	Makefile
+D SRC                               	src

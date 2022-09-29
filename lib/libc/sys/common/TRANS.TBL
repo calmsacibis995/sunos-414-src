@@ -1,0 +1,17 @@
+F AUDITSYS.C;1                      	auditsys.c
+F CHKPATH.H;1                       	chkpath.h
+F EXECL.C;1                         	execl.c
+F EXECLE.C;1                        	execle.c
+F EXECV.C;1                         	execv.c
+F MAKEFILE.;1                       	Makefile
+F MKFIFO.C;1                        	mkfifo.c
+F MSGSYS.C;1                        	msgsys.c
+F PATHCONF.C;1                      	pathconf.c
+F RFSSYS.C;1                        	rfssys.c
+F SEMSYS.C;1                        	semsys.c
+F SETSID.C;1                        	setsid.c
+F SHMSYS.C;1                        	shmsys.c
+F SIGVEC.C;1                        	sigvec.c
+D SPARC                             	sparc
+F WAIT.C;1                          	wait.c
+F WAIT3.C;1                         	wait3.c

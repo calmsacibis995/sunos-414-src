@@ -1,0 +1,5 @@
+F ATTR.C;1                          	attr.c
+F ATTR_COP.C;1                      	attr_copy.c
+F ATTR_CU.C;1                       	attr_cu.c
+F ATTR_UTI.C;1                      	attr_util.c
+F MAKEFILE.;1                       	Makefile

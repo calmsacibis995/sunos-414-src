@@ -1,0 +1,17 @@
+F AUDIO.ICO;1                       	audio.icon
+F BUTTON_C.C;1                      	button_create.c
+F BUTTON_P.C;1                      	button_proc.c
+F CYCLE_CR.C;1                      	cycle_create.c
+F CYCLE_PR.C;1                      	cycle_proc.c
+F FORWARD.ICO;1                     	forward.icon
+F FORWARD_.ICO;1                    	forward_on.icon
+F INFO_CRE.C;1                      	info_create.c
+F LASERTOO.H;1                      	lasertool.h
+F LASERTOO.ICO;1                    	lasertool.icon
+F MAIN.C;1                          	main.c
+F MAKEFILE.;1                       	Makefile
+F POLL.C;1                          	poll.c
+F REVERSE.ICO;1                     	reverse.icon
+F REVERSE_.ICO;1                    	reverse_on.icon
+F SEARCH_E.000;1                    	search_etc_create.c
+F SEARCH_E.C;1                      	search_etc_proc.c

@@ -1,0 +1,16 @@
+F ARCH.T;1                          	arch.t
+F COMPILE.C;1                       	compile.c
+F DRIVER.H;1                        	driver.h
+F DRIVER_V.C;1                      	driver_version.c
+F MAKEFILE.;1                       	Makefile
+F README.;1                         	README
+F RO_DATA.C;1                       	ro_data.c
+F RUN_PASS.C;1                      	run_pass.c
+F RW_DATA.C;1                       	rw_data.c
+F SETUP.C;1                         	setup.c
+F SETUP_CC.C;1                      	setup_cc.c
+F SETUP_F7.C;1                      	setup_f77.c
+F SETUP_LI.C;1                      	setup_lint.c
+F SETUP_M2.C;1                      	setup_m2c.c
+F SETUP_PC.C;1                      	setup_pc.c
+D SPARC                             	sparc

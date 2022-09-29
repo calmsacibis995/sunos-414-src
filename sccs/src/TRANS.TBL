@@ -1,0 +1,14 @@
+F ADMIN.C;1                         	admin.c
+F BDIFF.C;1                         	bdiff.c
+F COMB.C;1                          	comb.c
+F DELTA.C;1                         	delta.c
+F GET.C;1                           	get.c
+F HELP.C;1                          	help.c
+F PRS.C;1                           	prs.c
+F PRT.C;1                           	prt.c
+F RMCHG.C;1                         	rmchg.c
+F SCCSDIFF.SH;1                     	sccsdiff.sh
+F UNGET.C;1                         	unget.c
+F VAL.C;1                           	val.c
+F VC.C;1                            	vc.c
+F WHAT.C;1                          	what.c

@@ -1,0 +1,12 @@
+F MAKEFILE.;1                       	Makefile
+F WMGR_ATT.C;1                      	wmgr_attic.c
+F WMGR_CON.C;1                      	wmgr_confirm.c
+F WMGR_CUR.C;1                      	wmgr_cursors.c
+F WMGR_DAT.C;1                      	wmgr_data.c
+F WMGR_FIN.C;1                      	wmgr_findspace.c
+F WMGR_IMA.C;1                      	wmgr_images.c
+F WMGR_MEN.C;1                      	wmgr_menu.c
+F WMGR_POL.C;1                      	wmgr_policy.c
+F WMGR_REC.C;1                      	wmgr_rect.c
+F WMGR_STA.C;1                      	wmgr_state.c
+F WMGR_WAL.C;1                      	wmgr_walkmenu.c

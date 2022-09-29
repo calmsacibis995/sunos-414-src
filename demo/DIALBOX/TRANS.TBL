@@ -1,0 +1,12 @@
+F DIAG.C;1                          	diag.c
+F DIALTEST.C;1                      	dialtest.c
+F DIAL_ICO.H;1                      	dial_icon.h
+F DIAL_MAS.H;1                      	dial_mask_icon.h
+F DUMP.C;1                          	dump.c
+F MAKEFILE.;1                       	Makefile
+F MAKEFILE.DEM;1                    	Makefile.demo
+F PW_CIRCL.C;1                      	pw_circle.c
+F X_DIAG.C;1                        	x_diag.c
+F X_DIALTE.C;1                      	x_dialtest.c
+F X_DUMP.C;1                        	x_dump.c
+F X_PW_CIR.C;1                      	x_pw_circle.c

@@ -1,0 +1,15 @@
+F CG12.C;1                          	cg12.c
+F CG12.MK;1                         	cg12.mk
+F CG12_BAT.C;1                      	cg12_batch.c
+F CG12_COL.C;1                      	cg12_colormap.c
+F CG12_GET.C;1                      	cg12_getput.c
+F CG12_IOC.C;1                      	cg12_ioctl.c
+F CG12_LIN.C;1                      	cg12_lint.c
+F CG12_OPS.C;1                      	cg12_ops.c
+F CG12_REG.C;1                      	cg12_region.c
+F CG12_REP.C;1                      	cg12_replrop.c
+F CG12_ROP.C;1                      	cg12_rop.c
+F CG12_STE.C;1                      	cg12_stencil.c
+F CG12_VAR.H;1                      	cg12_var.h
+F CG12_VEC.C;1                      	cg12_vector.c
+L SCCS.;1                           	SCCS	../SCCS/../cg12/SCCS

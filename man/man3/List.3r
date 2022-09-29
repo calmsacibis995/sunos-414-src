@@ -1,0 +1,32 @@
+.\" @(#)List.3r 1.1 94/10/31 SMI;
+.if \n(zZ=1 .ig zZ
+.TH LIST 3R "18 January 1988"
+.SH "LIST OF STANDARD RPC SERVICES"
+.nf
+.sp
+.ta 20n; +20n
+\fBName	Appears on Page	Description\fR
+.sp
+.zZ
+\fBbootparam\fP	\fBbootparam\fP(3R)	 bootparam protocol
+\fBether\fP	\fBether\fP(3R)	 monitor traffic on the Ethernet
+\fBgetpublickey\fP	\fBpublickey\fP(3R)	 get public or secret key
+\fBgetrpcport\fP	\fBgetrpcport\fP(3R)	 get RPC port number
+\fBgetsecretkey\fP	\fBpublickey\fP(3R)	 get public or secret key
+\fBipalloc\fP	\fBipalloc\fP(3R)	 determine or temporarily allocate IP address
+\fBklm_prot\fP	\fBklm_prot\fP(3R)	 protocol between kernel and local lock manager
+\fBmount\fP	\fBmount\fP(3R)	 keep track of remotely mounted filesystems
+\fBnlm_prot\fP	\fBnlm_prot\fP(3R)	 protocol between local and remote network lock managers
+\fBpnp\fP	\fBpnp\fP(3R)	 automatic network installation
+\fBpublickey\fP	\fBpublickey\fP(3R)	 get public or secret key
+\fBrex\fP	\fBrex\fP(3R)	 remote execution protocol
+\fBrnusers\fP	\fBrnusers\fP(3R)	 return information about users on remote machines
+\fBrquota\fP	\fBrquota\fP(3R)	 implement quotas on remote machines
+\fBrstat\fP	\fBrstat\fP(3R)	 get performance data from remote kernel
+\fBrusers\fP	\fBrnusers\fP(3R)	 return information about users on remote machines
+\fBrwall\fP	\fBrwall\fP(3R)	 write to specified remote machines
+\fBsm_inter\fP	\fBsm_inter\fP(3R)	 status monitor protocol
+\fBspray\fP	\fBspray\fP(3R)	 scatter data in order to check the network
+\fByp\fP	\fByp\fP(3R)	 NIS protocol
+\fByppasswd\fP	\fByppasswd\fP(3R)	 update user password in NIS
+.fi

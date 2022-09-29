@@ -1,0 +1,7 @@
+F FPA.H;1                           	fpa.h
+F FPATEST.C;1                       	fpatest.c
+F FPAVERSI.C;1                      	fpaversion.c
+F GET_VALI.;1                       	get_validation_file
+F MAKEFILE.;1                       	Makefile
+F SR.;1                             	SR
+F VALUES.H;1                        	values.h

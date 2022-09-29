@@ -1,0 +1,9 @@
+F MAIN.C;1                          	main.c
+F MAKEFILE.;1                       	Makefile
+F NLSADDR.C;1                       	nlsaddr.c
+F NLSADMIN.H;1                      	nlsadmin.h
+F NLSNAME.C;1                       	nlsname.c
+F NLSSTR.C;1                        	nlsstr.c
+F NSADDR.H;1                        	nsaddr.h
+F NSTOA.C;1                         	nstoa.c
+F UTIL.C;1                          	util.c

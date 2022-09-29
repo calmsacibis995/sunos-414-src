@@ -1,0 +1,22 @@
+D ATTIC                             	Attic
+D BW2                               	bw2
+D CG12                              	cg12
+D CG2                               	cg2
+D CG3                               	cg3
+D CG4                               	cg4
+D CG6                               	cg6
+D CG8                               	cg8
+D CG9                               	cg9
+F DEVICE.MK;1                       	device.mk
+L FIXEDWID.;1                       	fixedwidthfonts	../fixedwidthfonts
+D GP1                               	gp1
+D GT                                	gt
+F LIBLIST.;1                        	liblist
+F LIBORDER.;1                       	liborder
+F MAKEFILE.;1                       	Makefile
+D MEM                               	mem
+D OBJ-SUN4                          	obj-sun4
+D PIXRECT                           	pixrect
+D PR                                	pr
+D TV1                               	tv1
+F VERSION.;1                        	version

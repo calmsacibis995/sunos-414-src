@@ -1,0 +1,5 @@
+F AUDIOIO.H;1                       	audioio.h
+F AUDIOREG.H;1                      	audioreg.h
+F AUTEST.C;1                        	autest.c
+F AUTEST.DAT;1                      	autest.data
+F MAKEFILE.;1                       	Makefile

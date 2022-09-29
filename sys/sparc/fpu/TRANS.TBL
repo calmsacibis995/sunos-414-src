@@ -1,0 +1,15 @@
+F ADDSUB.C;1                        	addsub.c
+F COMPARE.C;1                       	compare.c
+F DIV.C;1                           	div.c
+F FPU.C;1                           	fpu.c
+F FPU_SIMU.C;1                      	fpu_simulator.c
+F FPU_SIMU.H;1                      	fpu_simulator.h
+F GLOBALS.H;1                       	globals.h
+F IEEE.H;1                          	ieee.h
+F IU_SIMUL.C;1                      	iu_simulator.c
+F MAKEFILE.;1                       	Makefile
+F MUL.C;1                           	mul.c
+F PACK.C;1                          	pack.c
+F UNPACK.C;1                        	unpack.c
+F UTILITY.C;1                       	utility.c
+F UWORD.C;1                         	uword.c

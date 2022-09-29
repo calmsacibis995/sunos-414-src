@@ -1,0 +1,15 @@
+F BW1.C;1                           	bw1.c
+F BW1.MK;1                          	bw1.mk
+F BW1REG.H;1                        	bw1reg.h
+F BW1VAR.H;1                        	bw1var.h
+F BW1_BATC.C;1                      	bw1_batch.c
+F BW1_COLO.C;1                      	bw1_colormap.c
+F BW1_GETP.C;1                      	bw1_getput.c
+F BW1_LINT.C;1                      	bw1_lint.c
+F BW1_OPS.C;1                       	bw1_ops.c
+F BW1_POLY.C;1                      	bw1_polypoint.c
+F BW1_REGI.C;1                      	bw1_region.c
+F BW1_ROP.C;1                       	bw1_rop.c
+F BW1_STAN.C;1                      	bw1_stand.c
+F BW1_VEC.C;1                       	bw1_vec.c
+F BW1_VECB.S;1                      	bw1_vecbres.S

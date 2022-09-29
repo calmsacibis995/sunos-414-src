@@ -1,0 +1,17 @@
+F MAKEFILE.;1                       	Makefile
+F YPCLNT.H;1                        	ypclnt.h
+F YPERR_ST.C;1                      	yperr_string.c
+F YPMAINT_.C;1                      	ypmaint_xdr.c
+F YPPROT_E.C;1                      	ypprot_err.c
+F YPUPDATE.X;1                      	ypupdate_prot.x
+F YPV1_PRO.H;1                      	ypv1_prot.h
+F YPV1_XDR.C;1                      	ypv1_xdr.c
+F YPXDR.C;1                         	ypxdr.c
+F YP_ALL.C;1                        	yp_all.c
+F YP_BIND.C;1                       	yp_bind.c
+F YP_ENUM.C;1                       	yp_enum.c
+F YP_MASTE.C;1                      	yp_master.c
+F YP_MATCH.C;1                      	yp_match.c
+F YP_ORDER.C;1                      	yp_order.c
+F YP_PROT.H;1                       	yp_prot.h
+F YP_UPDAT.C;1                      	yp_update.c

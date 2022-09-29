@@ -1,0 +1,9 @@
+F CONSTANT.H;1                      	constants.h
+F GLOBAL.H;1                        	global.h
+F LOOKUP.C;1                        	lookup.c
+F MAIN.C;1                          	main.c
+F MAKEFILE.;1                       	Makefile
+F PARSER.Y;1                        	parser.y
+F RUNTIME.C;1                       	runtime.c
+F SCANNER.L;1                       	scanner.l
+F TRACE.C;1                         	trace.c

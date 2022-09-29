@@ -1,0 +1,15 @@
+F CG2.C;1                           	cg2.c
+F CG2.MK;1                          	cg2.mk
+F CG2REG.H;1                        	cg2reg.h
+F CG2VAR.H;1                        	cg2var.h
+F CG2_BATC.C;1                      	cg2_batch.c
+F CG2_COLO.C;1                      	cg2_colormap.c
+F CG2_GETP.C;1                      	cg2_getput.c
+F CG2_LINT.C;1                      	cg2_lint.c
+F CG2_OPS.C;1                       	cg2_ops.c
+F CG2_POLY.C;1                      	cg2_polypoint.c
+F CG2_REGI.C;1                      	cg2_region.c
+F CG2_ROP.C;1                       	cg2_rop.c
+F CG2_STEN.C;1                      	cg2_stencil.c
+F CG2_VEC.C;1                       	cg2_vec.c
+L SCCS.;1                           	SCCS	../SCCS/../cg2/SCCS

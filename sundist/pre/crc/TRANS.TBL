@@ -1,0 +1,4 @@
+F ADDBFCRC.000;1                    	addbfcrc-mc68020.S
+F ADDBFCRC.S;1                      	addbfcrc-sparc.S
+F CRC.C;1                           	crc.c
+F MAKEFILE.;1                       	Makefile

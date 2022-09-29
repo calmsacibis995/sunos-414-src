@@ -1,0 +1,8 @@
+F MAKEFILE.;1                       	Makefile
+F UMOUNT.S;1                        	umount.s
+F _GETPGRP.S;1                      	_getpgrp.s
+F _KILL.S;1                         	_kill.s
+F _LSEEK.S;1                        	_lseek.s
+F _MKNOD.S;1                        	_mknod.s
+F _MOUNT.S;1                        	_mount.s
+F _SETPGRP.S;1                      	_setpgrp.s

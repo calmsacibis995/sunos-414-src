@@ -1,0 +1,13 @@
+D ADAPTERS                          	adapters
+D CONF                              	conf
+D GENERIC                           	generic
+D IMPL                              	impl
+F MAKEFILE.;1                       	Makefile
+F SCSI.H;1                          	scsi.h
+F SCSI_ADD.H;1                      	scsi_address.h
+F SCSI_CTL.H;1                      	scsi_ctl.h
+F SCSI_PAR.H;1                      	scsi_params.h
+F SCSI_PKT.H;1                      	scsi_pkt.h
+F SCSI_RES.H;1                      	scsi_resource.h
+F SCSI_TYP.H;1                      	scsi_types.h
+D TARGETS                           	targets

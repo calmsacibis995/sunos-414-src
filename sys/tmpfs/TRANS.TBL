@@ -1,0 +1,9 @@
+F MAKEFILE.;1                       	Makefile
+F TMP.H;1                           	tmp.h
+F TMPDIR.H;1                        	tmpdir.h
+F TMPNODE.H;1                       	tmpnode.h
+F TMP_DIR.C;1                       	tmp_dir.c
+F TMP_SUBR.C;1                      	tmp_subr.c
+F TMP_TNOD.C;1                      	tmp_tnode.c
+F TMP_VFSO.C;1                      	tmp_vfsops.c
+F TMP_VNOD.C;1                      	tmp_vnodeops.c

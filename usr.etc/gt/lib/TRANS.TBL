@@ -1,0 +1,5 @@
+F A_OUT.C;1                         	a.out.c
+F COFF.C;1                          	coff.c
+F GTIO.C;1                          	gtio.c
+F MAKEFILE.;1                       	Makefile
+F UTIL.C;1                          	util.c

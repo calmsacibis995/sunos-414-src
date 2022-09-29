@@ -1,0 +1,9 @@
+F GETTEXT.H;1                       	gettext.h
+F LIMITS.H;1                        	limits.h
+F MAKEFILE.;1                       	Makefile
+F MALLOC.H;1                        	malloc.h
+F MATH.H;1                          	math.h
+F NL_TYPES.H;1                      	nl_types.h
+F STDIO.H;1                         	stdio.h
+D SYS                               	sys
+F UTMP.H;1                          	utmp.h

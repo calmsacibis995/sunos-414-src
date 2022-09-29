@@ -1,0 +1,9 @@
+F MAKEFILE.;1                       	Makefile
+F TEK.C;1                           	tek.c
+F TEK.H;1                           	tek.h
+F TEKSW.C;1                         	teksw.c
+F TEKSW.H;1                         	teksw.h
+F TEKSW_DA.C;1                      	teksw_data.c
+F TEKSW_IM.H;1                      	teksw_imp.h
+F TEKSW_UI.C;1                      	teksw_ui.c
+F TEKTOOL.C;1                       	tektool.c

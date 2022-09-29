@@ -1,0 +1,8 @@
+F BW1_CURV.C;1                      	bw1_curve.c
+F CG1_CURV.C;1                      	cg1_curve.c
+F CG2_CURV.C;1                      	cg2_curve.c
+F CHAIN.H;1                         	chain.h
+F GP1_CURV.C;1                      	gp1_curve.c
+F MEM_CURV.C;1                      	mem_curve.c
+F PR_CURVE.C;1                      	pr_curve.c
+F PR_CURVE.DOC;1                    	pr_curve.doc

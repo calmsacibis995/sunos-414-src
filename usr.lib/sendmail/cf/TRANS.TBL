@@ -1,0 +1,13 @@
+F BASE.M4;1                         	base.m4
+F COMPAT.M4;1                       	compat.m4
+F DDNM.M4;1                         	ddnm.m4
+F ETHERM.M4;1                       	etherm.m4
+F LOCALM.M4;1                       	localm.m4
+F MAIN.MC;1                         	main.mc
+F MAKEFILE.;1                       	Makefile
+F SUBSIDIA.MC;1                     	subsidiary.mc
+F SUNBASE.M4;1                      	sunbase.m4
+F SUUCPM.M4;1                       	suucpm.m4
+F UUCPM.M4;1                        	uucpm.m4
+F VERSION.M4;1                      	version.m4
+F ZEROBASE.M4;1                     	zerobase.m4

@@ -1,0 +1,352 @@
+.\" @(#)Intro.4 1.1 94/10/31 SMI;
+.TH INTRO 4 "29 April 1992"
+.SH NAME
+intro \- introduction to device drivers, protocols, and network interfaces
+.SH DESCRIPTION
+.IX  "devices, introduction to"
+.IX  "hardware support, introduction to"
+.IX  "network interface, introduction to"
+.IX  "protocols, introduction to"
+.IX  "introduction"  "devices"
+.IX  "introduction"  "hardware support"
+.IX  "introduction"  "network interface"
+.IX  "introduction"  "protocols"
+.LP
+This section describes device drivers, high-speed
+network interfaces, and protocols available
+under Sun\s-1OS\s0.  The system
+provides drivers for a variety of hardware
+devices, such as disks, magnetic tapes, serial
+communication lines, mice, and frame buffers,
+as well as virtual devices such as pseudo-terminals
+and windows.  Sun\s-1OS\s0 provides hardware
+support and a network interface for the 10-Megabit
+Ethernet, along with interfaces for the
+.SM IP
+protocol family and a
+.SM STREAMS\s0-based
+Network Interface Tap (\s-1NIT\s0) facility.
+.LP
+In addition to describing device drivers that
+are supported by the 4.3\s-1BSD\s0
+operating system, this section contains subsections that describe:
+.TP 3
+\(bu
+Sun\s-1OS\s0-specific device drivers, under `4S'.
+.TP
+\(bu
+Protocol families, under `4F'.
+.TP
+\(bu
+Protocols and raw interfaces, under `4P'.
+.TP
+\(bu
+.SM STREAMS
+modules, under `4M'.
+.TP
+\(bu
+Network interfaces, under `4N'.
+.SS Configuration
+.LP
+The Sun\s-1OS\s0 kernel can be configured
+to include or omit many of the
+device drivers described in this section.  The
+.SM CONFIG
+section of the manual page gives the line(s) to include in
+the kernel configuration file for each machine architecture
+on which a device is supported.  If no specific architectures
+are indicated, the configuration syntax applies to all Sun systems.
+.LP
+The
+.SM GENERIC
+kernel is the default configuration for Sun\s-1OS\s0.
+It contains all of the
+optional drivers for a given machine architecture.
+See
+.BR config (8),
+for details on configuring a new Sun\s-1OS\s0 kernel.
+.LP
+The manual page for a device driver may also include a
+.SM DIAGNOSTICS
+section, listing
+error messages that the driver might produce.  Normally, these
+messages are logged to the appropriate system log using the
+kernel's standard message-buffering mechanism
+(see
+.BR syslogd (8));
+they may also appear on the system console.
+.SS Ioctls
+.LP
+Various special functions, such as querying or altering
+the operating characteristics of a device, are performed by supplying
+appropriate parameters to the
+.BR ioctl (2)
+system call.  These parameters are often referred to as ``ioctls.''
+Ioctls for a specific device are presented in the manual page for
+that device.  Ioctls that pertain to a class of devices are listed in
+a manual page with a name that suggests the class of device, and
+ending in `io', such as
+.BR mtio (4)
+for magnetic tape devices, or
+.BR dkio (4S)
+for disk controllers.  In addition, some ioctls
+operate directly on higher-level objects such as files,
+terminals, sockets, and streams:
+.TP 3
+\(bu
+Ioctls that operate directly on files, file descriptors, and sockets
+are described in
+.BR filio (4).
+Note: the
+.BR fcntl (2V)
+system call is the primary method for operating on
+file descriptors as such, rather than on the underlying files.
+Also note that the
+.B setsockopt
+system call (see
+.BR getsockopt (2))
+is the primary method for operating on sockets as such, rather
+than on the underlying protocol or network interface.
+Ioctls for a specific network interface are documented in the manual
+page for that interface.
+.TP
+\(bu
+Ioctls for terminals, including pseudo-terminals, are described in
+.BR termio (4).
+This manual page includes information about both the
+.SM BSD
+.B termios
+structure, as well as the System V
+.B termio
+structure.
+.TP
+\(bu
+Ioctls for
+.SM STREAMS
+are described in
+.BR streamio (4).
+.br
+.ne 5
+.SS "Devices Always Present"
+.LP
+Device drivers present in every kernel include:
+.TP 3
+\(bu
+The paging device; see
+.BR drum (4).
+.TP
+\(bu
+Drivers for accessing physical, virtual, and I/O space in memory; see
+.BR mem (4S).
+.TP
+\(bu
+The data sink; see
+.BR null (4).
+.SS "Terminals and Serial Communications Devices"
+.LP
+Serial communication lines are normally supported by the
+terminal driver; see
+.BR tty (4).
+This driver manages serial lines provided by
+communications drivers, such as those described in
+.BR mti (4S)
+and
+.BR zs (4S).
+The terminal driver also handles serial lines provided by
+virtual terminals, such as the Sun console monitor described in
+.BR console (4S),
+and true pseudo-terminals, described in
+.BR pty (4).
+.SS "Disk Devices"
+.LP
+Drivers for the following disk controllers provide standard block and
+raw interfaces under Sun\s-1OS\s0:
+.TP 3
+\(bu
+.SM SCSI
+controllers, in
+.BR sd (4S),
+.TP
+\(bu
+Xylogics 450 and 451
+.SM SMD
+controllers, in
+.BR xy (4S),
+.TP
+\(bu
+Xylogics 7053
+.SM SMD
+controllers, in
+.BR xd (4S),
+.TP
+\(bu
+.SM IPI
+controllers, in
+.BR id (4S).
+.LP
+Ioctls to query or set a disk's geometry and partitioning are described
+in
+.BR dkio (4S).
+.SS "Magnetic Tape Devices"
+.LP
+Magnetic tape devices supported by Sun\s-1OS\s0 include those described in
+.BR ar (4S),
+.BR tm (4S),
+.BR st (4S),
+and
+.BR xt (4S).
+Ioctls for all tape-device drivers are described in
+.BR mtio (4S).
+.SS "Frame Buffers"
+.LP
+Frame buffer devices include color frame buffers described in the
+.BR cg* (4S)
+and
+.BR gt (4S)
+manual pages, monochrome frame buffers described in the
+.BR bw* (4S)
+manual pages, graphics processor interfaces described in the
+.BR gp* (4S)
+manual pages, and an indirect device
+for the console frame buffer described in
+.BR fb (4S).
+Ioctls for all frame-buffer devices are described in
+.BR fbio (4S).
+.SS "Miscellaneous Devices"
+.LP
+Miscellaneous devices include the console keyboard described in
+.BR kbd (4S),
+the console mouse described in
+.BR mouse (4S),
+window devices described in
+.BR win (4S),
+and the DES encryption-chip interface described in
+.BR des (4S).
+.SS "Network-Interface Devices"
+.LP
+Sun\s-1OS\s0 supports the 10-Megabit Ethernet as its primary network
+interface; see
+.BR ie (4S)
+and
+.BR le (4S)
+for details.
+However, a software loopback interface,
+.BR lo (4)
+is also supported.
+General properties of these network interfaces are described in
+.BR if (4N),
+along with the ioctls that operate on them.
+.LP
+Support for network routing is described in
+.BR routing (4N).
+.SS "Protocols and Protocol Families"
+.LP
+Sun\s-1OS\s0 supports both socket-based and
+.SM STREAMS\s0-based
+network communications.
+The Internet protocol family, described in
+.BR inet (4F),
+is the primary protocol family primary supported by Sun\s-1OS\s0, although
+the system can support a number of others.  The raw
+interface provides low-level services, such as
+packet fragmentation and reassembly, routing, addressing, and basic
+transport for socket-based implementations.  Facilities for
+communicating using an Internet-family protocol are generally
+accessed by specifying the
+.SB AF_INET
+address family when binding a socket; see
+.BR socket (2)
+for details.
+.LP
+Major protocols in the Internet family include:
+.TP 3
+\(bu
+The Internet Protocol (\s-1IP\s0) itself,
+which supports the universal datagram format, as described in
+.BR ip (4P).
+This is the default protocol for
+.SM SOCK_RAW\s0
+type sockets within the
+.SB AF_INET
+domain.
+.TP
+\(bu
+The Transmission Control Protocol (\s-1TCP\s0); see
+.BR tcp (4P).
+This is the default protocol for
+.SM SOCK_STREAM\s0
+type sockets.
+.TP
+\(bu
+The User Datagram Protocol (\s-1UDP\s0); see
+.BR udp (4P).
+This is the default protocol for
+.SM SOCK_DGRAM
+type sockets.
+.br
+.ne 3
+.TP
+\(bu
+The Address Resolution Protocol (\s-1ARP\s0); see
+.BR arp (4P).
+.TP
+\(bu
+The Internet Control Message Protocol (\s-1ICMP\s0); see
+.BR icmp (4P).
+.LP
+The Network Interface Tap (\s-1NIT\s0) protocol, described in
+.BR nit (4P),
+is a
+.SM STREAMS\s0-based
+facility for accessing the network at the link level.
+.SH SEE ALSO
+.BR fcntl (2V),
+.BR getsockopt (2),
+.BR ioctl (2),
+.BR socket (2),
+.BR ar (4S),
+.BR arp (4P),
+.BR dkio (4S),
+.BR drum (4),
+.BR fb (4S),
+.BR fbio (4S),
+.BR filio (4),
+.BR icmp (4P),
+.BR if (4N),
+.BR inet (4F),
+.BR ip (4P),
+.BR kbd (4S),
+.BR le (4S),
+.BR lo (4),
+.BR mem (4S),
+.BR mti (4S),
+.BR mtio (4),
+.BR nit (4P),
+.BR null (4),
+.BR pty (4),
+.BR routing (4N),
+.BR sd (4S),
+.BR st (4S)
+.BR streamio (4),
+.BR tcp (4P),
+.BR termio (4),
+.BR tm (4S),
+.BR tty (4),
+.BR udp (4P),
+.BR win (4S),
+.BR xd (4S),
+.BR xy (4S),
+.BR zs (4S)
+.br
+.ne 25
+.SH "LIST OF DEVICES, INTERFACES AND PROTOCOLS"
+.sp
+.if t .ta 25n; +20n
+.if n .ta 20n; +20n
+.nf
+.B Name 	Appears on Page 	Description
+.sp
+.nr zZ 1
+.so man4/List.4
+.nr zZ 0
+.fi

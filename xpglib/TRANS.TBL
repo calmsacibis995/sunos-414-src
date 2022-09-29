@@ -1,0 +1,15 @@
+F CATGETS.C;1                       	catgets.c
+F CHROOT.C;1                        	chroot.c
+F GETCWD.C;1                        	getcwd.c
+F GETTEXT.C;1                       	gettext.c
+F GETUT.C;1                         	getut.c
+F L3TOL.C;1                         	l3tol.c
+F LANGINFO.C;1                      	langinfo.c
+F LOCALTIM.C;1                      	localtime.c
+F LOGNAME.C;1                       	logname.c
+F MAKEFILE.;1                       	Makefile
+F MALLINT.H;1                       	mallint.h
+F MALLOC.C;1                        	malloc.c
+D SPARC                             	sparc
+F SWAB.C;1                          	swab.c
+F UNAME.C;1                         	uname.c

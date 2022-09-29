@@ -1,0 +1,7 @@
+F LIBTEST.H;1                       	libtest.h
+F LIBVERSI.;1                       	libversion
+F MAKEFILE.;1                       	Makefile
+F RPCRTNS.C;1                       	rpcrtns.c
+F RPCRTNS.H;1                       	rpcrtns.h
+F SDRTNS.C;1                        	sdrtns.c
+F SDUTIL.C;1                        	sdutil.c

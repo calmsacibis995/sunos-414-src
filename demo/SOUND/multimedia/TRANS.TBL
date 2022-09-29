@@ -1,0 +1,8 @@
+F ARCHDEP.H;1                       	archdep.h
+F AUDIO_DE.H;1                      	audio_device.h
+F AUDIO_ER.H;1                      	audio_errno.h
+F AUDIO_FI.H;1                      	audio_filehdr.h
+F AUDIO_HD.H;1                      	audio_hdr.h
+F LIBAUDIO.H;1                      	libaudio.h
+F MAKEFILE.;1                       	Makefile
+F ULAW2LIN.H;1                      	ulaw2linear.h

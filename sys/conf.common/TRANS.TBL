@@ -1,0 +1,10 @@
+F DEFINES.;1                        	defines
+F EXCEPTIO.;1                       	EXCEPTIONS
+F FILES.CMN;1                       	files.cmn
+F MAKEFILE.INS;1                    	Makefile.install
+F MASTER.;1                         	master
+F MKCONFIG.SH;1                     	mkconfig.sh
+F NEWVERS.SH;1                      	newvers.sh
+F PARAM.C;1                         	param.c
+F README.;1                         	README
+F RELEASE.;1                        	RELEASE

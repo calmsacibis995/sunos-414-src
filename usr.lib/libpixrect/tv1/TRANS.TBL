@@ -1,0 +1,10 @@
+L SCCS.;1                           	SCCS	../SCCS/../tv1/SCCS
+F TV1.C;1                           	tv1.c
+F TV1.MK;1                          	tv1.mk
+F TV1VAR.H;1                        	tv1var.h
+F TV1_COLO.C;1                      	tv1_colormap.c
+F TV1_EN_R.C;1                      	tv1_en_rop.c
+F TV1_IOCT.C;1                      	tv1_ioctl.c
+F TV1_LINT.C;1                      	tv1_lint.c
+F TV1_OPS.C;1                       	tv1_ops.c
+F TV1_REGI.C;1                      	tv1_region.c

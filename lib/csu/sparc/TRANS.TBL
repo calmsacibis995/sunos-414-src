@@ -1,0 +1,6 @@
+F CRT0.S;1                          	crt0.s
+F GCRT0.S;1                         	gcrt0.s
+F GMCOUNT.S;1                       	gmcount.s
+F MAKEFILE.;1                       	Makefile
+F MCOUNT.S;1                        	mcount.s
+F MCRT0.S;1                         	mcrt0.s

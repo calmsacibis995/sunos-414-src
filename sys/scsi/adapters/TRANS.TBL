@@ -1,0 +1,11 @@
+F ESP.C;1                           	esp.c
+F ESPREG.H;1                        	espreg.h
+F ESPVAR.H;1                        	espvar.h
+F MAKEFILE.;1                       	Makefile
+F NCR.C;1                           	ncr.c
+F NCRCTL.H;1                        	ncrctl.h
+F NCRREG.H;1                        	ncrreg.h
+F NCRSBC.H;1                        	ncrsbc.h
+F SC.C;1                            	sc.c
+F SCREG.H;1                         	screg.h
+F UDC.H;1                           	udc.h

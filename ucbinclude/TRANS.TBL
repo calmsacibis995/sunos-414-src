@@ -1,0 +1,9 @@
+F ASSERT.H;1                        	assert.h
+F CTYPE.H;1                         	ctype.h
+F MAKEFILE.;1                       	Makefile
+F MALLOC.H;1                        	malloc.h
+F PWD.H;1                           	pwd.h
+F STDIO.H;1                         	stdio.h
+F STDLIB.H;1                        	stdlib.h
+D SYS                               	sys
+F TIME.H;1                          	time.h

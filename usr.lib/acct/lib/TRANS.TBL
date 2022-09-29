@@ -1,0 +1,13 @@
+F COPYN.C;1                         	copyn.c
+F DEVTOLIN.C;1                      	devtolin.c
+F EXPAND.C;1                        	expand.c
+F LINTODEV.C;1                      	lintodev.c
+F MAKEFILE.;1                       	Makefile
+F NAMTOUID.C;1                      	namtouid.c
+F PNPSPLIT.C;1                      	pnpsplit.c
+F REGCMP.C;1                        	regcmp.c
+F REGEX.C;1                         	regex.c
+F SUBSTR.C;1                        	substr.c
+F TMLESS.C;1                        	tmless.c
+F TMSECS.C;1                        	tmsecs.c
+F UIDTONAM.C;1                      	uidtonam.c

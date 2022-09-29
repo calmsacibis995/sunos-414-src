@@ -1,0 +1,277 @@
+.\" @(#)Intro.8 1.1 94/10/31 SMI; from UCB 4.2
+.TH INTRO 8 "22 May 1991"
+.SH NAME
+intro \- introduction to system maintenance and operation commands
+.SH DESCRIPTION
+.IX introduction "system maintenance and operation"
+.IX  "system maintenance and operation"
+.IX  "maintenance and operation"
+.LP
+This section contains information related to system bootstrapping,
+operation and maintenance.
+It describes all the server processes
+and daemons that run on the system, as well as standalone 
+(\s-1PROM\s0 monitor) programs.
+.LP
+An 8V section number means one or more of the following:
+.TP 3
+\(bu
+The man page documents System V behavior only.
+.TP
+\(bu
+The man page documents default SunOS behavior, and System V behavior as it
+differs from the default behavior.
+These System V differences are presented under
+.SB SYSTEM V
+section headers.
+.TP
+\(bu
+The man page documents behavior compliant with
+.I \s-1IEEE\s0 Std 1003.1-1988
+(\s-1POSIX.1\s0).
+.LP
+Disk formatting and labeling is done by
+.BR format (8S).
+Bootstrapping of the system is described in
+.BR boot (8S),
+.BR openboot (8S)
+and
+.BR init (8).
+The standard set of commands run by the system when it boots
+is described in
+.BR rc (8).
+Related commands include those that check the consistency of file 
+systems,
+.BR fsck (8);
+those that mount and unmount file systems,
+.BR mount (8);
+add swap devices,
+.BR swapon (8);
+force completion of outstanding file system I/O,
+.BR sync (2);
+shutdown or reboot a running system
+.BR shutdown (8),
+.BR halt (8),
+and
+.BR reboot (8);
+and, set the time on a machine from the time on another machine
+.BR rdate (8C).
+.LP
+Creation of file systems is discussed in
+.BR mkfs (8)
+and
+.BR newfs (8).
+File system performance parameters can be adjusted with
+.BR tunefs (8).
+File system backups and restores are described in
+.BR dump (8)
+and
+.BR restore (8).
+.LP
+Procedures for adding new users to a system are described in
+.BR adduser (8),
+using
+.BR vipw (8)
+to lock the password file during editing.
+.\".LP
+.\"Other programs that are useful when the system crashes or hardware is 
+.\"broken include
+.\".BR gxtest (8S)
+.\"which tests the frame buffer on a workstation,
+.\".BR imemtest (8S)
+.\"which tests the memory,
+.BR panic (8S)
+which describes what happens when the system crashes,
+.BR savecore (8)
+which can be used to analyze system crash dumps.
+Occasionally useful as adjuncts to the
+.BR fsck (8)
+file system repair program are
+.BR clri (8),
+.BR dcheck (8),
+.BR icheck (8),
+and
+.BR ncheck (8).
+.LP
+Configuring a new version of the 
+kernel requires using the program
+.BR config (8);
+major system bootstraps often require the use of
+.BR mkproto (8).
+New devices are added to the
+.B /dev
+directory (once device drivers are configured into the system)
+using 
+.BR makedev (8)
+and
+.BR mknod (8).
+The
+.BR installboot (8S)
+command can be used to install freshly compiled programs.
+The
+.BR catman (8)
+command preformats the on-line manual pages.
+.LP
+Resource accounting is enabled by the
+.B accton
+command, and summarized by
+.BR sa (8).
+Login time accounting is performed by
+.BR ac (8).
+Disk quotas are managed using
+.BR quot (8),
+.BR quotacheck (8),
+.BR quotaon (8),
+and
+.BR repquota (8).
+.LP
+A number of servers and daemon processes are described in this
+section.  The
+.BR update (8)
+daemon forces delayed file system I/O to occur and 
+.BR cron (8)
+runs periodic events
+(such as removing temporary files from the disk periodically).
+The
+.BR syslogd (8)
+daemon maintains the system error log.
+The
+.BR init (8)
+process is the initial process created when 
+the system boots.  It manages
+the reboot process and creates the initial login prompts on the
+various system terminals, using
+.BR getty (8).
+The Internet super-server
+.BR inetd (8C)
+invokes all other internet servers as needed.  These servers include the
+remote shell servers
+.BR rshd (8C)
+and
+.BR rexecd (8C),
+the remote login server
+.BR rlogind (8C),
+the
+.SM FTP
+and
+.SM TELNET
+daemons
+.BR ftpd (8C),
+and
+.BR telnetd (8C),
+the
+.SM TFTP
+daemon
+.BR tftpd (8C),
+and the mail arrival notification daemon
+.BR comsat (8C).
+Other network daemons include the `load average/who is logged in' daemon
+.BR rwhod (8C),
+the routing daemon
+.BR routed (8C),
+and the mail daemon
+.BR sendmail (8).
+.LP
+If network protocols are being debugged, then the
+protocol debugging trace program
+.BR trpt (8C)
+is often useful.  Remote magnetic tape access is provided by
+.B rsh
+and
+.BR rmt (8C).
+Remote line printer access is provided by
+.BR lpd (8),
+and control over the various print queues is provided by
+.BR lpc (8).
+Printer cost-accounting is done through
+.BR pac (8).
+.LP
+Network host tables may be gotten from the
+.SM ARPA NIC
+using
+.BR gettable (8C)
+and converted to 
+.SM UNIX\s0-system-usable 
+format using
+.BR htable (8).
+.br
+.ne 5
+.SS RPC and NFS daemons
+.LP
+.SM RPC
+and
+.SM NFS
+daemons include:
+.RS
+.TP 10
+.B portmap
+.PD 0
+used by
+.SM RPC
+based services.
+.TP
+.B ypbind
+used by the 
+Network Information Service
+(\s-1NIS\s0)
+to locate the 
+.SM NIS
+server.
+Note: the
+Network Information Service
+(\s-1NIS\s0)
+was formerly known as Sun Yellow Pages
+(\s-1YP\s0). 
+The functionality of the two remains the same;
+only the name has changed.
+.TP
+.B biod
+used by
+.SM NFS
+clients to read ahead to, and write behind from, network file
+systems.
+.TP
+.B nfsd
+the
+.SM NFS
+server process that responds to
+.SM NFS
+requests on
+.SM NFS
+server machines.
+.TP
+.B ypserv
+the 
+.SM NIS
+server, typically run on each
+.SM NFS
+server.
+.TP
+.B rstatd
+the server counterpart of the remote speedometer tools.
+.TP
+.B mountd
+the
+.B mount
+server that runs on
+.SM NFS
+server machines and responds to requests by other machines
+to mount file systems.
+.TP
+.B rwalld
+used for broadcasting messages over the network.
+.PD
+.RE
+.br
+.ne 10
+.SH "LIST OF MAINTENANCE COMMANDS"
+.sp
+.if t .ta 25n; +20n
+.if n .ta 20n; +20n
+.nf 
+\fBName	Appears on Page	Description\fR 
+.sp 
+.nr zZ 1 
+.so man8/List.8
+.nr zZ 0
+.fi

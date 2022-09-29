@@ -1,0 +1,12 @@
+F FILBUF.C;1                        	filbuf.c
+F FLSBUF.C;1                        	flsbuf.c
+F FOPEN.C;1                         	fopen.c
+F FPRINTF.C;1                       	fprintf.c
+F MAKEFILE.;1                       	Makefile
+F PRINTF.C;1                        	printf.c
+F SETBUF.C;1                        	setbuf.c
+D SPARC                             	sparc
+F SPRINTF.C;1                       	sprintf.c
+F VFPRINTF.C;1                      	vfprintf.c
+F VPRINTF.C;1                       	vprintf.c
+F VSPRINTF.C;1                      	vsprintf.c

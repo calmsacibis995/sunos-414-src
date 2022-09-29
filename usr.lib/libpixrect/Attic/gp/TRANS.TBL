@@ -1,0 +1,11 @@
+F GP1_ALLO.S;1                      	gp1_alloc.S
+F GP1_BATC.C;1                      	gp1_batch.c
+F GP1_COLO.C;1                      	gp1_colormap.c
+F GP1_GETP.C;1                      	gp1_getput.c
+F GP1_KERN.S;1                      	gp1_kern_sync.s
+F GP1_POLY.C;1                      	gp1_polypoint.c
+F GP1_POST.S;1                      	gp1_post.S
+F GP1_REGI.C;1                      	gp1_region.c
+F GP1_ROP.C;1                       	gp1_rop.c
+F GP1_STEN.C;1                      	gp1_stencil.c
+F GP1_SYNC.S;1                      	gp1_sync.S

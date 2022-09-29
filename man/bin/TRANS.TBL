@@ -1,0 +1,16 @@
+F ARCHIVE.SH;1                      	archive.sh
+F BADHF.SH;1                        	badhf.sh
+F BADNAMES.SH;1                     	badnames.sh
+F BADPATHS.SH;1                     	badpaths.sh
+F BADPGREF.SED;1                    	badpgrefs.sed
+F BADPGREF.SH;1                     	badpgrefs.sh
+F BADTROFF.SH;1                     	badtroff.sh
+F FIXDATE.SH;1                      	fixdate.sh
+F GETNAME.SH;1                      	getNAME.sh
+F HLIST.;1                          	hlist
+F INVADERS.SH;1                     	invaders.sh
+F NOTES.SH;1                        	notes.sh
+F NROFF.;1                          	Nroff
+F PIX.SH;1                          	pix.sh
+F SID.;1                            	sid
+F TITLES.SH;1                       	titles.sh

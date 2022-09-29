@@ -1,0 +1,12 @@
+F GETHOSTE.C;1                      	gethostent.c
+F GETHOSTN.C;1                      	gethostnamadr.c
+F MAKEFILE.;1                       	Makefile
+F README.;1                         	README
+F RES_COMP.C;1                      	res_comp.c
+F RES_DEBU.C;1                      	res_debug.c
+F RES_INIT.C;1                      	res_init.c
+F RES_MKQU.C;1                      	res_mkquery.c
+F RES_QUER.C;1                      	res_query.c
+F RES_SEND.C;1                      	res_send.c
+F SETHOSTE.C;1                      	sethostent.c
+F STRCASEC.C;1                      	strcasecmp.c

@@ -1,0 +1,14 @@
+F LLIB-LBS.;1                       	llib-lbsd
+F LLIB-LC.;1                        	llib-lc
+F LLIB-LCO.;1                       	llib-lcore
+F LLIB-LCU.;1                       	llib-lcurses
+F LLIB-LKV.;1                       	llib-lkvm
+F LLIB-LLW.;1                       	llib-llwp
+F LLIB-LM.;1                        	llib-lm
+F LLIB-LMP.;1                       	llib-lmp
+F LLIB-LPI.;1                       	llib-lpixrect
+F LLIB-LPL.;1                       	llib-lplot
+F LLIB-LSU.;1                       	llib-lsuntool
+F LLIB-LSU.000;1                    	llib-lsunwindow
+F LLIB-LTE.;1                       	llib-ltermcap
+F LLIB-POR.;1                       	llib-port

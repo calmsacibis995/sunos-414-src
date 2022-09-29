@@ -1,0 +1,6 @@
+D BIN                               	bin
+D LIBTFS                            	libtfs
+F MAKEFILE.;1                       	Makefile
+D NSE                               	nse
+D NSE_IMPL                          	nse_impl
+D TFSD                              	tfsd

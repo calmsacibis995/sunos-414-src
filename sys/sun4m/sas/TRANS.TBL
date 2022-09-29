@@ -1,0 +1,6 @@
+F CONF.C;1                          	conf.c
+F PROTO_SA.H;1                      	proto_sas_simdef.h
+F SIMCONS.C;1                       	simcons.c
+F SIMDISK.C;1                       	simdisk.c
+F SIMUTIL.S;1                       	simutil.s
+F SWAPGENE.C;1                      	swapgeneric.c

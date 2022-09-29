@@ -1,0 +1,14 @@
+F AUTOMOUN.H;1                      	automount.h
+F AUTO_ALL.C;1                      	auto_all.c
+F AUTO_LOO.C;1                      	auto_look.c
+F AUTO_MAI.C;1                      	auto_main.c
+F AUTO_MOU.C;1                      	auto_mount.c
+F AUTO_NOD.C;1                      	auto_node.c
+F AUTO_PRO.C;1                      	auto_proc.c
+F AUTO_SIT.C;1                      	auto_site.c
+F MAKEFILE.;1                       	Makefile
+F MANY_CAS.C;1                      	many_cast.c
+F NFS_CAST.C;1                      	nfs_cast.c
+F NFS_PROT.X;1                      	nfs_prot.x
+F NFS_SERV.C;1                      	nfs_server.c
+F NFS_TRAC.C;1                      	nfs_trace.c

@@ -1,0 +1,16 @@
+F ASSYMBLY.S;1                      	assymbly.s
+F DATAPATH.C;1                      	datapath.c
+F FPU.H;1                           	fpu.h
+F FPU-IF.S;1                        	fpu-if.s
+F FPU_PROB.C;1                      	fpu_probe.c
+F FPU_SYST.C;1                      	fpu.systest.c
+F INSTRUCT.C;1                      	instruction.c
+F LINPACK.C;1                       	linpack.c
+F LINSUB.C;1                        	linsub.c
+F LINSUB.F;1                        	linsub.F
+F MAKEFILE.;1                       	Makefile
+F NACK.C;1                          	nack.c
+F OTHERS.S;1                        	others.s
+F REGISTER.C;1                      	registers.c
+F WINITFP.C;1                       	winitfp.c
+F WSTATUS.C;1                       	wstatus.c

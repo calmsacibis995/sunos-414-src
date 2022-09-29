@@ -1,0 +1,15 @@
+F ATPRINT.C;1                       	atprint.c
+F DECPRINT.C;1                      	decprint.c
+F ETHERFIN.H;1                      	etherfind.h
+F FILTER.C;1                        	filter.c
+F IP.C;1                            	ip.c
+F IPPRINT.C;1                       	ipprint.c
+F MAKEFILE.;1                       	Makefile
+F NDIO.H;1                          	ndio.h
+F NFS_PROT.X;1                      	nfs_prot.x
+F NIT_STRE.C;1                      	nit_streams.c
+F PARSE.C;1                         	parse.c
+F RES_COMP.C;1                      	res_comp.c
+F RES_DEBU.C;1                      	res_debug.c
+F RPCPRINT.C;1                      	rpcprint.c
+F TTY_MAIN.C;1                      	tty_main.c

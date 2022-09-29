@@ -1,0 +1,5 @@
+F CANVAS.C;1                        	canvas.c
+F CANVAS_R.000;1                    	canvas_repaint.c
+F CANVAS_R.C;1                      	canvas_resize.c
+F CANVAS_S.C;1                      	canvas_scroll.c
+F MAKEFILE.;1                       	Makefile

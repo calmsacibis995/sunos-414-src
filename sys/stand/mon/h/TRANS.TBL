@@ -1,0 +1,15 @@
+F BOOTPARA.H;1                      	bootparam.h
+F CPU_ADDR.H;1                      	cpu.addrs.h
+F CPU_MAP.H;1                       	cpu.map.h
+F EEPROM.H;1                        	eeprom.h
+F IDPROM.H;1                        	idprom.h
+F INTERREG.H;1                      	interreg.h
+F KEYBOARD.H;1                      	keyboard.h
+F LED.H;1                           	led.h
+F MAKEFILE.;1                       	Makefile
+F OBPDEFS.H;1                       	obpdefs.h
+F OPENBOOT.H;1                      	openboot.h
+F OPENPROM.H;1                      	openprom.h
+F PASSWORD.H;1                      	password.h
+F SUNMON.H;1                        	sunmon.h
+F SUNROMVE.H;1                      	sunromvec.h

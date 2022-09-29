@@ -1,0 +1,11 @@
+F CLEAR_CO.C;1                      	clear_colormap.c
+F CONVERT.C;1                       	convert.c
+F MAKEFILE.;1                       	Makefile
+F RASFILTE.000;1                    	rasfilter8to1.c
+F RASFILTE.C;1                      	rasfilter_rgbtobgr.c
+F RASTREPL.C;1                      	rastrepl.c
+F SCREENDU.C;1                      	screendump.c
+F SCREENDU.H;1                      	screendump.h
+F SCREENLO.C;1                      	screenload.c
+F SCREENME.C;1                      	screenmerge.c
+F SCREENUT.C;1                      	screenutil.c

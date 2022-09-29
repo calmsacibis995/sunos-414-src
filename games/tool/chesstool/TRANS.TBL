@@ -1,0 +1,8 @@
+F CHESSPRO.C;1                      	chessprog.c
+F CHESSTOO.C;1                      	chesstool.c
+F CHESSTOO.H;1                      	chesstool.h
+F CLOCK.C;1                         	clock.c
+F CLOCKHAN.H;1                      	clockhands.h
+F MAKEFILE.;1                       	Makefile
+F PIECES.C;1                        	pieces.c
+F PIECES.H;1                        	pieces.h

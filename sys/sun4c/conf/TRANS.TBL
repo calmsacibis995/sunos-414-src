@@ -1,0 +1,10 @@
+F DEVICES.;1                        	devices
+F FILES.;1                          	files
+F FILES.SAS;1                       	files.SAS
+F FILES.SIM;1                       	files.SIMUL
+F MAKEFILE.;1                       	Makefile
+F MAKEFILE.OBJ;1                    	Makefile.obj
+F MAKEFILE.SRC;1                    	Makefile.src
+F MKCONFIG.SH;1                     	mkconfig.sh
+F SAS.;1                            	SAS
+F SIMUL.;1                          	SIMUL

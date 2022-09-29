@@ -1,0 +1,14 @@
+D AS                                	as
+F CG12UTIL.C;1                      	cg12util.c
+F COFF.H;1                          	coff.h
+F GP2.UCO;1                         	gp2.ucode
+F GP2UTIL.C;1                       	gp2util.c
+F GPCONFIG.C;1                      	gpconfig.c
+F GPUTIL.C;1                        	gputil.c
+F GS.UCO;1                          	gs.ucode
+F MAKEFILE.;1                       	Makefile
+D PP                                	pp
+F UTIL.C;1                          	util.c
+D VP                                	vp
+F WHATSTRI.;1                       	whatstring
+F WHATSTRI.000;1                    	whatstring+

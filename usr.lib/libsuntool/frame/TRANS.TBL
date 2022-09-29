@@ -1,0 +1,6 @@
+F FRAME.C;1                         	frame.c
+F FRAME_GE.C;1                      	frame_get.c
+F FRAME_LA.C;1                      	frame_layout.c
+F FRAME_SE.C;1                      	frame_set.c
+F FRAME_SH.C;1                      	frame_shadow.c
+F MAKEFILE.;1                       	Makefile

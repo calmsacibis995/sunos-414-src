@@ -1,0 +1,14 @@
+F HERROR.C;1                        	herror.c
+F MAIN.C;1                          	main.c
+F MAKEFILE.;1                       	Makefile
+F NGETHOST.C;1                      	ngethostbyname.c
+F NGET_ANS.C;1                      	nget_answer.c
+F NRES.H;1                          	nres.h
+F NRES_RCV.C;1                      	nres_rcv.c
+F NRES_SEA.C;1                      	nres_search.c
+F NRES_SEN.C;1                      	nres_send.c
+F RPC_AS.C;1                        	rpc_as.c
+F RPC_AS.H;1                        	rpc_as.h
+F SVC_RUN_.000;1                    	svc_run_as.c
+F SVC_RUN_.C;1                      	svc_run_named.c
+F SVC_UDP.C;1                       	svc_udp.c

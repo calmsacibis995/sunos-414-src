@@ -1,0 +1,9 @@
+F CG4.C;1                           	cg4.c
+F CG4.MK;1                          	cg4.mk
+F CG4VAR.H;1                        	cg4var.h
+F CG4_COLO.C;1                      	cg4_colormap.c
+F CG4_IOCT.C;1                      	cg4_ioctl.c
+F CG4_LINT.C;1                      	cg4_lint.c
+F CG4_OPS.C;1                       	cg4_ops.c
+F CG4_REGI.C;1                      	cg4_region.c
+L SCCS.;1                           	SCCS	../SCCS/../cg4/SCCS

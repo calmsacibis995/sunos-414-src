@@ -1,0 +1,7 @@
+D DOWNLOAD                          	download
+F MAKEFILE.;1                       	Makefile
+D MICROASS                          	microassembler
+D MICROASS.000                      	microassembler+
+D MICROCOD                          	microcode
+D MICROCOD.000                      	microcode+
+D VERSION                           	version

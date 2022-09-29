@@ -1,0 +1,10 @@
+F ANALYZE.C;1                       	analyze.c
+D COMPACT                           	compact
+D EYACC                             	eyacc
+D FILEMERG                          	filemerge
+D MAKE                              	make
+F MAKEFILE.;1                       	Makefile
+F PRMAIL.C;1                        	prmail.c
+F PTI.C;1                           	pti.c
+F SUN3CVT.C;1                       	sun3cvt.c
+F SYSLOG.C;1                        	syslog.c

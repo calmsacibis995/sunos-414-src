@@ -1,0 +1,14 @@
+F AWK.DEF;1                         	awk.def
+F AWK_G.Y;1                         	awk.g.y
+F AWK_LX.L;1                        	awk.lx.l
+F B.C;1                             	b.c
+F FREEZE.C;1                        	freeze.c
+F LIB.C;1                           	lib.c
+F MAIN.C;1                          	main.c
+F MAKEFILE.;1                       	Makefile
+F MAKEPRCT.C;1                      	makeprctab.c
+F PARSE.C;1                         	parse.c
+F RUN.C;1                           	run.c
+F TOKEN.C;1                         	token.c
+F TOKENSCR.;1                       	tokenscript
+F TRAN.C;1                          	tran.c

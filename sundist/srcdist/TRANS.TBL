@@ -1,0 +1,17 @@
+F COPYRIGH.;1                       	Copyright
+F EXTRACT.SH;1                      	extract.sh
+F INTSRC_E.;1                       	intsrc_exclude_list
+F MAKEFILE.;1                       	Makefile
+F MKSRC.SH;1                        	mksrc.sh
+F PART_NUM.;1                       	part_numbers
+F README.COM;1                      	README.compressed
+F README.FUL;1                      	README.fullsrc
+F README.HAL;1                      	README.half
+F README.INT;1                      	README.intsrc
+F README.QUA;1                      	README.quarter
+F README.SCC;1                      	README.sccs
+F README.SUN;1                      	README.sunsrc
+F README.WIN;1                      	README.winsrc
+F SRC_HOWT.;1                       	src_howto
+F SUNSRC_E.;1                       	sunsrc_exclude_list
+F WINSRC_L.;1                       	winsrc_list

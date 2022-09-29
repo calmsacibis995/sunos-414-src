@@ -1,0 +1,15 @@
+F DBX_NFS.C;1                       	dbx_nfs.c
+F EXPORT.H;1                        	export.h
+F MAKEFILE.;1                       	Makefile
+F NFS.H;1                           	nfs.h
+F NFS_CLIE.C;1                      	nfs_client.c
+F NFS_CLNT.H;1                      	nfs_clnt.h
+F NFS_COMM.C;1                      	nfs_common.c
+F NFS_DUMP.C;1                      	nfs_dump.c
+F NFS_EXPO.C;1                      	nfs_export.c
+F NFS_SERV.C;1                      	nfs_server.c
+F NFS_SUBR.C;1                      	nfs_subr.c
+F NFS_VFSO.C;1                      	nfs_vfsops.c
+F NFS_VNOD.C;1                      	nfs_vnodeops.c
+F NFS_XDR.C;1                       	nfs_xdr.c
+F RNODE.H;1                         	rnode.h

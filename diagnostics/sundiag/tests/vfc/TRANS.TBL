@@ -1,0 +1,5 @@
+F MAKEFILE.;1                       	Makefile
+F VFCTEST.C;1                       	vfctest.c
+F VFCTEST_.H;1                      	vfctest_defs.h
+F VFC_DEFS.H;1                      	vfc_defs.h
+F VFC_IOCT.H;1                      	vfc_ioctls.h

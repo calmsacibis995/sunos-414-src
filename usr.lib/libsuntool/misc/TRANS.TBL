@@ -1,0 +1,12 @@
+F CHEAP_TE.C;1                      	cheap_text.c
+F CURSOR_C.C;1                      	cursor_confirm.c
+F DEMORAND.C;1                      	demorandom.c
+F EMPTYSW.C;1                       	emptysw.c
+F EXPAND_N.C;1                      	expand_name.c
+F EXPAND_P.C;1                      	expand_path.c
+F FULLSCRE.C;1                      	fullscreen.c
+F MAKEFILE.;1                       	Makefile
+F MENU.C;1                          	menu.c
+F MISC_DAT.C;1                      	misc_data.c
+F MSGSW.C;1                         	msgsw.c
+F PROMPT.C;1                        	prompt.c

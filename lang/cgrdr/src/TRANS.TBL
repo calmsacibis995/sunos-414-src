@@ -1,0 +1,11 @@
+F CGFLAGS.C;1                       	cgflags.c
+F CG_IR.H;1                         	cg_ir.h
+F CG_MAIN.C;1                       	cg_main.c
+F DEBUG.C;1                         	debug.c
+F DO_IR_AR.C;1                      	do_ir_archive.c
+F INTR_MAP.C;1                      	intr_map.c
+F MISC.C;1                          	misc.c
+F PCC.C;1                           	pcc.c
+F PCCFMT.C;1                        	pccfmt.c
+F READ_IR.C;1                       	read_ir.c
+F REWRITE.C;1                       	rewrite.c

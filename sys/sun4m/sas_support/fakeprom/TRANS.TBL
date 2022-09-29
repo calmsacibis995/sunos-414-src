@@ -1,0 +1,12 @@
+F EXC_HAND.S;1                      	exc_handlers.s
+F FAKEPROM.C;1                      	fakeprom.c
+F FAKEPROM.H;1                      	fakeprom.h
+F FAKEPTE.C;1                       	fakepte.c
+F FAKEROMP.C;1                      	fakeromp.c
+F IO.C;1                            	io.c
+F MAKEFILE.;1                       	Makefile
+F MMU_CRUE.S;1                      	mmu_crueltt.s
+F PRF.C;1                           	prf.c
+F SIMDISK.C;1                       	simdisk.c
+F SIMUTIL.S;1                       	simutil.s
+F SPRINTF.C;1                       	sprintf.c

@@ -1,0 +1,11 @@
+D BOOT                              	boot
+D BOOTBLK                           	bootblk
+D LIB                               	lib
+F MAKEFILE.;1                       	Makefile
+D OS                                	os
+D SPARC                             	sparc
+F STUBS.S;1                         	stubs.s
+D SUN3                              	sun3
+D SUN4                              	sun4
+D SUN4C                             	sun4c
+D SUN4M                             	sun4m

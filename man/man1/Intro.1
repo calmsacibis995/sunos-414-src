@@ -1,0 +1,98 @@
+.\" @(#)Intro.1 1.1 94/10/31 SMI;
+.TH INTRO 1 "4 March 1988"
+.SH NAME
+intro \- introduction to commands
+.SH DESCRIPTION
+.IX  introduction "commands"
+.IX  "commands, introduction"
+.IX  "programs, introduction"
+.IX  "utilities, introduction"
+.LP
+This section describes publicly accessible commands in alphabetic order.
+Commands of general utility, many with enhancements from 4.3
+.SM BSD\s0.
+.LP
+Pages of special interest have been categorized as follows:
+.TP 10
+1C
+Commands for communicating with other systems.
+.TP
+1G
+Commands used primarily for graphics and computer-aided design.
+.TP
+1V
+System V commands.  One or more of the following are true:
+.RS
+.TP 3
+\(bu
+The man page documents System V behavior only.
+.TP
+\(bu
+The man page documents default SunOS behavior, and System V behavior as it
+differs from the default behavior.
+These System V differences are presented under
+.SB SYSTEM V
+section headers.
+.TP
+\(bu
+The man page documents behavior compliant with
+.I \s-1IEEE\s0 Std 1003.1-1988
+(\s-1POSIX.1\s0).
+.RE
+.SH SEE ALSO
+.TP 3
+\(bu 
+Section 8 in this manual for system administration procedures, system
+maintenance and operation commands, local daemons, and
+network-services servers.
+.TP
+\(bu 
+Section 7 in this manual for descriptions of publicly available files
+and macro packages for document preparation.
+.TP
+\(bu 
+Section 6 in this manual for computer games.
+.TP
+\(bu 
+.TX GSBG
+.TP
+\(bu
+.TX SUBG
+.TP
+\(bu
+.TX SVBG
+.TP 3
+\(bu 
+.TX DMBG
+.TP
+\(bu
+.TX PUL
+.SH DIAGNOSTICS
+.LP
+Upon termination each command returns two bytes of status,
+one supplied by the system giving the cause for
+termination, and (in the case of \*(lqnormal\*(rq termination)
+one supplied by the program, see
+.BR wait (2V)
+and
+.BR exit (2V).
+The former byte is 0 for normal termination, the latter
+is customarily 0 for successful execution, nonzero
+to indicate troubles such as erroneous parameters, bad or inaccessible 
+data, or other inability to cope with the task at hand.
+It is called variously \*(lqexit code,\*(rq \*(lqexit status\*(rq or
+\*(lqreturn code,\*(rq and is described only where special conventions are 
+involved.
+.br
+.ne 50
+.SH "LIST OF COMMANDS"
+.sp
+.if t .ta 25n; +22n
+.if n .ta 20n; +22n
+.nf
+\fBName	Appears on Page	Description\fR
+.sp
+.nr zZ 1
+.so man1/List.1
+.nr zZ 0
+.fi

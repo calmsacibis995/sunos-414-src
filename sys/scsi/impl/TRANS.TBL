@@ -1,0 +1,17 @@
+F COMMANDS.H;1                      	commands.h
+F INQUIRY.H;1                       	inquiry.h
+F MAKEFILE.;1                       	Makefile
+F MODE.H;1                          	mode.h
+F PKT_WRAP.H;1                      	pkt_wrapper.h
+F SCSI_CAP.C;1                      	scsi_capabilities.c
+F SCSI_CON.C;1                      	scsi_control.c
+F SCSI_DAT.C;1                      	scsi_data.c
+F SCSI_RES.C;1                      	scsi_resource.c
+F SCSI_SUB.C;1                      	scsi_subr.c
+F SCSI_TRA.C;1                      	scsi_transport.c
+F SENSE.H;1                         	sense.h
+F SERVICES.H;1                      	services.h
+F STATUS.H;1                        	status.h
+F TRANSPOR.H;1                      	transport.h
+F TYPES.H;1                         	types.h
+F USCSI.H;1                         	uscsi.h

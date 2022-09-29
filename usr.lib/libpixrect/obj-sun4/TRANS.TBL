@@ -1,0 +1,9 @@
+F GP1_SHME.IL;1                     	gp1_shmem.il
+F LIBPIXRE.000;1                    	libpixrect.a
+F LIBPIXRE.A;1                      	libpixrect_pg.a
+F LIBPIXRE.SA;1                     	libpixrect.sa
+F LIBPIXRE.SO;1                     	libpixrect.so
+F LLIB-LPI.;1                       	llib-lpixrect
+F LLIB-LPI.LN;1                     	llib-lpixrect.ln
+F PF_MAKED.;1                       	pf_makedef
+D PIC                               	pic

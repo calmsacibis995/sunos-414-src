@@ -1,0 +1,11 @@
+F LOCORE.C;1                        	Locore.c
+F LOW.H;1                           	low.h
+F LOW.S;1                           	low.s
+F LWPMACHD.C;1                      	lwpmachdep.c
+F LWPMACHD.H;1                      	lwpmachdep.h
+F LWPUTIL.C;1                       	lwputil.c
+F MACHDEP.H;1                       	machdep.h
+F MAKEFILE.;1                       	Makefile
+F PARAM.H;1                         	param.h
+F STACK.C;1                         	stack.c
+F STACKDEP.H;1                      	stackdep.h

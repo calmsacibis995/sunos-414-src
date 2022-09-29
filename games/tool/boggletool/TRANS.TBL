@@ -1,0 +1,13 @@
+F BOGGLE.C;1                        	boggle.c
+F BOGGLEWO.;1                       	bogglewords
+F COMP.C;1                          	comp.c
+F DEFS.H;1                          	defs.h
+F IMAGES.H;1                        	images.h
+F LISTS.C;1                         	lists.c
+F MAKEFILE.;1                       	Makefile
+F OUTLINE.H;1                       	outline.h
+F SAND.C;1                          	sand.c
+F SANDFRAM.H;1                      	sandframes.h
+F SEARCH.C;1                        	search.c
+F SPELL.H;1                         	spell.h
+F SPELLIN.C;1                       	spellin.c

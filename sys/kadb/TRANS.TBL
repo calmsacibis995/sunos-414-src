@@ -1,0 +1,7 @@
+D COMMON                            	common
+F GENPF.C;1                         	genpf.c
+F MAKEFILE.;1                       	Makefile
+F PF.H;1                            	pf.h
+D SUN4                              	sun4
+D SUN4C                             	sun4c
+D SUN4M                             	sun4m

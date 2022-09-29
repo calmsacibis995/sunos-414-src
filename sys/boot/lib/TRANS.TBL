@@ -1,0 +1,8 @@
+D COMMON                            	common
+F MAKEFILE.;1                       	Makefile
+D PROMLIB                           	promlib
+D SPARC                             	sparc
+D STAND                             	stand
+D SUN4                              	sun4
+D SUN4C                             	sun4c
+D SUN4M                             	sun4m

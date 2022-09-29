@@ -1,0 +1,9 @@
+F ATTB.S;1                          	attb.s
+F ATTW.S;1                          	attw.s
+F BGEN.S;1                          	bgen.s
+F BMOVE.S;1                         	bmove.s
+F CTRL.S;1                          	ctrl.s
+F MAKEFILE.;1                       	Makefile
+F QSORT.S;1                         	qsort.s
+F WGEN.S;1                          	wgen.s
+F WMOVE.S;1                         	wmove.s

@@ -1,0 +1,11 @@
+F COPYRIGH.;1                       	Copyright_scripts
+F COPYRIGH.000;1                    	Copyright_sun4c
+F COPYRIGH.001;1                    	Copyright_sun4c_100
+F COPYRIGH.002;1                    	Copyright_sun4c_200
+F COPYRIGH.003;1                    	Copyright_sun4c_424
+F COPYRIGH.004;1                    	Copyright_sun4m_424
+F DISK_BUI.SH;1                     	disk_build.sh
+F FT_BUILD.SH;1                     	ft_build.sh
+F MAKEFILE.;1                       	Makefile
+F SAT_BUIL.SH;1                     	sat_build.sh
+F TAPE_BUI.SH;1                     	tape_build.sh

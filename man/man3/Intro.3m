@@ -1,0 +1,156 @@
+.\" @(#)Intro.3m 1.1 94/10/31 SMI; from UCB 4.3 BSD
+.TH INTRO 3M "20 January 1988"
+.SH NAME
+intro \- introduction to mathematical library functions and constants
+.SH SYNOPSIS
+.B #include <sys/ieeefp.h>
+.PP
+.B #include <floatingpoint.h>
+.PP
+.B #include <math.h>
+.SH DESCRIPTION
+.IX  introduction  "mathematical library functions"  
+.IX  "mathematical library functions, introduction to"
+.IX  "library functions" "introduction to mathematical"
+The include file
+.B <math.h>
+contains declarations of all the functions described in Section 3M that
+are implemented in the math library,
+.BR libm .
+.\"Functions in this library are automatically loaded as needed by the
+.\"Fortran and Pascal compilers
+.\".BR f77 (1)
+.\"and
+.\".BR pc (1);
+C programs should be linked with the 
+.B \-lm
+option in order to use this library.
+.PP
+.B <sys/ieeefp.h>
+and
+.B <floatingpoint.h>
+define certain types and constants used for 
+.B libm
+exception handling, conforming to
+.SM ANSI/IEEE
+Std 754-1985, the
+.IR "\s-1IEEE\s0 Standard for Binary Floating-Point Arithmetic" .
+.SH "ACKNOWLEDGEMENT"
+.LP
+The Sun version of
+.B libm
+is based upon and developed from ideas embodied and codes contained in
+4.3 BSD, which may not be compatible with earlier BSD or
+.SM UNIX
+implementations.
+.SH "IEEE ENVIRONMENT"
+The
+.SM IEEE
+Standard specifies modes for rounding direction,
+precision, and exception trapping,
+and status reflecting accrued exceptions.
+These modes and status constitute the
+.SM IEEE
+run-time environment.
+On Sun-2 and Sun-3 systems  without 68881 floating-point co-processors,
+only the default rounding direction to nearest is available,
+only the default non-stop exception handling is available,
+and accrued exception bits are not maintained.
+.SH "IEEE EXCEPTION HANDLING"
+The
+.SM IEEE
+Standard specifies exception handling for
+.BR aint ,
+.BR ceil ,
+.BR floor ,
+.BR irint ,
+.BR remainder ,
+.BR rint ,
+and
+.BR sqrt ,
+and suggests appropriate exception handling for
+.BR fp_class ,
+.BR copysign ,
+.BR fabs ,
+.BR finite ,
+.BR fmod ,
+.BR isinf ,
+.BR isnan ,
+.BR ilogb ,
+.BR ldexp ,
+.BR logb ,
+.BR nextafter ,
+.BR scalb ,
+.BR scalbn
+and
+.BR signbit ,
+but does not specify exception handling for the other
+.B libm
+functions.
+.LP
+For these other unspecified functions the spirit of the
+.SM IEEE
+Standard is generally followed in 
+.B libm
+by handling invalid operand, singularity (division by zero),
+overflow, and underflow exceptions, as much as possible,
+in the same way they are handled for the fundamental floating-point
+operations such as addition and multiplication. 
+.PP
+These unspecified functions
+are usually not quite correctly rounded, may not observe the optional
+rounding directions, and may not set the inexact exception correctly.
+.br
+.ne 8
+.SH "SYSTEM V EXCEPTION HANDLING"
+The 
+.I System V Interface Definition
+(\c
+.SM SVID\c
+)
+specifies exception handling for some 
+.B libm 
+functions:
+.BR j0(\|) ,
+.BR j1(\|) ,
+.BR jn(\|) ,
+.BR y0(\|) ,
+.BR y1(\|) ,
+.BR yn(\|) ,
+.BR exp(\|) ,
+.BR log(\|) ,
+.BR log10(\|) ,
+.BR pow(\|) ,
+.BR sqrt(\|) ,
+.BR hypot(\|) ,
+.BR lgamma(\|) ,
+.BR sinh(\|) ,
+.BR cosh(\|) ,
+.BR sin(\|) ,
+.BR cos(\|) ,
+.BR tan(\|) ,
+.BR asin(\|) ,
+.BR acos(\|) ,
+and
+.BR atan2(\|) .
+See
+.BR matherr (3M)
+for a discussion of the extent to which Sun's implementation of
+.B libm
+follows the
+.SM SVID
+when it is consistent with the
+.SM IEEE
+Standard and with hardware efficiency.
+.br
+.ne 10
+.SH "LIST OF MATH LIBRARY FUNCTIONS"
+.sp
+.if t .ta 25n; +20n
+.if n .ta 20n; +20n
+.nf
+.sp
+.nr zZ 1
+.so man3/List.3m
+.nr zZ 0
+.fi

@@ -1,0 +1,8 @@
+F GTTY.C;1                          	gtty.c
+F LOCKF.C;1                         	lockf.c
+F MAKEFILE.;1                       	Makefile
+F PAUSE.C;1                         	pause.c
+F STTY.C;1                          	stty.c
+F TELL.C;1                          	tell.c
+F ULIMIT.C;1                        	ulimit.c
+F UTIME.C;1                         	utime.c

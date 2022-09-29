@@ -1,0 +1,8 @@
+F ICONEDIT.000;1                    	iconedit_browse.c
+F ICONEDIT.001;1                    	iconedit_canvas.c
+F ICONEDIT.002;1                    	iconedit_main.c
+F ICONEDIT.003;1                    	iconedit_mpr.c
+F ICONEDIT.C;1                      	iconedit_panel.c
+F ICONEDIT.H;1                      	iconedit.h
+F MAKEFILE.;1                       	Makefile
+F MAKEFILE.CUS;1                    	Makefile.customer

@@ -1,0 +1,13 @@
+F CG8.C;1                           	cg8.c
+F CG8.MK;1                          	cg8.mk
+F CG8VAR.H;1                        	cg8var.h
+F CG8_COLO.C;1                      	cg8_colormap.c
+F CG8_GETP.C;1                      	cg8_getput.c
+F CG8_IOCT.C;1                      	cg8_ioctl.c
+F CG8_LINT.C;1                      	cg8_lint.c
+F CG8_OLD_.C;1                      	cg8_old_ro_rop.c
+F CG8_OPS.C;1                       	cg8_ops.c
+F CG8_REGI.C;1                      	cg8_region.c
+F CG8_ROP.C;1                       	cg8_rop.c
+F CG8_VECT.C;1                      	cg8_vector.c
+L SCCS.;1                           	SCCS	../SCCS/../cg8/SCCS

@@ -1,0 +1,7 @@
+F FTPCMD.Y;1                        	ftpcmd.y
+F FTPD.C;1                          	ftpd.c
+L GLOB.C;1                          	glob.c	../../ucb/ftp/glob.c
+F LOGWTMP.C;1                       	logwtmp.c
+F MAKEFILE.;1                       	Makefile
+F POPEN.C;1                         	popen.c
+F VERS.C;1                          	vers.c

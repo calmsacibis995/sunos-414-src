@@ -1,0 +1,6 @@
+F CACHE.S;1                         	cache.s
+F FIXIMP.C;1                        	fiximp.c
+F GETIDPRO.C;1                      	getidprom.c
+F MAKEFILE.;1                       	Makefile
+F MAP.S;1                           	map.s
+F STUBS.S;1                         	stubs.s

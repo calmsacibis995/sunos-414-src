@@ -1,0 +1,17 @@
+F HSFS.H;1                          	hsfs.h
+F HSFS_ISO.H;1                      	hsfs_isospec.h
+F HSFS_NOD.C;1                      	hsfs_node.c
+F HSFS_NOD.H;1                      	hsfs_node.h
+F HSFS_PRI.H;1                      	hsfs_private.h
+F HSFS_RRI.C;1                      	hsfs_rrip.c
+F HSFS_RRI.H;1                      	hsfs_rrip.h
+F HSFS_SPE.H;1                      	hsfs_spec.h
+F HSFS_SUB.C;1                      	hsfs_subr.c
+F HSFS_SUS.000;1                    	hsfs_susp.c
+F HSFS_SUS.C;1                      	hsfs_susp_subr.c
+F HSFS_SUS.H;1                      	hsfs_susp.h
+F HSFS_VFS.C;1                      	hsfs_vfsops.c
+F HSFS_VNO.C;1                      	hsfs_vnodeops.c
+F HSNODE.H;1                        	hsnode.h
+F ISO_SPEC.H;1                      	iso_spec.h
+F MAKEFILE.;1                       	Makefile

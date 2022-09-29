@@ -1,0 +1,7 @@
+F GETVBR.S;1                        	getvbr.s
+F MAKEFILE.ARC;1                    	Makefile.arch
+F MAKEFILE.MAC;1                    	Makefile.mach
+F SRT0.S;1                          	srt0.s
+F STRET.S;1                         	stret.s
+F STUBS1.S;1                        	stubs1.s
+F SUBR.S;1                          	subr.s

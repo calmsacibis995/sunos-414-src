@@ -1,0 +1,5 @@
+F MAKEFILE.;1                       	Makefile
+D SPARC                             	sparc
+F UNIXIO.H;1                        	unixio.h
+F UNIXIO.I;1                        	unixio.i
+F WHOAMI.H;1                        	whoami.h

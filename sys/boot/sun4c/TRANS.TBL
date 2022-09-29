@@ -1,0 +1,5 @@
+F CONF.C;1                          	conf.c
+F MAKEFILE.;1                       	Makefile
+F SRT0.S;1                          	srt0.S
+F STUBS.S;1                         	stubs.s
+F TRAP.S;1                          	trap.s

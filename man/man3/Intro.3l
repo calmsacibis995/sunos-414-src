@@ -1,0 +1,287 @@
+.\" @(#)Intro.3l 1.1 94/10/31 SMI;
+.\" Copyright (C) 1987, Sun Microsystems, Inc.
+.TH INTRO 3L "21 January 1990"
+.SH NAME
+intro \- introduction to the lightweight process library (LWP)
+.SH DESCRIPTION
+.IX "lightweight processes library" "" "" "" PAGE MAJOR
+.LP
+The lightweight process library
+(\s-1LWP\s0)
+provides a mechanism to support
+multiple threads of control that share a single address space.
+Under SunOS, the address space is derived from a single
+.I forked
+(\*(lqheavyweight\*(rq) process.
+Each thread has its own stack segment (specified when the thread is created)
+so that it can access local variables
+and make procedure calls independently of other threads.
+The collection of threads sharing an address space is called a
+.IR pod .
+Under SunOS,
+threads share all of the resources of the
+heavyweight process that contains the pod, including descriptors and signal
+handlers.
+.LP
+The 
+.SM LWP
+provides a means for creating and destroying
+threads, message exchange between threads, manipulating
+condition variables and
+monitors, handling synchronous exceptions, mapping asynchronous
+events into messages, mapping synchronous events into
+exceptions, arranging for special per-thread context,
+multiplexing the clock for timeouts,
+and scheduling threads both preemptively and non\-preemptively.
+.LP
+The
+.SM LWP
+system exists as a library of routines
+.RB ( /usr/lib/liblwp.a )
+linked in
+.RB ( \-llwp )
+with a client program which should
+.B #include
+the file
+.BR <lwp/lwp.h> .
+.B main
+is transparently converted into a lightweight process as soon as
+it attempts to use any
+.SM LWP
+primitives.
+.LP
+When an object created by a
+.SM LWP
+primitive is destroyed,
+every attempt is made to clean up after it.
+For example, if a thread dies, all threads blocked on sends to
+or receives from that thread are unblocked, and all monitor locks
+held by the dead thread are released.
+.LP
+Because there is no kernel support for threads at present,
+system calls effectively block the entire pod.
+By linking in the non-blocking I/O library
+.RB ( \-lnbio )
+ahead of the
+.SM LWP
+library,
+you can alleviate this problem for those system calls that can issue
+a signal when a system call would be profitable to try.
+This library (which redefines some system calls)
+uses asynchronous I/O and events (for example,
+.SB SIGCHLD
+and
+.SM
+.BR SIGIO \s0)
+to make blocking less painful.
+The system calls remapped by the nbio library are:
+.BR open (2V),
+.BR socket (2),
+.BR pipe (2V),
+.BR close (2V),
+.BR read (2V),
+.BR write (2V) ,
+.BR send (2),
+.BR recv (2),
+.BR accept (2),
+.BR connect (2),
+.B select (2)
+and
+.BR wait (2V).
+.SH RETURN VALUES
+.LP
+.SM LWP
+primitives
+return
+non-negative integers
+on success.
+On errors,
+they return
+\-1.
+See
+.BR lwp_perror (3L)
+for details on error handling.
+.LP
+.SH FILES
+.PD 0
+.TP 20
+.B /usr/lib/liblwp.a
+.TP
+.B /usr/lib/libnbio.a
+.\".TP
+.\".B <lwp/check.h>
+.\".TP
+.\".B <lwp/lwp.h>
+.\".TP
+.\".B <lwp/lwperror.h>
+.\".TP
+.\".B <lwp/lwpmachdep.h>
+.\".TP
+.\".B <lwp/stackdep.h>
+.SH SEE ALSO
+.BR accept (2),
+.BR close (2V),
+.BR connect (2),
+.BR open (2V),
+.BR pipe (2V),
+.BR read (2V),
+.BR recv (2),
+.BR select (2),
+.BR send (2),
+.BR socket (2),
+.BR wait (2V)
+.BR write (2V) ,
+.LP
+.I Lightweight Processes
+in the
+.TX SSO
+.SH INDEX
+The following are the primitives currently supported, grouped roughly
+by function.
+.SS "Thread Creation"
+.nf
+.ft B
+lwp_self(tid)
+lwp_getstate(tid, statvec)
+lwp_setregs(tid, machstate)
+lwp_getregs(tid, machstate)
+lwp_ping(tid)
+lwp_create(tid, pc, prio, flags, stack, nargs, arg1, .\|.\|.\|, argn)
+lwp_destroy(tid)
+lwp_enumerate(vec, maxsize)
+pod_setexit(status)
+pod_getexit(\|)
+pod_exit(status)
+\s-1SAMETHREAD\s0(t1, t2)
+.ft R
+.fi
+.SS "Thread Scheduling"
+.nf
+.ft B
+pod_setmaxpri(maxprio)
+pod_getmaxpri(\|)
+pod_getmaxsize(\|)
+lwp_resched(prio)
+lwp_setpri(tid, prio)
+lwp_sleep(timeout)
+lwp_suspend(tid)
+lwp_resume(tid)
+lwp_yield(tid)
+lwp_join(tid)
+.ft R
+.fi
+.SS "Error Handling"
+.nf
+.ft B
+lwp_geterr(\|)
+lwp_perror(s)
+lwp_errstr(\|)
+.ft R
+.fi
+.SS Messages
+.nf
+.ft B
+msg_send(tid, argbuf, argsize, resbuf, ressize)
+msg_recv(tid, argbuf, argsize, resbuf, ressize, timeout)
+\s-1MSG_RECVALL\s0(tid, argbuf, argsize, resbuf, ressize, timeout)
+msg_reply(tid)
+msg_enumsend(vec, maxsize)
+msg_enumrecv(vec, maxsize)
+.ft R
+.fi
+.SS "Event Mapping (Agents)"
+.nf
+.ft B
+agt_create(agt, event, memory)
+agt_enumerate(vec, maxsize)
+agt_trap(event)
+.ft R
+.fi
+.SS "Thread Synchronization: Monitors"
+.nf
+.ft B
+mon_create(mid)
+mon_destroy(mid)
+mon_enter(mid)
+mon_exit(mid)
+mon_enumerate(vec, maxsize)
+mon_waiters (mid, owner, vec, maxsize)
+mon_cond_enter(mid)
+mon_break(mid)
+\s-1MONITOR\s0(mid)
+\s-1SAMEMON\s0(m1, m2)
+.ft R
+.fi
+.SS "Thread Synchronization: Condition Variables"
+.nf
+.ft B
+cv_create(cv, mid)
+cv_destroy(cv)
+cv_wait(cv)
+cv_notify(cv)
+cv_send(cv, tid)
+cv_broadcast(cv)
+cv_enumerate(vec, maxsize)
+cv_waiters(cv, vec, maxsize)
+\s-1SAMECV\s0(c1, c2)
+.ft R
+.fi
+.SS "Exception Handling"
+.nf
+.ft B
+exc_handle(pattern, func, arg)
+exc_unhandle(\|)
+(*exc_bound(pattern, arg))(\|)
+exc_notify(pattern)
+exc_raise(pattern)
+exc_on_exit(func, arg)
+exc_uniqpatt(\|)
+.ft R
+.fi
+.SS "Special Context Handling"
+.nf
+.ft B
+lwp_ctxinit(tid, cookie)
+lwp_ctxremove(tid, cookie)
+lwp_ctxset(save, restore, ctxsize, optimise)
+lwp_ctxmemget(mem, tid, ctx)
+lwp_ctxmemset(mem, tid, ctx)
+lwp_fpset(tid)
+lwp_libcset(tid)
+.ft R
+.fi
+.SS "Stack Management"
+.nf
+.ft B
+\s-1CHECK\s0(location, result)
+lwp_setstkcache(minsize, numstks)
+lwp_newstk(\|)
+lwp_datastk(data, size, addr)
+lwp_stkcswset(tid, limit)
+lwp_checkstkset(tid, limit)
+\s-1STKTOP\s0(s)
+.ft R
+.fi
+.SH BUGS
+.LP
+There is no language support available from C.
+.LP
+There is no kernel support yet.
+Thus system calls in different threads cannot execute in parallel.
+.LP
+Killing a process that uses the non-blocking I/O library may leave
+objects (such as its standard input) in a non-blocking state.
+This could cause confusion to the shell.
+.br
+.ne 10 
+.SH "LIST OF LWP LIBRARY FUNCTIONS"
+.sp
+.if t .ta 25n; +20n
+.if n .ta 20n; +20n
+.nf
+\fBName	Appears on Page	Description\fR
+.sp
+.nr zZ 1
+.so man3/List.3l
+.nr zZ 0
+.fi

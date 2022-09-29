@@ -1,0 +1,15 @@
+F BKG.C;1                           	bkg.c
+F BKGCODES.H;1                      	bkgcodes.h
+F COMPUTER.C;1                      	computer.c
+F CUBES.C;1                         	cubes.c
+F CURSORS.H;1                       	cursors.h
+F DEFS.H;1                          	defs.h
+F DICE.C;1                          	dice.c
+F DRAW.C;1                          	draw.c
+F EVALMOVE.C;1                      	evalmove.c
+F GAMMONSC.C;1                      	gammonscore.c
+F GAMMONTO.C;1                      	gammontool.c
+F HUMAN.C;1                         	human.c
+F MAKEFILE.;1                       	Makefile
+F SCORE.C;1                         	score.c
+F SCORE.H;1                         	score.h

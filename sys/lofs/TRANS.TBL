@@ -1,0 +1,6 @@
+F LNODE.H;1                         	lnode.h
+F LOINFO.H;1                        	loinfo.h
+F LO_SUBR.C;1                       	lo_subr.c
+F LO_VFSOP.C;1                      	lo_vfsops.c
+F LO_VNODE.C;1                      	lo_vnodeops.c
+F MAKEFILE.;1                       	Makefile

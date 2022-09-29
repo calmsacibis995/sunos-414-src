@@ -1,0 +1,42 @@
+D ADB                               	adb
+D BOOT                              	boot
+D CONF.COM                          	conf.common
+D DEBUG                             	debug
+L DES.;1                            	des	../lib/libc/des
+D HSFS                              	hsfs
+D KADB                              	kadb
+D KRPC                              	krpc
+D LOFS                              	lofs
+D LWP                               	lwp
+F MAKEFILE.;1                       	Makefile
+L MON.;1                            	mon	stand/mon/h
+D NET                               	net
+D NETINET                           	netinet
+D NETTLI                            	nettli
+D NFS                               	nfs
+D OLD                               	old
+D OS                                	os
+D PCFS                              	pcfs
+L PIXRECT.;1                        	pixrect	../usr.lib/libpixrect/pixrect
+D RFS                               	rfs
+L RPC.;1                            	rpc	../lib/libc/rpc
+L RPCSVC.;1                         	rpcsvc	../usr.lib/librpcsvc
+D SBUSDEV                           	sbusdev
+D SCSI                              	scsi
+D SPARC                             	sparc
+D SPECFS                            	specfs
+D STAND                             	stand
+D SUN                               	sun
+D SUN4                              	sun4
+D SUN4C                             	sun4c
+D SUN4M                             	sun4m
+D SUNDEV                            	sundev
+D SUNFW                             	sunfw
+D SUNIF                             	sunif
+D SUNWINDO                          	sunwindowdev
+L SUNWINDO.;1                       	sunwindow	../usr.lib/libsunwindow/include/sunwindow
+D SYS                               	sys
+D TFS                               	tfs
+D TMPFS                             	tmpfs
+D UFS                               	ufs
+D VM                                	vm

@@ -1,0 +1,7 @@
+D IMAGES                            	images
+D KEYMAPS                           	keymaps
+F MAKEFILE.;1                       	Makefile
+F MAKEFILE.CUS;1                    	Makefile.customer
+F MAKEFILE.MAS;1                    	Makefile.master
+D SUNVIEW                           	sunview
+D UTILITIE                          	utilities

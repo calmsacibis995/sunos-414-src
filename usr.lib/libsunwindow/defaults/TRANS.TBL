@@ -1,0 +1,5 @@
+F DEFAULTS.000;1                    	defaults.c
+F DEFAULTS.C;1                      	defaults_put.c
+F HASH.C;1                          	hash.c
+F MAKEFILE.;1                       	Makefile
+F PARSE.C;1                         	parse.c

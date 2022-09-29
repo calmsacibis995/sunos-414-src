@@ -1,0 +1,6 @@
+F EEPROM.C;1                        	eeprom.c
+F ERROR.C;1                         	error.c
+F GETDATE.Y;1                       	getdate.y
+F LOADLOGO.C;1                      	loadlogo.c
+F MAKEFILE.;1                       	Makefile
+F OPENPROM.C;1                      	openprom.c

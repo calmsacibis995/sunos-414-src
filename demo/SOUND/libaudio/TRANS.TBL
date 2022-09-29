@@ -1,0 +1,15 @@
+F AUDIO_CO.3;1                      	audio_convert.3
+F AUDIO_DE.3;1                      	audio_device.3
+F AUDIO_FI.3;1                      	audio_filehdr.3
+F AUDIO_HD.3;1                      	audio_hdr.3
+F AUDIO_IN.3;1                      	audio_intro.3
+F AUDIO_MI.3;1                      	audio_misc.3
+F AUDIO_UL.3;1                      	audio_ulaw2linear.3
+F DEVICE_C.C;1                      	device_ctl.c
+F FILEHDR.C;1                       	filehdr.c
+F GEN_ULAW.C;1                      	gen_ulaw2linear.c
+F HDR_MISC.C;1                      	hdr_misc.c
+F LIBAUDIO.H;1                      	libaudio_impl.h
+F MAKEFILE.;1                       	Makefile
+F TEST_DBL.C;1                      	test_dbl2int.c
+F TEST_ULA.C;1                      	test_ulaw2linear.c

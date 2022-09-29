@@ -1,0 +1,9 @@
+D DEVICE_T                          	device_trees
+D EEPROM                            	eeprom
+D FAKEPROM                          	fakeprom
+D FILE                              	file
+F MAKEFILE.;1                       	Makefile
+F MAKEFILE.MAS;1                    	Makefile.master
+F README.;1                         	README
+D SUNERGY                           	sunergy
+D TEST                              	test

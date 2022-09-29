@@ -1,0 +1,8 @@
+D COMMON                            	common
+F FPASCII.C;1                       	fpascii.c
+F MAKEFILE.;1                       	Makefile
+F OPERAND.C;1                       	operand.c
+F OPSET.C;1                         	opset.c
+F READ_ME_.EDI;1                    	READ.ME.BEFORE.EDITING
+F SETUP.C;1                         	setup.c
+D SPARC                             	sparc

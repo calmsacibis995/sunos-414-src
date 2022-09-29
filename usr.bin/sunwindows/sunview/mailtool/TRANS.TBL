@@ -1,0 +1,17 @@
+F CMDS.C;1                          	cmds.c
+F CREATE_P.C;1                      	create_panels.c
+F FMT_MAIL.;1                       	fmt_mail
+F FOLDER_M.C;1                      	folder_menu.c
+F GENERATE.C;1                      	generate_menus.c
+F GLOB.H;1                          	glob.h
+F MAIL.C;1                          	mail.c
+F MAIN.C;1                          	main.c
+F MAKEFILE.;1                       	Makefile
+F PANEL_EV.C;1                      	panel_events.c
+F REPLY.C;1                         	reply.c
+F SELECTIO.C;1                      	selection.c
+F SUBR.C;1                          	subr.c
+F TOOL.C;1                          	tool.c
+F TOOL.H;1                          	tool.h
+F TOOL_SUP.C;1                      	tool_support.c
+F VARS.C;1                          	vars.c

@@ -1,0 +1,181 @@
+.\" @(#)List.2 1.1 94/10/31 SMI
+.if \n(zZ=1 .ig zZ
+.TH LIST 2 "5 October 1989"
+.SH LIST OF COMMANDS
+.nf
+.sp
+.ta 20n; +20n
+\fBName 	Appears on Page 	Description\fR
+.sp
+.zZ
+\fBaccept\fP	\fBaccept\fP(2)	 accept a connection on a socket
+\fBaccess\fP	\fBaccess\fP(2V)	 determine accessibility of file
+\fBacct\fP	\fBacct\fP(2V)	 turn accounting on or off
+\fBadjtime\fP	\fBadjtime\fP(2)	 correct the time to allow synchronization of the system clock
+\fBasync_daemon\fP	\fBnfssvc\fP(2)	 NFS daemons
+\fBaudit\fP	\fBaudit\fP(2)	 write a record to the audit log
+\fBauditon\fP	\fBauditon\fP(2)	 manipulate auditing
+\fBauditsvc\fP	\fBauditsvc\fP(2)	 write audit records to specified file descriptor
+\fBbind\fP	\fBbind\fP(2)	 bind a name to a socket
+\fBbrk\fP	\fBbrk\fP(2)	 change data segment size
+\fBchdir\fP	\fBchdir\fP(2V)	 change current working directory
+\fBchmod\fP	\fBchmod\fP(2V)	 change mode of file
+\fBchown\fP	\fBchown\fP(2V)	 change owner and group of a file
+\fBchroot\fP	\fBchroot\fP(2)	 change root directory
+\fBclose\fP	\fBclose\fP(2V)	 delete a descriptor
+\fBconnect\fP	\fBconnect\fP(2)	 initiate a connection on a socket
+\fBcreat\fP	\fBcreat\fP(2V)	 create a new file
+\fBdup\fP	\fBdup\fP(2V)	 duplicate a descriptor
+\fBdup2\fP	\fBdup\fP(2V)	 duplicate a descriptor
+\fBexecve\fP	\fBexecve\fP(2V)	 execute a file
+\fB_exit\fP	\fBexit\fP(2V)	 terminate a process
+\fBfchmod\fP	\fBchmod\fP(2V)	 change mode of file
+\fBfchown\fP	\fBchown\fP(2V)	 change owner and group of a file
+\fBfcntl\fP	\fBfcntl\fP(2V)	 file control
+\fBflock\fP	\fBflock\fP(2)	 apply or remove an advisory lock on an open file
+\fBfork\fP	\fBfork\fP(2V)	 create a new process
+\fBfpathconf\fP	\fBpathconf\fP(2V)	 query file system related limits and options
+\fBfstat\fP	\fBstat\fP(2V)	 get file status
+\fBfstatfs\fP	\fBstatfs\fP(2)	 get file system statistics
+\fBfsync\fP	\fBfsync\fP(2)	 synchronize a file's in-core state with that on disk
+\fBftruncate\fP	\fBtruncate\fP(2)	 set a file to a specified length
+\fBgetauid\fP	\fBgetauid\fP(2)	 get and set user audit identity
+\fBgetdents\fP	\fBgetdents\fP(2)	 gets directory entries in a filesystem independent format
+\fBgetdirentries\fP	\fBgetdirentries\fP(2)	 gets directory entries in a filesystem independent format
+\fBgetdomainname\fP	\fBgetdomainname\fP(2)	 get/set name of current domain
+\fBgetdtablesize\fP	\fBgetdtablesize\fP(2)	 get descriptor table size
+\fBgetegid\fP	\fBgetgid\fP(2V)	 get group identity
+\fBgeteuid\fP	\fBgetuid\fP(2V)	 get user identity
+\fBgetgid\fP	\fBgetgid\fP(2V)	 get group identity
+\fBgetgroups\fP	\fBgetgroups\fP(2V)	 get or set supplementary group IDs
+\fBgethostid\fP	\fBgethostid\fP(2)	 get unique identifier of current host
+\fBgethostname\fP	\fBgethostname\fP(2)	 get/set name of current host
+\fBgetitimer\fP	\fBgetitimer\fP(2)	 get/set value of interval timer
+\fBgetmsg\fP	\fBgetmsg\fP(2)	 get next message from a stream
+\fBgetpagesize\fP	\fBgetpagesize\fP(2)	 get system page size
+\fBgetpeername\fP	\fBgetpeername\fP(2)	 get name of connected peer
+\fBgetpgrp\fP	\fBgetpgrp\fP(2V)	 return or set the process group of a process
+\fBgetpid\fP	\fBgetpid\fP(2V)	 get process identification
+\fBgetppid\fP	\fBgetpid\fP(2V)	 get process identification
+\fBgetpriority\fP	\fBgetpriority\fP(2)	 get/set process nice value
+\fBgetrlimit\fP	\fBgetrlimit\fP(2)	 control maximum system resource consumption
+\fBgetrusage\fP	\fBgetrusage\fP(2)	 get information about resource utilization
+\fBgetsockname\fP	\fBgetsockname\fP(2)	 get socket name
+\fBgetsockopt\fP	\fBgetsockopt\fP(2)	 get and set options on sockets
+\fBgettimeofday\fP	\fBgettimeofday\fP(2)	 get or set the date and time
+\fBgetuid\fP	\fBgetuid\fP(2V)	 get user identity
+\fBioctl\fP	\fBioctl\fP(2)	 control device
+\fBkill\fP	\fBkill\fP(2V)	 send a signal to a process or a group of processes
+\fBkillpg\fP	\fBkillpg\fP(2)	 send signal to a process group
+\fBlink\fP	\fBlink\fP(2V)	 make a hard link to a file
+\fBlisten\fP	\fBlisten\fP(2)	 listen for connections on a socket
+\fBlseek\fP	\fBlseek\fP(2V)	 move read/write pointer
+\fBlstat\fP	\fBstat\fP(2V)	 get file status
+\fBmctl\fP	\fBmctl\fP(2)	 memory management control
+\fBmincore\fP	\fBmincore\fP(2)	 determine residency of memory pages
+\fBmkdir\fP	\fBmkdir\fP(2V)	 make a directory file
+\fBmkfifo\fP	\fBmknod\fP(2V)	 make a special file
+\fBmknod\fP	\fBmknod\fP(2V)	 make a special file
+\fBmmap\fP	\fBmmap\fP(2)	 map pages of memory
+\fBmount\fP	\fBmount\fP(2V)	 mount file system
+\fBmprotect\fP	\fBmprotect\fP(2)	 set protection of memory mapping
+\fBmsgctl\fP	\fBmsgctl\fP(2)	 message control operations
+\fBmsgget\fP	\fBmsgget\fP(2)	 get message queue
+\fBmsgop\fP	\fBmsgop\fP(2)	 message operations
+\fBmsgrcv\fP	\fBmsgop\fP(2)	 message operations
+\fBmsgsnd\fP	\fBmsgop\fP(2)	 message operations
+\fBmsync\fP	\fBmsync\fP(2)	 synchronize memory with physical storage
+\fBmunmap\fP	\fBmunmap\fP(2)	 unmap pages of memory.
+\fBnfssvc\fP	\fBnfssvc\fP(2)	 NFS daemons
+\fBopen\fP	\fBopen\fP(2V)	 open or create a file for reading or writing
+\fBpathconf\fP	\fBpathconf\fP(2V)	 query file system related limits and options
+\fBpipe\fP	\fBpipe\fP(2V)	 create an interprocess communication channel
+\fBpoll\fP	\fBpoll\fP(2)	 I/O multiplexing
+\fBprofil\fP	\fBprofil\fP(2)	 execution time profile
+\fBptrace\fP	\fBptrace\fP(2)	 process trace
+\fBputmsg\fP	\fBputmsg\fP(2)	 send a message on a stream
+\fBquotactl\fP	\fBquotactl\fP(2)	 manipulate disk quotas
+\fBread\fP	\fBread\fP(2V)	 read input
+\fBreadlink\fP	\fBreadlink\fP(2)	 read value of a symbolic link
+\fBreadv\fP	\fBread\fP(2V)	 read input
+\fBreboot\fP	\fBreboot\fP(2)	 reboot system or halt processor
+\fBrecv\fP	\fBrecv\fP(2)	 receive a message from a socket
+\fBrecvfrom\fP	\fBrecv\fP(2)	 receive a message from a socket
+\fBrecvmsg\fP	\fBrecv\fP(2)	 receive a message from a socket
+\fBrename\fP	\fBrename\fP(2V)	 change the name of a file
+\fBrmdir\fP	\fBrmdir\fP(2V)	 remove a directory file
+\fBsbrk\fP	\fBbrk\fP(2)	 change data segment size
+\fBselect\fP	\fBselect\fP(2)	 synchronous I/O multiplexing
+\fBsemctl\fP	\fBsemctl\fP(2)	 semaphore control operations
+\fBsemget\fP	\fBsemget\fP(2)	 get set of semaphores
+\fBsemop\fP	\fBsemop\fP(2)	 semaphore operations
+\fBsend\fP	\fBsend\fP(2)	 send a message from a socket
+\fBsendmsg\fP	\fBsend\fP(2)	 send a message from a socket
+\fBsendto\fP	\fBsend\fP(2)	 send a message from a socket
+\fBsetaudit\fP	\fBsetuseraudit\fP(2)	 set the audit classes for a specified user ID
+\fBsetauid\fP	\fBgetauid\fP(2)	 get and set user audit identity
+\fBsetdomainname\fP	\fBgetdomainname\fP(2)	 get/set name of current domain
+\fBsetgroups\fP	\fBgetgroups\fP(2V)	 get or set supplementary group IDs
+\fBsethostname\fP	\fBgethostname\fP(2)	 get/set name of current host
+\fBsetitimer\fP	\fBgetitimer\fP(2)	 get/set value of interval timer
+\fBsetpgid\fP	\fBsetpgid\fP(2V)	 set process group ID for job control
+\fBsetpgrp\fP	\fBgetpgrp\fP(2V)	 return or set the process group of a process
+\fBsetpriority\fP	\fBgetpriority\fP(2)	 get/set process nice value
+\fBsetregid\fP	\fBsetregid\fP(2)	 set real and effective group IDs
+\fBsetreuid\fP	\fBsetreuid\fP(2)	 set real and effective user IDs
+\fBsetrlimit\fP	\fBgetrlimit\fP(2)	 control maximum system resource consumption
+\fBsetsid\fP	\fBsetsid\fP(2V)	 create session and set process group ID
+\fBsetsockopt\fP	\fBgetsockopt\fP(2)	 get and set options on sockets
+\fBsettimeofday\fP	\fBgettimeofday\fP(2)	 get or set the date and time
+\fBsetuseraudit\fP	\fBsetuseraudit\fP(2)	 set the audit classes for a specified user ID
+\fBsgetl\fP	\fBsputl\fP(2)	 access long integer data in a machine-independent fashion
+\fBshmat\fP	\fBshmop\fP(2)	 shared memory operations
+\fBshmctl\fP	\fBshmctl\fP(2)	 shared memory control operations
+\fBshmdt\fP	\fBshmop\fP(2)	 shared memory operations
+\fBshmget\fP	\fBshmget\fP(2)	 get shared memory segment identifier
+\fBshmop\fP	\fBshmop\fP(2)	 shared memory operations
+\fBshutdown\fP	\fBshutdown\fP(2)	 shut down part of a full-duplex connection
+\fBsigblock\fP	\fBsigblock\fP(2)	 block signals
+\fBsigmask\fP	\fBsigblock\fP(2)	 block signals
+\fBsigpause\fP	\fBsigpause\fP(2V)	 automatically release blocked signals and wait for interrupt
+\fBsigpending\fP	\fBsigpending\fP(2V)	 examine pending signals
+\fBsigprocmask\fP	\fBsigprocmask\fP(2V)	 examine and change blocked signals
+\fBsigsetmask\fP	\fBsigsetmask\fP(2)	 set current signal mask
+\fBsigstack\fP	\fBsigstack\fP(2)	 set and/or get signal stack context
+\fBsigsuspend\fP	\fBsigpause\fP(2V)	 automatically release blocked signals and wait for interrupt
+\fBsigvec\fP	\fBsigvec\fP(2)	 software signal facilities
+\fBsocket\fP	\fBsocket\fP(2)	 create an endpoint for communication
+\fBsocketpair\fP	\fBsocketpair\fP(2)	 create a pair of connected sockets
+\fBsputl\fP	\fBsputl\fP(2)	 access long integer data in a machine-independent fashion
+\fBstat\fP	\fBstat\fP(2V)	 get file status
+\fBstatfs\fP	\fBstatfs\fP(2)	 get file system statistics
+\fBswapon\fP	\fBswapon\fP(2)	 add a swap device for interleaved paging/swapping
+\fBsymlink\fP	\fBsymlink\fP(2)	 make symbolic link to a file
+\fBsync\fP	\fBsync\fP(2)	 update super-block
+\fBsyscall\fP	\fBsyscall\fP(2)	 indirect system call
+\fBsysconf\fP	\fBsysconf\fP(2V)	 query system related limits, values, options
+\fBtell\fP	\fBlseek\fP(2V)	 move read/write pointer
+\fBtruncate\fP	\fBtruncate\fP(2)	 set a file to a specified length
+\fBumask\fP	\fBumask\fP(2V)	 set file creation mode mask
+\fBumount\fP	\fBunmount\fP(2V)	 remove a file system
+\fBuname\fP	\fBuname\fP(2V)	 get information about current system
+\fBunlink\fP	\fBunlink\fP(2V)	 remove directory entry
+\fBunmount\fP	\fBunmount\fP(2V)	 remove a file system
+\fBustat\fP	\fBustat\fP(2)	 get file system statistics
+\fButimes\fP	\fButimes\fP(2)	 set file times
+\fBvadvise\fP	\fBvadvise\fP(2)	 give advice to paging system
+\fBvfork\fP	\fBvfork\fP(2)	 spawn new process in a virtual memory efficient way
+\fBvhangup\fP	\fBvhangup\fP(2)	 virtually ``hangup'' the current control terminal
+\fBwait\fP	\fBwait\fP(2V)	 wait for process to terminate or stop, examine returned status
+\fBwait3\fP	\fBwait\fP(2V)	 wait for process to terminate or stop, examine returned status
+\fBwait4\fP	\fBwait\fP(2V)	 wait for process to terminate or stop, examine returned status
+\fBwaitpid\fP	\fBwait\fP(2V)	 wait for process to terminate or stop, examine returned status
+\fB\s-1WEXITSTATUS\s0\fP	\fBwait\fP(2V)	 wait for process to terminate or stop, examine returned status
+\fB\s-1WIFEXITED\s0\fP	\fBwait\fP(2V)	 wait for process to terminate or stop, examine returned status
+\fB\s-1WIFSIGNALED\s0\fP	\fBwait\fP(2V)	 wait for process to terminate or stop, examine returned status
+\fB\s-1WIFSTOPPED\s0\fP	\fBwait\fP(2V)	 wait for process to terminate or stop, examine returned status
+\fBwrite\fP	\fBwrite\fP(2V)	 write output
+\fBwritev\fP	\fBwrite\fP(2V)	 write output
+\fB\s-1WSTOPSIG\s0\fP	\fBwait\fP(2V)	 wait for process to terminate or stop, examine returned status
+\fB\s-1WTERMSIG\s0\fP	\fBwait\fP(2V)	 wait for process to terminate or stop, examine returned status
+.fi

@@ -1,0 +1,690 @@
+.\" @(#)List.3 1.1 94/10/31 SMI
+.if \n(zZ=1 .ig zZ
+.TH LIST 3 "5 October 1989"
+.SH LIST OF COMMANDS
+.nf
+.sp
+.ta 22n; +20n
+\fBName 	Appears on Page 	Description\fR
+.sp
+.zZ
+\fBa64l\fP	\fBa64l\fP(3)	 convert between long integer and base-64 ASCII string
+\fBabort\fP	\fBabort\fP(3)	 generate a fault
+\fBabs\fP	\fBabs\fP(3)	 integer absolute value
+\fBaddexportent\fP	\fBexportent\fP(3)	 get exported file system information
+\fBaddmntent\fP	\fBgetmntent\fP(3)	 get file system descriptor file entry
+\fBaiocancel\fP	\fBaiocancel\fP(3)	 cancel an asynchronous operation
+\fBaioread\fP	\fBaioread\fP(3)	 asynchronous I/O operations
+\fBaiowait\fP	\fBaiowait\fP(3)	 wait for completion of asynchronous I/O operation
+\fBaiowrite\fP	\fBaioread\fP(3)	 asynchronous I/O operations
+\fBalarm\fP	\fBalarm\fP(3V)	 schedule signal after specified time
+\fBalloca\fP	\fBmalloc\fP(3V)	 memory allocator
+\fBalphasort\fP	\fBscandir\fP(3)	 scan a directory
+\fBarc\fP	\fBplot\fP(3X)	 graphics interface
+\fBasctime\fP	\fBctime\fP(3V)	 convert date and time
+\fBassert\fP	\fBassert\fP(3V)	 program verification
+\fBatof\fP	\fBstrtod\fP(3)	 convert string to double-precision number
+\fBatoi\fP	\fBstrtol\fP(3)	 convert string to integer
+\fBatol\fP	\fBstrtol\fP(3)	 convert string to integer
+\fBaudit_args\fP	\fBaudit_args\fP(3)	 produce text audit message
+\fBaudit_text\fP	\fBaudit_args\fP(3)	 produce text audit message
+\fBauth_destroy\fP	\fBrpc_clnt_auth\fP(3N)	 library routines for client side \s-1RPC\s0 authentication
+\fBauthdes_create\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBauthdes_getucred\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBauthnone_create\fP	\fBrpc_clnt_auth\fP(3N)	 library routines for client side \s-1RPC\s0 authentication
+\fBauthunix_create\fP	\fBrpc_clnt_auth\fP(3N)	 library routines for client side \s-1RPC\s0 authentication
+\fBauthunix_create_default\fP	\fBrpc_clnt_auth\fP(3N)	 library routines for client side \s-1RPC\s0 authentication
+\fBbcmp\fP	\fBbstring\fP(3)	 bit and byte string operations
+\fBbcopy\fP	\fBbstring\fP(3)	 bit and byte string operations
+\fBbindresvport\fP	\fBbindresvport\fP(3N)	 bind a socket to a privileged IP port
+\fBbsearch\fP	\fBbsearch\fP(3)	 binary search a sorted table
+\fBbstring\fP	\fBbstring\fP(3)	 bit and byte string operations
+\fBbyteorder\fP	\fBbyteorder\fP(3N)	 convert values between host and network byte order
+\fBbzero\fP	\fBbstring\fP(3)	 bit and byte string operations
+\fBcalloc\fP	\fBmalloc\fP(3V)	 memory allocator
+\fBcallrpc\fP	\fBrpc_clnt_calls\fP(3N)	 library routines for client side calls
+\fBcatclose\fP	\fBcatopen\fP(3C)	 open/close a message catalog
+\fBcatgetmsg\fP	\fBcatgets\fP(3C)	 get message from a message catalog
+\fBcatgets\fP	\fBcatgets\fP(3C)	 get message from a message catalog
+\fBcatopen\fP	\fBcatopen\fP(3C)	 open/close a message catalog
+\fBcfgetispeed\fP	\fBtermios\fP(3V)	 terminal control functions
+\fBcfgetospeed\fP	\fBtermios\fP(3V)	 terminal control functions
+\fBcfree\fP	\fBmalloc\fP(3V)	 memory allocator
+\fBcfsetispeed\fP	\fBtermios\fP(3V)	 terminal control functions
+\fBcfsetospeed\fP	\fBtermios\fP(3V)	 terminal control functions
+\fBcircle\fP	\fBplot\fP(3X)	 graphics interface
+\fBclearerr\fP	\fBferror\fP(3V)	 stream status inquiries
+\fBclnt_broadcast\fP	\fBrpc_clnt_calls\fP(3N)	 library routines for client side calls
+\fBclnt_call\fP	\fBrpc_clnt_calls\fP(3N)	 library routines for client side calls
+\fBclnt_control\fP	\fBrpc_clnt_create\fP(3N)	 library routines creating and manipulating CLIENT handles
+\fBclnt_create\fP	\fBrpc_clnt_create\fP(3N)	 library routines creating and manipulating CLIENT handles
+\fBclnt_create_vers\fP	\fBrpc_clnt_create\fP(3N)	 library routines creating and manipulating CLIENT handles
+\fBclnt_destroy\fP	\fBrpc_clnt_create\fP(3N)	 library routines creating and manipulating CLIENT handles
+\fBclnt_freeres\fP	\fBrpc_clnt_calls\fP(3N)	 library routines for client side calls
+\fBclnt_geterr\fP	\fBrpc_clnt_calls\fP(3N)	 library routines for client side calls
+\fBclnt_pcreateerror\fP	\fBrpc_clnt_create\fP(3N)	 library routines creating and manipulating CLIENT handles
+\fBclnt_perrno\fP	\fBrpc_clnt_calls\fP(3N)	 library routines for client side calls
+\fBclnt_perror\fP	\fBrpc_clnt_calls\fP(3N)	 library routines for client side calls
+\fBclnt_spcreateerror\fP	\fBrpc_clnt_create\fP(3N)	 library routines creating and manipulating CLIENT handles
+\fBclnt_sperrno\fP	\fBrpc_clnt_calls\fP(3N)	 library routines for client side calls
+\fBclnt_sperror\fP	\fBrpc_clnt_calls\fP(3N)	 library routines for client side calls
+\fBclntraw_create\fP	\fBrpc_clnt_create\fP(3N)	 library routines creating and manipulating CLIENT handles
+\fBclnttcp_create\fP	\fBrpc_clnt_create\fP(3N)	 library routines creating and manipulating CLIENT handles
+\fBclntudp_bufcreate\fP	\fBrpc_clnt_create\fP(3N)	 library routines creating and manipulating CLIENT handles
+\fBclock\fP	\fBclock\fP(3C)	 report CPU time used
+\fBclosedir\fP	\fBdirectory\fP(3V)	 directory operations
+\fBcloselog\fP	\fBsyslog\fP(3)	 control system log
+\fBclosepl\fP	\fBplot\fP(3X)	 graphics interface
+\fBcont\fP	\fBplot\fP(3X)	 graphics interface
+\fBconv\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBctermid\fP	\fBctermid\fP(3V)	 generate filename for terminal
+\fBctime\fP	\fBctime\fP(3V)	 convert date and time
+\fBctype\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBcurses\fP	\fBcurses\fP(3V)	 System V terminal screen handling and optimization package
+\fBcuserid\fP	\fBcuserid\fP(3V)	 get character login name of the user
+\fBdbm\fP	\fBdbm\fP(3X)	 data base subroutines
+\fBdbm_clearerr\fP	\fBndbm\fP(3)	 data base subroutines
+\fBdbm_close\fP	\fBndbm\fP(3)	 data base subroutines
+\fBdbm_delete\fP	\fBndbm\fP(3)	 data base subroutines
+\fBdbm_error\fP	\fBndbm\fP(3)	 data base subroutines
+\fBdbm_fetch\fP	\fBndbm\fP(3)	 data base subroutines
+\fBdbm_firstkey\fP	\fBndbm\fP(3)	 data base subroutines
+\fBdbm_nextkey\fP	\fBndbm\fP(3)	 data base subroutines
+\fBdbm_open\fP	\fBndbm\fP(3)	 data base subroutines
+\fBdbm_store\fP	\fBndbm\fP(3)	 data base subroutines
+\fBdbmclose\fP	\fBdbm\fP(3X)	 data base subroutines
+\fBdbminit\fP	\fBdbm\fP(3X)	 data base subroutines
+\fBdecimal_to_double\fP	\fBdecimal_to_floating\fP(3)	 convert decimal record to floating-point value
+\fBdecimal_to_extended\fP	\fBdecimal_to_floating\fP(3)	 convert decimal record to floating-point value
+\fBdecimal_to_single\fP	\fBdecimal_to_floating\fP(3)	 convert decimal record to floating-point value
+\fBdelete\fP	\fBdbm\fP(3X)	 data base subroutines
+\fBdirectory\fP	\fBdirectory\fP(3V)	 directory operations
+\fBdlclose\fP	\fBdlopen\fP(3X)	 simple programmatic interface to the dynamic linker
+\fBdlerror\fP	\fBdlopen\fP(3X)	 simple programmatic interface to the dynamic linker
+\fBdlopen\fP	\fBdlopen\fP(3X)	 simple programmatic interface to the dynamic linker
+\fBdlsym\fP	\fBdlopen\fP(3X)	 simple programmatic interface to the dynamic linker
+\fBdn_comp\fP	\fBresolver\fP(3)	 resolver routines
+\fBdn_expand\fP	\fBresolver\fP(3)	 resolver routines
+\fBdouble_to_decimal\fP	\fBfloating_to_decimal\fP(3)	 convert floating-point value to decimal record
+\fBdrand48\fP	\fBdrand48\fP(3)	 generate uniformly distributed pseudo-random numbers
+\fBdysize\fP	\fBctime\fP(3V)	 convert date and time
+\fBeconvert\fP	\fBeconvert\fP(3)	 output conversion
+\fBecvt\fP	\fBeconvert\fP(3)	 output conversion
+\fBedata\fP	\fBend\fP(3)	 last locations in program
+\fBend\fP	\fBend\fP(3)	 last locations in program
+\fBendac\fP	\fBgetacinfo\fP(3)	 get audit control file information
+\fBendexportent\fP	\fBexportent\fP(3)	 get exported file system information
+\fBendfsent\fP	\fBgetfsent\fP(3)	 get file system descriptor file entry
+\fBendgraent\fP	\fBgetgraent\fP(3)	 get group adjunct file entry
+\fBendgrent\fP	\fBgetgrent\fP(3V)	 get group file entry
+\fBendhostent\fP	\fBgethostent\fP(3N)	 get network host entry
+\fBendmntent\fP	\fBgetmntent\fP(3)	 get file system descriptor file entry
+\fBendnetent\fP	\fBgetnetent\fP(3N)	 get network entry
+\fBendnetgrent\fP	\fBgetnetgrent\fP(3N)	 get network group entry
+\fBendprotoent\fP	\fBgetprotoent\fP(3N)	 get protocol entry
+\fBendpwaent\fP	\fBgetpwaent\fP(3)	 get password adjunct file entry
+\fBendpwent\fP	\fBgetpwent\fP(3V)	 get password file entry
+\fBendrpcent\fP	\fBgetrpcent\fP(3N)	 get RPC entry
+\fBendservent\fP	\fBgetservent\fP(3N)	 get service entry
+\fBendttyent\fP	\fBgetttyent\fP(3)	 get ttytab file entry
+\fBendusershell\fP	\fBgetusershell\fP(3)	 get legal user shells
+\fBerand48\fP	\fBdrand48\fP(3)	 generate uniformly distributed pseudo-random numbers
+\fBerase\fP	\fBplot\fP(3X)	 graphics interface
+\fBerrno\fP	\fBperror\fP(3)	 system error messages
+\fBetext\fP	\fBend\fP(3)	 last locations in program
+\fBether_aton\fP	\fBethers\fP(3N)	 Ethernet address mapping operations
+\fBether_hostton\fP	\fBethers\fP(3N)	 Ethernet address mapping operations
+\fBether_line\fP	\fBethers\fP(3N)	 Ethernet address mapping operations
+\fBether_ntoa\fP	\fBethers\fP(3N)	 Ethernet address mapping operations
+\fBether_ntohost\fP	\fBethers\fP(3N)	 Ethernet address mapping operations
+\fBethers\fP	\fBethers\fP(3N)	 Ethernet address mapping operations
+\fBexecl\fP	\fBexecl\fP(3V)	 execute a file
+\fBexecle\fP	\fBexecl\fP(3V)	 execute a file
+\fBexeclp\fP	\fBexecl\fP(3V)	 execute a file
+\fBexecv\fP	\fBexecl\fP(3V)	 execute a file
+\fBexecvp\fP	\fBexecl\fP(3V)	 execute a file
+\fBexit\fP	\fBexit\fP(3)	 terminate a process after performing cleanup
+\fBexportent\fP	\fBexportent\fP(3)	 get exported file system information
+\fBextended_to_decimal\fP	\fBfloating_to_decimal\fP(3)	 convert floating-point value to decimal record
+\fBfclose\fP	\fBfclose\fP(3V)	 close or flush a stream
+\fBfconvert\fP	\fBeconvert\fP(3)	 output conversion
+\fBfcvt\fP	\fBeconvert\fP(3)	 output conversion
+\fBfdopen\fP	\fBfopen\fP(3V)	 open a stream
+\fBfeof\fP	\fBferror\fP(3V)	 stream status inquiries
+\fBferror\fP	\fBferror\fP(3V)	 stream status inquiries
+\fBfetch\fP	\fBdbm\fP(3X)	 data base subroutines
+\fBfflush\fP	\fBfclose\fP(3V)	 close or flush a stream
+\fBffs\fP	\fBbstring\fP(3)	 bit and byte string operations
+\fBfgetc\fP	\fBgetc\fP(3V)	 get character or integer from stream
+\fBfgetgraent\fP	\fBgetgraent\fP(3)	 get group adjunct file entry
+\fBfgetgrent\fP	\fBgetgrent\fP(3V)	 get group file entry
+\fBfgetpwaent\fP	\fBgetpwaent\fP(3)	 get password adjunct file entry
+\fBfgetpwent\fP	\fBgetpwent\fP(3V)	 get password file entry
+\fBfgets\fP	\fBgets\fP(3S)	 get a string from a stream
+\fBfile_to_decimal\fP	\fBstring_to_decimal\fP(3)	 parse characters into decimal record
+\fBfileno\fP	\fBferror\fP(3V)	 stream status inquiries
+\fBfirstkey\fP	\fBdbm\fP(3X)	 data base subroutines
+\fBfloatingpoint\fP	\fBfloatingpoint\fP(3)	 IEEE floating point definitions
+\fBfopen\fP	\fBfopen\fP(3V)	 open a stream
+\fBfprintf\fP	\fBprintf\fP(3V)	 formatted output conversion
+\fBfputc\fP	\fBputc\fP(3S)	 put character or word on a stream
+\fBfputs\fP	\fBputs\fP(3S)	 put a string on a stream
+\fBfread\fP	\fBfread\fP(3S)	 buffered binary input/output
+\fBfree\fP	\fBmalloc\fP(3V)	 memory allocator
+\fBfreopen\fP	\fBfopen\fP(3V)	 open a stream
+\fBfscanf\fP	\fBscanf\fP(3V)	 formatted input conversion
+\fBfseek\fP	\fBfseek\fP(3S)	 reposition a stream
+\fBftell\fP	\fBfseek\fP(3S)	 reposition a stream
+\fBftime\fP	\fBtime\fP(3V)	 get date and time
+\fBftok\fP	\fBftok\fP(3)	 standard interprocess communication package
+\fBftw\fP	\fBftw\fP(3)	 walk a file tree
+\fBfunc_to_decimal\fP	\fBstring_to_decimal\fP(3)	 parse characters into decimal record
+\fBfwrite\fP	\fBfread\fP(3S)	 buffered binary input/output
+\fBgcd\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBgconvert\fP	\fBeconvert\fP(3)	 output conversion
+\fBgcvt\fP	\fBeconvert\fP(3)	 output conversion
+\fBget_myaddress\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBgetacdir\fP	\fBgetacinfo\fP(3)	 get audit control file information
+\fBgetacflg\fP	\fBgetacinfo\fP(3)	 get audit control file information
+\fBgetacinfo\fP	\fBgetacinfo\fP(3)	 get audit control file information
+\fBgetacmin\fP	\fBgetacinfo\fP(3)	 get audit control file information
+\fBgetauditflagsbin\fP	\fBgetauditflags\fP(3)	 convert audit flag specifications
+\fBgetauditflagschar\fP	\fBgetauditflags\fP(3)	 convert audit flag specifications
+\fBgetc\fP	\fBgetc\fP(3V)	 get character or integer from stream
+\fBgetchar\fP	\fBgetc\fP(3V)	 get character or integer from stream
+\fBgetcwd\fP	\fBgetcwd\fP(3V)	 get pathname of current working directory
+\fBgetenv\fP	\fBgetenv\fP(3V)	 return value for environment name
+\fBgetexportent\fP	\fBexportent\fP(3)	 get exported file system information
+\fBgetexportopt\fP	\fBexportent\fP(3)	 get exported file system information
+\fBgetfauditflags\fP	\fBgetfauditflags\fP(3)	 generates the process audit state
+\fBgetfsent\fP	\fBgetfsent\fP(3)	 get file system descriptor file entry
+\fBgetfsfile\fP	\fBgetfsent\fP(3)	 get file system descriptor file entry
+\fBgetfsspec\fP	\fBgetfsent\fP(3)	 get file system descriptor file entry
+\fBgetfstype\fP	\fBgetfsent\fP(3)	 get file system descriptor file entry
+\fBgetgraent\fP	\fBgetgraent\fP(3)	 get group adjunct file entry
+\fBgetgranam\fP	\fBgetgraent\fP(3)	 get group adjunct file entry
+\fBgetgrent\fP	\fBgetgrent\fP(3V)	 get group file entry
+\fBgetgrgid\fP	\fBgetgrent\fP(3V)	 get group file entry
+\fBgetgrnam\fP	\fBgetgrent\fP(3V)	 get group file entry
+\fBgethostbyaddr\fP	\fBgethostent\fP(3N)	 get network host entry
+\fBgethostbyname\fP	\fBgethostent\fP(3N)	 get network host entry
+\fBgethostent\fP	\fBgethostent\fP(3N)	 get network host entry
+\fBgetlogin\fP	\fBgetlogin\fP(3V)	 get login name
+\fBgetmntent\fP	\fBgetmntent\fP(3)	 get file system descriptor file entry
+\fBgetnetbyaddr\fP	\fBgetnetent\fP(3N)	 get network entry
+\fBgetnetbyname\fP	\fBgetnetent\fP(3N)	 get network entry
+\fBgetnetent\fP	\fBgetnetent\fP(3N)	 get network entry
+\fBgetnetgrent\fP	\fBgetnetgrent\fP(3N)	 get network group entry
+\fBgetnetname\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBgetopt\fP	\fBgetopt\fP(3)	 get option letter from argument vector
+\fBgetpass\fP	\fBgetpass\fP(3V)	 read a password
+\fBgetprotobyname\fP	\fBgetprotoent\fP(3N)	 get protocol entry
+\fBgetprotobynumber\fP	\fBgetprotoent\fP(3N)	 get protocol entry
+\fBgetprotoent\fP	\fBgetprotoent\fP(3N)	 get protocol entry
+\fBgetpublickey\fP	\fBpublickey\fP(3R)	 get public or secret key
+\fBgetpw\fP	\fBgetpw\fP(3)	 get name from uid
+\fBgetpwaent\fP	\fBgetpwaent\fP(3)	 get password adjunct file entry
+\fBgetpwanam\fP	\fBgetpwaent\fP(3)	 get password adjunct file entry
+\fBgetpwent\fP	\fBgetpwent\fP(3V)	 get password file entry
+\fBgetpwnam\fP	\fBgetpwent\fP(3V)	 get password file entry
+\fBgetpwuid\fP	\fBgetpwent\fP(3V)	 get password file entry
+\fBgetrpcbyname\fP	\fBgetrpcent\fP(3N)	 get RPC entry
+\fBgetrpcbynumber\fP	\fBgetrpcent\fP(3N)	 get RPC entry
+\fBgetrpcent\fP	\fBgetrpcent\fP(3N)	 get RPC entry
+\fBgets\fP	\fBgets\fP(3S)	 get a string from a stream
+\fBgetsecretkey\fP	\fBpublickey\fP(3R)	 get public or secret key
+\fBgetservbyname\fP	\fBgetservent\fP(3N)	 get service entry
+\fBgetservbyport\fP	\fBgetservent\fP(3N)	 get service entry
+\fBgetservent\fP	\fBgetservent\fP(3N)	 get service entry
+\fBgetsubopt\fP	\fBgetsubopt\fP(3)	 parse sub options from a string.
+\fBgettext\fP	\fBgettext\fP(3)	 retrieve a message string, get and set text domain
+\fBgetttyent\fP	\fBgetttyent\fP(3)	 get ttytab file entry
+\fBgetttynam\fP	\fBgetttyent\fP(3)	 get ttytab file entry
+\fBgetusershell\fP	\fBgetusershell\fP(3)	 get legal user shells
+\fBgetw\fP	\fBgetc\fP(3V)	 get character or integer from stream
+\fBgetwd\fP	\fBgetwd\fP(3)	 get current working directory pathname
+\fBgmtime\fP	\fBctime\fP(3V)	 convert date and time
+\fBgrpauth\fP	\fBpwdauth\fP(3)	 password authentication routines
+\fBgsignal\fP	\fBssignal\fP(3)	 software signals
+\fBgtty\fP	\fBstty\fP(3C)	 set and get terminal state
+\fBhasmntopt\fP	\fBgetmntent\fP(3)	 get file system descriptor file entry
+\fBhcreate\fP	\fBhsearch\fP(3)	 manage hash search tables
+\fBhdestroy\fP	\fBhsearch\fP(3)	 manage hash search tables
+\fBhost2netname\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBhsearch\fP	\fBhsearch\fP(3)	 manage hash search tables
+\fBhtonl\fP	\fBbyteorder\fP(3N)	 convert values between host and network byte order
+\fBhtons\fP	\fBbyteorder\fP(3N)	 convert values between host and network byte order
+\fBindex\fP	\fBstring\fP(3)	 string operations
+\fBinet\fP	\fBinet\fP(3N)	 Internet address manipulation
+\fBinet_addr\fP	\fBinet\fP(3N)	 Internet address manipulation
+\fBinet_lnaof\fP	\fBinet\fP(3N)	 Internet address manipulation
+\fBinet_makeaddr\fP	\fBinet\fP(3N)	 Internet address manipulation
+\fBinet_netof\fP	\fBinet\fP(3N)	 Internet address manipulation
+\fBinet_network\fP	\fBinet\fP(3N)	 Internet address manipulation
+\fBinet_ntoa\fP	\fBinet\fP(3N)	 Internet address manipulation
+\fBinitgroups\fP	\fBinitgroups\fP(3)	 initialize supplementary group IDs
+\fBinitstate\fP	\fBrandom\fP(3)	 better random number generator
+\fBinnetgr\fP	\fBgetnetgrent\fP(3N)	 get network group entry
+\fBinsque\fP	\fBinsque\fP(3)	 insert/remove element from a queue
+\fBisalnum\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBisalpha\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBisascii\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBisatty\fP	\fBttyname\fP(3V)	 find name of a terminal
+\fBiscntrl\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBisdigit\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBisgraph\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBislower\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBisprint\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBispunct\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBissecure\fP	\fBissecure\fP(3)	 indicates whether system is running secure
+\fBisspace\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBisupper\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBisxdigit\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBitom\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBjrand48\fP	\fBdrand48\fP(3)	 generate uniformly distributed pseudo-random numbers
+\fBkey_decryptsession\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBkey_encryptsession\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBkey_gendes\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBkey_setsecret\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBkvm_close\fP	\fBkvm_open\fP(3K)	 specify a kernel to examine
+\fBkvm_getcmd\fP	\fBkvm_getu\fP(3K)	 get the u-area or invocation arguments for a process
+\fBkvm_getproc\fP	\fBkvm_nextproc\fP(3K)	 read system process structures
+\fBkvm_getu\fP	\fBkvm_getu\fP(3K)	 get the u-area or invocation arguments for a process
+\fBkvm_nextproc\fP	\fBkvm_nextproc\fP(3K)	 read system process structures
+\fBkvm_nlist\fP	\fBkvm_nlist\fP(3K)	 get entries from kernel symbol table
+\fBkvm_open\fP	\fBkvm_open\fP(3K)	 specify a kernel to examine
+\fBkvm_read\fP	\fBkvm_read\fP(3K)	 copy data to or from a kernel image or running system
+\fBkvm_setproc\fP	\fBkvm_nextproc\fP(3K)	 read system process structures
+\fBkvm_write\fP	\fBkvm_read\fP(3K)	 copy data to or from a kernel image or running system
+\fBl3tol\fP	\fBl3tol\fP(3C)	 convert between 3-byte integers and long integers
+\fBl64a\fP	\fBa64l\fP(3)	 convert between long integer and base-64 ASCII string
+\fBlabel\fP	\fBplot\fP(3X)	 graphics interface
+\fBlcong48\fP	\fBdrand48\fP(3)	 generate uniformly distributed pseudo-random numbers
+\fBldaclose\fP	\fBldclose\fP(3X)	 close a COFF file 
+\fBldahread\fP	\fBldahread\fP(3X)	 read the archive header of a member of a COFF archive file 
+\fBldaopen\fP	\fBldopen\fP(3X)	 open a COFF file for reading
+\fBldclose\fP	\fBldclose\fP(3X)	 close a COFF file 
+\fBldfcn\fP	\fBldfcn\fP(3)	 common object file access routines
+\fBldfhread\fP	\fBldfhread\fP(3X)	 read the file header of a COFF file
+\fBldgetname\fP	\fBldgetname\fP(3X)	 retrieve symbol name for COFF file symbol table entry
+\fBldlinit\fP	\fBldlread\fP(3X)	 manipulate line number entries of a COFF file function
+\fBldlitem\fP	\fBldlread\fP(3X)	 manipulate line number entries of a COFF file function
+\fBldlread\fP	\fBldlread\fP(3X)	 manipulate line number entries of a COFF file function
+\fBldlseek\fP	\fBldlseek\fP(3X)	 seek to line number entries of a section of a COFF file
+\fBldnlseek\fP	\fBldlseek\fP(3X)	 seek to line number entries of a section of a COFF file
+\fBldnrseek\fP	\fBldrseek\fP(3X)	 seek to relocation entries of a section of a COFF file
+\fBldnshread\fP	\fBldshread\fP(3X)	 read an indexed\/named section header of a COFF file
+\fBldnsseek\fP	\fBldsseek\fP(3X)	 seek to an indexed\/named section of a COFF file
+\fBldohseek\fP	\fBldohseek\fP(3X)	 seek to the optional file header of a COFF file
+\fBldopen\fP	\fBldopen\fP(3X)	 open a COFF file for reading
+\fBldrseek\fP	\fBldrseek\fP(3X)	 seek to relocation entries of a section of a COFF file
+\fBldshread\fP	\fBldshread\fP(3X)	 read an indexed\/named section header of a COFF file
+\fBldsseek\fP	\fBldsseek\fP(3X)	 seek to an indexed\/named section of a COFF file
+\fBldtbindex\fP	\fBldtbindex\fP(3X)	 compute the index of a symbol table entry of a COFF file
+\fBldtbread\fP	\fBldtbread\fP(3X)	 read an indexed symbol table entry of a COFF file
+\fBldtbseek\fP	\fBldtbseek\fP(3X)	 seek to the symbol table of a COFF file
+\fBlfind\fP	\fBlsearch\fP(3)	 linear search and update
+\fBline\fP	\fBplot\fP(3X)	 graphics interface
+\fBlinemod\fP	\fBplot\fP(3X)	 graphics interface
+\fBlocaldtconv\fP	\fBlocaldtconv\fP(3)	 get date and time formatting conventions
+\fBlocaleconv\fP	\fBlocaleconv\fP(3)	 get numeric and monetary formatting conventions
+\fBlocaltime\fP	\fBctime\fP(3V)	 convert date and time
+\fBlockf\fP	\fBlockf\fP(3)	 record locking on files
+\fBlongjmp\fP	\fBsetjmp\fP(3V)	 non-local goto
+\fBlrand48\fP	\fBdrand48\fP(3)	 generate uniformly distributed pseudo-random numbers
+\fBlsearch\fP	\fBlsearch\fP(3)	 linear search and update
+\fBltol3\fP	\fBl3tol\fP(3C)	 convert between 3-byte integers and long integers
+\fBmadd\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBmadvise\fP	\fBmadvise\fP(3)	 provide advice to VM system
+\fBmalloc\fP	\fBmalloc\fP(3V)	 memory allocator
+\fBmalloc_debug\fP	\fBmalloc\fP(3V)	 memory allocator
+\fBmalloc_verify\fP	\fBmalloc\fP(3V)	 memory allocator
+\fBmallocmap\fP	\fBmalloc\fP(3V)	 memory allocator
+\fBmblen\fP	\fBmblen\fP(3)	 multibyte character handling
+\fBmbstowcs\fP	\fBmblen\fP(3)	 multibyte character handling
+\fBmbtowc\fP	\fBmblen\fP(3)	 multibyte character handling
+\fBmcmp\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBmdiv\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBmemalign\fP	\fBmalloc\fP(3V)	 memory allocator
+\fBmemccpy\fP	\fBmemory\fP(3)	 memory operations
+\fBmemchr\fP	\fBmemory\fP(3)	 memory operations
+\fBmemcmp\fP	\fBmemory\fP(3)	 memory operations
+\fBmemcpy\fP	\fBmemory\fP(3)	 memory operations
+\fBmemory\fP	\fBmemory\fP(3)	 memory operations
+\fBmemset\fP	\fBmemory\fP(3)	 memory operations
+\fBmfree\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBmin\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBmkstemp\fP	\fBmktemp\fP(3)	 make a unique file name
+\fBmktemp\fP	\fBmktemp\fP(3)	 make a unique file name
+\fBmlock\fP	\fBmlock\fP(3)	 lock (or unlock) pages in memory
+\fBmlockall\fP	\fBmlockall\fP(3)	 lock (or unlock) address space
+\fBmoncontrol\fP	\fBmonitor\fP(3)	 prepare execution profile
+\fBmonitor\fP	\fBmonitor\fP(3)	 prepare execution profile
+\fBmonstartup\fP	\fBmonitor\fP(3)	 prepare execution profile
+\fBmout\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBmove\fP	\fBplot\fP(3X)	 graphics interface
+\fBmp\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBmrand48\fP	\fBdrand48\fP(3)	 generate uniformly distributed pseudo-random numbers
+\fBmsub\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBmsync\fP	\fBmsync\fP(3)	 synchronize memory with physical storage
+\fBmtox\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBmult\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBmunlock\fP	\fBmlock\fP(3)	 lock (or unlock) pages in memory
+\fBmunlockall\fP	\fBmlockall\fP(3)	 lock (or unlock) address space
+\fBndbm\fP	\fBndbm\fP(3)	 data base subroutines
+\fBnetname2host\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBnetname2user\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBnextkey\fP	\fBdbm\fP(3X)	 data base subroutines
+\fBnice\fP	\fBnice\fP(3V)	 change nice value of a process
+\fBnl_init\fP	\fBsetlocale\fP(3V)	 set international environment
+\fBnl_langinfo\fP	\fBnl_langinfo\fP(3C)	 language information
+\fBnlist\fP	\fBnlist\fP(3V)	 get entries from symbol table
+\fBnrand48\fP	\fBdrand48\fP(3)	 generate uniformly distributed pseudo-random numbers
+\fBntohl\fP	\fBbyteorder\fP(3N)	 convert values between host and network byte order
+\fBntohs\fP	\fBbyteorder\fP(3N)	 convert values between host and network byte order
+\fBon_exit\fP	\fBon_exit\fP(3)	 name termination handler
+\fBopendir\fP	\fBdirectory\fP(3V)	 directory operations
+\fBopenlog\fP	\fBsyslog\fP(3)	 control system log
+\fBopenpl\fP	\fBplot\fP(3X)	 graphics interface
+\fBoptarg\fP	\fBgetopt\fP(3)	 get option letter from argument vector
+\fBoptind\fP	\fBgetopt\fP(3)	 get option letter from argument vector
+\fBpause\fP	\fBpause\fP(3V)	 stop until signal
+\fBpclose\fP	\fBpopen\fP(3S)	 open or close a pipe (for I/O) from or to a process
+\fBperror\fP	\fBperror\fP(3)	 system error messages
+\fBplock\fP	\fBplock\fP(3)	 lock process, text, or data segment in memory
+\fBplot\fP	\fBplot\fP(3X)	 graphics interface
+\fBpoint\fP	\fBplot\fP(3X)	 graphics interface
+\fBpopen\fP	\fBpopen\fP(3S)	 open or close a pipe (for I/O) from or to a process
+\fBpow\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBprintf\fP	\fBprintf\fP(3V)	 formatted output conversion
+\fBprof\fP	\fBprof\fP(3)	 profile within a function
+\fBpsignal\fP	\fBpsignal\fP(3)	 system signal messages
+\fBpublickey\fP	\fBpublickey\fP(3R)	 get public or secret key
+\fBputc\fP	\fBputc\fP(3S)	 put character or word on a stream
+\fBputchar\fP	\fBputc\fP(3S)	 put character or word on a stream
+\fBputenv\fP	\fBputenv\fP(3)	 change or add value to environment
+\fBputpwent\fP	\fBputpwent\fP(3)	 write password file entry
+\fBputs\fP	\fBputs\fP(3S)	 put a string on a stream
+\fBputw\fP	\fBputc\fP(3S)	 put character or word on a stream
+\fBpwdauth\fP	\fBpwdauth\fP(3)	 password authentication routines
+\fBqsort\fP	\fBqsort\fP(3)	 quicker sort
+\fBrand\fP	\fBrand\fP(3V)	 simple random number generator
+\fBrandom\fP	\fBrandom\fP(3)	 better random number generator
+\fBrcmd\fP	\fBrcmd\fP(3N)	 routines for returning a stream to a remote command
+\fBre_comp\fP	\fBregex\fP(3)	 regular expression handler
+\fBre_exec\fP	\fBregex\fP(3)	 regular expression handler
+\fBreaddir\fP	\fBdirectory\fP(3V)	 directory operations
+\fBrealloc\fP	\fBmalloc\fP(3V)	 memory allocator
+\fBrealpath\fP	\fBrealpath\fP(3)	 return the canonicalized absolute pathname
+\fBregex\fP	\fBregex\fP(3)	 regular expression handler
+\fBregexp\fP	\fBregexp\fP(3)	 regular expression compile and match routines
+\fBregisterrpc\fP	\fBrpc_svc_calls\fP(3N)	 library routines for registerring servers
+\fBremexportent\fP	\fBexportent\fP(3)	 get exported file system information
+\fBremque\fP	\fBinsque\fP(3)	 insert/remove element from a queue
+\fBres_init\fP	\fBresolver\fP(3)	 resolver routines
+\fBres_mkquery\fP	\fBresolver\fP(3)	 resolver routines
+\fBres_send\fP	\fBresolver\fP(3)	 resolver routines
+\fBresolver\fP	\fBresolver\fP(3)	 resolver routines
+\fBrewind\fP	\fBfseek\fP(3S)	 reposition a stream
+\fBrewinddir\fP	\fBdirectory\fP(3V)	 directory operations
+\fBrexec\fP	\fBrexec\fP(3N)	 return stream to a remote command
+\fBrindex\fP	\fBstring\fP(3)	 string operations
+\fBrpc\fP	\fBrpc\fP(3N)	 library routines for remote procedure calls
+\fBrpc_createrr\fP	\fBrpc_clnt_create\fP(3N)	 library routines creating and manipulating CLIENT handles
+\fBrpow\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fBrresvport\fP	\fBrcmd\fP(3N)	 routines for returning a stream to a remote command
+\fBrtime\fP	\fBrtime\fP(3N)	 get remote time
+\fBruserok\fP	\fBrcmd\fP(3N)	 routines for returning a stream to a remote command
+\fBscandir\fP	\fBscandir\fP(3)	 scan a directory
+\fBscanf\fP	\fBscanf\fP(3V)	 formatted input conversion
+\fBseconvert\fP	\fBeconvert\fP(3)	 output conversion
+\fBseed48\fP	\fBdrand48\fP(3)	 generate uniformly distributed pseudo-random numbers
+\fBseekdir\fP	\fBdirectory\fP(3V)	 directory operations
+\fBsetac\fP	\fBgetacinfo\fP(3)	 get audit control file information
+\fBsetbuf\fP	\fBsetbuf\fP(3V)	 assign buffering to a stream
+\fBsetbuffer\fP	\fBsetbuf\fP(3V)	 assign buffering to a stream
+\fBsetegid\fP	\fBsetuid\fP(3V)	 set user and group ID
+\fBseteuid\fP	\fBsetuid\fP(3V)	 set user and group ID
+\fBsetexportent\fP	\fBexportent\fP(3)	 get exported file system information
+\fBsetfsent\fP	\fBgetfsent\fP(3)	 get file system descriptor file entry
+\fBsetgid\fP	\fBsetuid\fP(3V)	 set user and group ID
+\fBsetgraent\fP	\fBgetgraent\fP(3)	 get group adjunct file entry
+\fBsetgrent\fP	\fBgetgrent\fP(3V)	 get group file entry
+\fBsethostent\fP	\fBgethostent\fP(3N)	 get network host entry
+\fBsetjmp\fP	\fBsetjmp\fP(3V)	 non-local goto
+\fBsetlinebuf\fP	\fBsetbuf\fP(3V)	 assign buffering to a stream
+\fBsetlocale\fP	\fBsetlocale\fP(3V)	 set international environment
+\fBsetlogmask\fP	\fBsyslog\fP(3)	 control system log
+\fBsetmntent\fP	\fBgetmntent\fP(3)	 get file system descriptor file entry
+\fBsetnetent\fP	\fBgetnetent\fP(3N)	 get network entry
+\fBsetnetgrent\fP	\fBgetnetgrent\fP(3N)	 get network group entry
+\fBsetprotoent\fP	\fBgetprotoent\fP(3N)	 get protocol entry
+\fBsetpwaent\fP	\fBgetpwaent\fP(3)	 get password adjunct file entry
+\fBsetpwent\fP	\fBgetpwent\fP(3V)	 get password file entry
+\fBsetpwfile\fP	\fBgetpwent\fP(3V)	 get password file entry
+\fBsetrgid\fP	\fBsetuid\fP(3V)	 set user and group ID
+\fBsetrpcent\fP	\fBgetrpcent\fP(3N)	 get RPC entry
+\fBsetruid\fP	\fBsetuid\fP(3V)	 set user and group ID
+\fBsetservent\fP	\fBgetservent\fP(3N)	 get service entry
+\fBsetstate\fP	\fBrandom\fP(3)	 better random number generator
+\fBsetttyent\fP	\fBgetttyent\fP(3)	 get ttytab file entry
+\fBsetuid\fP	\fBsetuid\fP(3V)	 set user and group ID
+\fBsetusershell\fP	\fBgetusershell\fP(3)	 get legal user shells
+\fBsetvbuf\fP	\fBsetbuf\fP(3V)	 assign buffering to a stream
+\fBsfconvert\fP	\fBeconvert\fP(3)	 output conversion
+\fBsgconvert\fP	\fBeconvert\fP(3)	 output conversion
+\fBsigaction\fP	\fBsigaction\fP(3V)	 examine and change signal action 
+\fBsigaddset\fP	\fBsigsetops\fP(3V)	 manipulate signal sets
+\fBsigdelset\fP	\fBsigsetops\fP(3V)	 manipulate signal sets
+\fBsigemptyset\fP	\fBsigsetops\fP(3V)	 manipulate signal sets
+\fBsigfillset\fP	\fBsigsetops\fP(3V)	 manipulate signal sets
+\fBsigfpe\fP	\fBsigfpe\fP(3)	 signal handling for specific SIGFPE codes
+\fBsiginterrupt\fP	\fBsiginterrupt\fP(3V)	 allow signals to interrupt system calls
+\fBsigismember\fP	\fBsigsetops\fP(3V)	 manipulate signal sets
+\fBsiglongjmp\fP	\fBsetjmp\fP(3V)	 non-local goto
+\fBsignal\fP	\fBsignal\fP(3V)	 simplified software signal facilities
+\fBsigsetjmp\fP	\fBsetjmp\fP(3V)	 non-local goto
+\fBsigsetops\fP	\fBsigsetops\fP(3V)	 manipulate signal sets
+\fBsingle_to_decimal\fP	\fBfloating_to_decimal\fP(3)	 convert floating-point value to decimal record
+\fBsleep\fP	\fBsleep\fP(3V)	 suspend execution for interval
+\fBspace\fP	\fBplot\fP(3X)	 graphics interface
+\fBsprintf\fP	\fBprintf\fP(3V)	 formatted output conversion
+\fBsrand48\fP	\fBdrand48\fP(3)	 generate uniformly distributed pseudo-random numbers
+\fBsrand\fP	\fBrand\fP(3V)	 simple random number generator
+\fBsrandom\fP	\fBrandom\fP(3)	 better random number generator
+\fBsscanf\fP	\fBscanf\fP(3V)	 formatted input conversion
+\fBssignal\fP	\fBssignal\fP(3)	 software signals
+\fBstdio\fP	\fBstdio\fP(3V)	 standard buffered input/output package
+\fBstore\fP	\fBdbm\fP(3X)	 data base subroutines
+\fBstrcasecmp\fP	\fBstring\fP(3)	 string operations
+\fBstrcat\fP	\fBstring\fP(3)	 string operations
+\fBstrchr\fP	\fBstring\fP(3)	 string operations
+\fBstrcmp\fP	\fBstring\fP(3)	 string operations
+\fBstrcoll\fP	\fBstrcoll\fP(3)	 compare or transform strings using collating information
+\fBstrcpy\fP	\fBstring\fP(3)	 string operations
+\fBstrcspn\fP	\fBstring\fP(3)	 string operations
+\fBstrdup\fP	\fBstring\fP(3)	 string operations
+\fBstrftime\fP	\fBctime\fP(3V)	 convert date and time
+\fBstring_to_decimal\fP	\fBstring_to_decimal\fP(3)	 parse characters into decimal record
+\fBstrlen\fP	\fBstring\fP(3)	 string operations
+\fBstrncasecmp\fP	\fBstring\fP(3)	 string operations
+\fBstrncat\fP	\fBstring\fP(3)	 string operations
+\fBstrncmp\fP	\fBstring\fP(3)	 string operations
+\fBstrncpy\fP	\fBstring\fP(3)	 string operations
+\fBstrpbrk\fP	\fBstring\fP(3)	 string operations
+\fBstrptime\fP	\fBctime\fP(3V)	 convert date and time
+\fBstrrchr\fP	\fBstring\fP(3)	 string operations
+\fBstrspn\fP	\fBstring\fP(3)	 string operations
+\fBstrstr\fP	\fBstring\fP(3)	 string operations
+\fBstrtod\fP	\fBstrtod\fP(3)	 convert string to double-precision number
+\fBstrtok\fP	\fBstring\fP(3)	 string operations
+\fBstrtol\fP	\fBstrtol\fP(3)	 convert string to integer
+\fBstrxfrm\fP	\fBstrcoll\fP(3)	 compare or transform strings using collating information
+\fBstty\fP	\fBstty\fP(3C)	 set and get terminal state
+\fBsvc_destroy\fP	\fBrpc_svc_create\fP(3N)	 library routines for dealing with the creation of server handles
+\fBsvc_fds\fP	\fBrpc_svc_reg\fP(3N)	 library routines for RPC servers
+\fBsvc_fdset\fP	\fBrpc_svc_reg\fP(3N)	 library routines for RPC servers
+\fBsvc_freeargs\fP	\fBrpc_svc_reg\fP(3N)	 library routines for RPC servers
+\fBsvc_getargs\fP	\fBrpc_svc_reg\fP(3N)	 library routines for RPC servers
+\fBsvc_getcaller\fP	\fBrpc_svc_reg\fP(3N)	 library routines for RPC servers
+\fBsvc_getreq\fP	\fBrpc_svc_reg\fP(3N)	 library routines for RPC servers
+\fBsvc_getreqset\fP	\fBrpc_svc_reg\fP(3N)	 library routines for RPC servers
+\fBsvc_register\fP	\fBrpc_svc_calls\fP(3N)	 library routines for registerring servers
+\fBsvc_run\fP	\fBrpc_svc_reg\fP(3N)	 library routines for RPC servers
+\fBsvc_sendreply\fP	\fBrpc_svc_reg\fP(3N)	 library routines for RPC servers
+\fBsvc_unregister\fP	\fBrpc_svc_calls\fP(3N)	 library routines for registerring servers
+\fBsvcerr_auth\fP	\fBrpc_svc_err\fP(3N)	 library routines for server side remote procedure call errors
+\fBsvcerr_decode\fP	\fBrpc_svc_err\fP(3N)	 library routines for server side remote procedure call errors
+\fBsvcerr_noproc\fP	\fBrpc_svc_err\fP(3N)	 library routines for server side remote procedure call errors
+\fBsvcerr_noprog\fP	\fBrpc_svc_err\fP(3N)	 library routines for server side remote procedure call errors
+\fBsvcerr_progvers\fP	\fBrpc_svc_err\fP(3N)	 library routines for server side remote procedure call errors
+\fBsvcerr_systemerr\fP	\fBrpc_svc_err\fP(3N)	 library routines for server side remote procedure call errors
+\fBsvcerr_weakauth\fP	\fBrpc_svc_err\fP(3N)	 library routines for server side remote procedure call errors
+\fBsvcfd_create\fP	\fBrpc_svc_create\fP(3N)	 library routines for dealing with the creation of server handles
+\fBsvcraw_create\fP	\fBrpc_svc_create\fP(3N)	 library routines for dealing with the creation of server handles
+\fBsvctcp_create\fP	\fBrpc_svc_create\fP(3N)	 library routines for dealing with the creation of server handles
+\fBsvcudp_bufcreate\fP	\fBrpc_svc_create\fP(3N)	 library routines for dealing with the creation of server handles
+\fBswab\fP	\fBswab\fP(3)	 swap bytes
+\fBsys_siglist\fP	\fBpsignal\fP(3)	 system signal messages
+\fBsyslog\fP	\fBsyslog\fP(3)	 control system log
+\fBsystem\fP	\fBsystem\fP(3)	 issue a shell command
+\fBt_accept\fP	\fBt_accept\fP(3N)	 accept a connect request
+\fBt_alloc\fP	\fBt_alloc\fP(3N)	 allocate a library structure
+\fBt_bind\fP	\fBt_bind\fP(3N)	 bind an address to a transport endpoint
+\fBt_close\fP	\fBt_close\fP(3N)	 close a transport endpoint
+\fBt_connect\fP	\fBt_connect\fP(3N)	 establish a connection with another transport user
+\fBt_error\fP	\fBt_error\fP(3N)	 produce error message
+\fBt_free\fP	\fBt_free\fP(3N)	 free a library structure
+\fBt_getinfo\fP	\fBt_getinfo\fP(3N)	 get protocol-specific service information
+\fBt_getstate\fP	\fBt_getstate\fP(3N)	 get the current state
+\fBt_listen\fP	\fBt_listen\fP(3N)	 listen for a connect request
+\fBt_look\fP	\fBt_look\fP(3N)	 look at the current event on a transport endpoint
+\fBt_open\fP	\fBt_open\fP(3N)	 establish a transport endpoint
+\fBt_optmgmt\fP	\fBt_optmgmt\fP(3N)	 manage options for a transport endpoint
+\fBt_rcv\fP	\fBt_rcv\fP(3N)	 receive normal or expedited data sent over a connection
+\fBt_rcvconnect\fP	\fBt_rcvconnect\fP(3N)	 receive the confirmation from a connect request
+\fBt_rcvdis\fP	\fBt_rcvdis\fP(3N)	 retrieve information from disconnect
+\fBt_rcvrel\fP	\fBt_rcvrel\fP(3N)	 acknowledge receipt of an orderly release indication
+\fBt_rcvudata\fP	\fBt_rcvudata\fP(3N)	 receive a data unit
+\fBt_rcvuderr\fP	\fBt_rcvuderr\fP(3N)	 receive a unit data error indication
+\fBt_snd\fP	\fBt_snd\fP(3N)	 send normal or expedited data over a connection
+\fBt_snddis\fP	\fBt_snddis\fP(3N)	 send user-initiated disconnect request
+\fBt_sndrel\fP	\fBt_sndrel\fP(3N)	 initiate an orderly release
+\fBt_sndudata\fP	\fBt_sndudata\fP(3N)	 send a data unit
+\fBt_sync\fP	\fBt_sync\fP(3N)	 synchronize transport library
+\fBt_unbind\fP	\fBt_unbind\fP(3N)	 disable a transport endpoint
+\fBtcdrain\fP	\fBtermios\fP(3V)	 terminal control functions
+\fBtcflow\fP	\fBtermios\fP(3V)	 terminal control functions
+\fBtcflush\fP	\fBtermios\fP(3V)	 terminal control functions
+\fBtcgetattr\fP	\fBtermios\fP(3V)	 terminal control functions
+\fBtcgetpgrp\fP	\fBtcgetpgrp\fP(3V)	 get, set foreground process group ID
+\fBtcsendbreak\fP	\fBtermios\fP(3V)	 terminal control functions
+\fBtcsetattr\fP	\fBtermios\fP(3V)	 terminal control functions
+\fBtcsetpgrp\fP	\fBtcgetpgrp\fP(3V)	 get, set foreground process group ID
+\fBtdelete\fP	\fBtsearch\fP(3)	 manage binary search trees
+\fBtelldir\fP	\fBdirectory\fP(3V)	 directory operations
+\fBtempnam\fP	\fBtmpnam\fP(3S)	 create a name for a temporary file
+\fBtermcap\fP	\fBtermcap\fP(3X)	 terminal independent operation routines
+\fBtermios\fP	\fBtermios\fP(3V)	 terminal control functions
+\fBtextdomain\fP	\fBgettext\fP(3)	 retrieve a message string, get and set text domain
+\fBtfind\fP	\fBtsearch\fP(3)	 manage binary search trees
+\fBtgetent\fP	\fBtermcap\fP(3X)	 terminal independent operation routines
+\fBtgetflag\fP	\fBtermcap\fP(3X)	 terminal independent operation routines
+\fBtgetnum\fP	\fBtermcap\fP(3X)	 terminal independent operation routines
+\fBtgetstr\fP	\fBtermcap\fP(3X)	 terminal independent operation routines
+\fBtgoto\fP	\fBtermcap\fP(3X)	 terminal independent operation routines
+\fBtime\fP	\fBtime\fP(3V)	 get date and time
+\fBtimegm\fP	\fBctime\fP(3V)	 convert date and time
+\fBtimelocal\fP	\fBctime\fP(3V)	 convert date and time
+\fBtimes\fP	\fBtimes\fP(3V)	 get process times
+\fBtimezone\fP	\fBtimezone\fP(3C)	 get time zone name given offset from GMT
+\fBtmpfile\fP	\fBtmpfile\fP(3S)	 create a temporary file
+\fBtmpnam\fP	\fBtmpnam\fP(3S)	 create a name for a temporary file
+\fBtoascii\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBtolower\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBtoupper\fP	\fBctype\fP(3V)	 character classification and conversion macros and functions
+\fBtputs\fP	\fBtermcap\fP(3X)	 terminal independent operation routines
+\fBtsearch\fP	\fBtsearch\fP(3)	 manage binary search trees
+\fBttyname\fP	\fBttyname\fP(3V)	 find name of a terminal
+\fBttyslot\fP	\fBttyslot\fP(3V)	 find the slot in the utmp file of the current process
+\fBtwalk\fP	\fBtsearch\fP(3)	 manage binary search trees
+\fBtzset\fP	\fBctime\fP(3V)	 convert date and time
+\fBtzsetwall\fP	\fBctime\fP(3V)	 convert date and time
+\fBualarm\fP	\fBualarm\fP(3)	 schedule signal after interval in microseconds
+\fBulimit\fP	\fBulimit\fP(3C)	 get and set user limits
+\fBungetc\fP	\fBungetc\fP(3S)	 push character back into input stream
+\fBuser2netname\fP	\fBsecure_rpc\fP(3N)	 library routines for secure remote procedure calls
+\fBusleep\fP	\fBusleep\fP(3)	 suspend execution for interval in microseconds
+\fButime\fP	\fButime\fP(3V)	 set file times
+\fBvalloc\fP	\fBmalloc\fP(3V)	 memory allocator
+\fBvalues\fP	\fBvalues\fP(3)	 machine-dependent values
+\fBvarargs\fP	\fBvarargs\fP(3)	 handle variable argument list
+\fBvfprintf\fP	\fBvprintf\fP(3V)	 print formatted output of a varargs argument list
+\fBvlimit\fP	\fBvlimit\fP(3C)	 control maximum system resource consumption
+\fBvprintf\fP	\fBvprintf\fP(3V)	 print formatted output of a varargs argument list
+\fBvsprintf\fP	\fBvprintf\fP(3V)	 print formatted output of a varargs argument list
+\fBvsyslog\fP	\fBvsyslog\fP(3)	 log message with a varargs argument list
+\fBvtimes\fP	\fBvtimes\fP(3C)	 get information about resource utilization
+\fBwcstombs\fP	\fBmblen\fP(3)	 multibyte character handling
+\fBwctomb\fP	\fBmblen\fP(3)	 multibyte character handling
+\fBxdr\fP	\fBxdr\fP(3N)	 library routines for external data representation
+\fBxdr_accepted_reply\fP	\fBrpc_xdr\fP(3N)	 XDR library routines for remote procedure calls
+\fBxdr_array\fP	\fBxdr_complex\fP(3N)	 library routines for translating complex data types
+\fBxdr_authunix_parms\fP	\fBrpc_xdr\fP(3N)	 XDR library routines for remote procedure calls
+\fBxdr_bool\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_bytes\fP	\fBxdr_complex\fP(3N)	 library routines for translating complex data types
+\fBxdr_callhdr\fP	\fBrpc_xdr\fP(3N)	 XDR library routines for remote procedure calls
+\fBxdr_callmsg\fP	\fBrpc_xdr\fP(3N)	 XDR library routines for remote procedure calls
+\fBxdr_char\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_destroy\fP	\fBxdr_create\fP(3N)	 library routines for \s-1XDR\s0 stream creation
+\fBxdr_double\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_enum\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_float\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_free\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_getpos\fP	\fBxdr_admin\fP(3N)	 library routines for management of the XDR stream
+\fBxdr_inline\fP	\fBxdr_admin\fP(3N)	 library routines for management of the XDR stream
+\fBxdr_int\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_long\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_opaque\fP	\fBxdr_complex\fP(3N)	 library routines for translating complex data types
+\fBxdr_opaque_auth\fP	\fBrpc_xdr\fP(3N)	 XDR library routines for remote procedure calls
+\fBxdr_pamp\fP	\fBportmap\fP(3N)	 library routines for RPC bind service
+\fBxdr_pmaplist\fP	\fBportmap\fP(3N)	 library routines for RPC bind service
+\fBxdr_pointer\fP	\fBxdr_complex\fP(3N)	 library routines for translating complex data types
+\fBxdr_reference\fP	\fBxdr_complex\fP(3N)	 library routines for translating complex data types
+\fBxdr_rejected_reply\fP	\fBrpc_xdr\fP(3N)	 XDR library routines for remote procedure calls
+\fBxdr_replymsg\fP	\fBrpc_xdr\fP(3N)	 XDR library routines for remote procedure calls
+\fBxdr_setpos\fP	\fBxdr_admin\fP(3N)	 library routines for management of the XDR stream
+\fBxdr_short\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_string\fP	\fBxdr_complex\fP(3N)	 library routines for translating complex data types
+\fBxdr_u_char\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_u_int\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_u_long\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_u_short\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_union\fP	\fBxdr_complex\fP(3N)	 library routines for translating complex data types
+\fBxdr_vector\fP	\fBxdr_complex\fP(3N)	 library routines for translating complex data types
+\fBxdr_void\fP	\fBxdr_simple\fP(3N)	 library routines for translating simple data types
+\fBxdr_wrapstring\fP	\fBxdr_complex\fP(3N)	 library routines for translating complex data types
+\fBxdrmem_create\fP	\fBxdr_create\fP(3N)	 library routines for \s-1XDR\s0 stream creation
+\fBxdrrec_create\fP	\fBxdr_create\fP(3N)	 library routines for \s-1XDR\s0 stream creation
+\fBxdrrec_endofrecord\fP	\fBxdr_admin\fP(3N)	 library routines for management of the XDR stream
+\fBxdrrec_eof\fP	\fBxdr_admin\fP(3N)	 library routines for management of the XDR stream
+\fBxdrrec_readbytes\fP	\fBxdr_admin\fP(3N)	 library routines for management of the XDR stream
+\fBxdrrec_skiprecord\fP	\fBxdr_admin\fP(3N)	 library routines for management of the XDR stream
+\fBxdrstdio_create\fP	\fBxdr_create\fP(3N)	 library routines for \s-1XDR\s0 stream creation
+\fBxprt_register\fP	\fBrpc_svc_calls\fP(3N)	 library routines for registerring servers
+\fBxprt_unregister\fP	\fBrpc_svc_calls\fP(3N)	 library routines for registerring servers
+\fBxtom\fP	\fBmp\fP(3X)	 multiple precision integer arithmetic
+\fByp_all\fP	\fBypclnt\fP(3N)	 NIS client interface
+\fByp_bind\fP	\fBypclnt\fP(3N)	 NIS client interface
+\fByp_first\fP	\fBypclnt\fP(3N)	 NIS client interface
+\fByp_get_default_domain\fP	\fBypclnt\fP(3N)	 NIS client interface
+\fByp_master\fP	\fBypclnt\fP(3N)	 NIS client interface
+\fByp_match\fP	\fBypclnt\fP(3N)	 NIS client interface
+\fByp_next\fP	\fBypclnt\fP(3N)	 NIS client interface
+\fByp_order\fP	\fBypclnt\fP(3N)	 NIS client interface
+\fByp_unbind\fP	\fBypclnt\fP(3N)	 NIS client interface
+\fByp_update\fP	\fBypupdate\fP(3N)	 changes NIS information
+\fBypclnt\fP	\fBypclnt\fP(3N)	 NIS client interface
+\fByperr_string\fP	\fBypclnt\fP(3N)	 NIS client interface
+\fBypprot_err\fP	\fBypclnt\fP(3N)	 NIS client interface
+.fi

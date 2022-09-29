@@ -1,0 +1,10 @@
+F HOSTS.;1                          	hosts
+F HOSTS.TXT;1                       	hosts.txt
+F HTABLE.C;1                        	htable.c
+F HTABLE.H;1                        	htable.h
+F LOCALHOS.;1                       	localhosts
+F LOCALNET.;1                       	localnetworks
+F MAKEFILE.;1                       	Makefile
+F NETWORKS.;1                       	networks
+F PARSE.Y;1                         	parse.y
+F SCAN.L;1                          	scan.l

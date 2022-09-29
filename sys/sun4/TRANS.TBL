@@ -1,0 +1,62 @@
+F ADDUPC.S;1                        	addupc.s
+L ASM_LINK.H;1                      	asm_linkage.h	../sparc/asm_linkage.h
+F AUTOCONF.C;1                      	autoconf.c
+L A_OUT.H;1                         	a.out.h	../sparc/a.out.h
+F BUSERR.H;1                        	buserr.h
+F CLOCK.C;1                         	clock.c
+F CLOCK.H;1                         	clock.h
+D CONF                              	conf
+F CPU.H;1                           	cpu.h
+F CRT.S;1                           	crt.s
+F CSCOPE.MK;1                       	cscope.mk
+F DBX_MACH.C;1                      	dbx_machdep.c
+D DEBUG                             	debug
+F DIAG.H;1                          	diag.h
+F ECCREG.H;1                        	eccreg.h
+F EEPROM.H;1                        	eeprom.h
+F ENABLE.H;1                        	enable.h
+L FPU.;1                            	fpu	../sparc/fpu
+L FRAME.H;1                         	frame.h	../sparc/frame.h
+F GENASSYM.C;1                      	genassym.c
+F INTREG.H;1                        	intreg.h
+F IOCACHE.H;1                       	iocache.h
+F KPROF.S;1                         	kprof.s
+F LOCORE.C;1                        	Locore.c
+F LOCORE.S;1                        	locore.s
+L LWP.;1                            	lwp	../lwp/sparc
+F MACHDEP.C;1                       	machdep.c
+L MACHINE.;1                        	machine	.
+L MACHLWP.;1                        	machlwp	../lwp/sparc
+F MAKEFILE.;1                       	Makefile
+F MAP.S;1                           	map.s
+F MCOUNT.S;1                        	mcount.s
+F MEM.C;1                           	mem.c
+F MEMERR.C;1                        	memerr.c
+F MEMERR.H;1                        	memerr.h
+F MMU.C;1                           	mmu.c
+F MMU.H;1                           	mmu.h
+F OCSUM.S;1                         	ocsum.s
+F OVERFLOW.S;1                      	overflow.s
+F PARAM.H;1                         	param.h
+L PCB.H;1                           	pcb.h	../sparc/pcb.h
+L PSL.H;1                           	psl.h	../sparc/psl.h
+F PTE.H;1                           	pte.h
+L REG.H;1                           	reg.h	../sparc/reg.h
+D SAS                               	sas
+F SCB.H;1                           	scb.h
+F SEG_ISM.C;1                       	seg_ism.c
+F SEG_ISM.H;1                       	seg_ism.h
+L SEG_KMEM.H;1                      	seg_kmem.h	../sun/seg_kmem.h
+L SETJMP.H;1                        	setjmp.h	../sparc/setjmp.h
+F SUBR.S;1                          	subr.s
+F SWTCH.S;1                         	swtch.s
+F TRAP.C;1                          	trap.c
+L TRAP.H;1                          	trap.h	../sparc/trap.h
+F UNDERFLO.S;1                      	underflow.s
+F VD_MACHD.C;1                      	vd_machdep.c
+F VMPARAM.H;1                       	vmparam.h
+F VM_HAT.C;1                        	vm_hat.c
+F VM_HAT.H;1                        	vm_hat.h
+F VM_HATAS.S;1                      	vm_hatasm.s
+F VM_MACHD.C;1                      	vm_machdep.c
+F ZS_ASM.S;1                        	zs_asm.s

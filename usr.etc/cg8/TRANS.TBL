@@ -1,0 +1,5 @@
+F CG8_EXEC.SCR;1                    	cg8_exec.script
+F CG8_WRAP.C;1                      	cg8_wrapper.c
+F CGEIGHT.C;1                       	cgeight.c
+F MAKEFILE.;1                       	Makefile
+F WIN.H;1                           	win.h

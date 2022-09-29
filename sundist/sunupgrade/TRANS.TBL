@@ -1,0 +1,15 @@
+F COMPAR_A.SH;1                     	compar_A_B.sh
+D FILE_DB                           	file_db
+D FILE_DB.412                       	file_db.412
+D FILE_DB.413                       	file_db.413
+D FILE_DB.B                         	file_db.b
+F MAKEFILE.;1                       	Makefile
+F MAKE_MED.SH;1                     	make_media_database.sh
+F OPENWIND.;1                       	openwindows_changes_size
+F OPENWIND.INC;1                    	openwindows_users.include
+F ROOT_CHA.;1                       	root_change_rev_b_only
+D SHELL                             	shell
+F SHOWREV_.;1                       	showrev_dot_dat
+D TOOLS                             	tools
+F VOLATILE.;1                       	volatile_list
+F _README.;1                        	_readme

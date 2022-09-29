@@ -1,0 +1,10 @@
+F MAKEFILE.;1                       	Makefile
+F NSDB.C;1                          	nsdb.c
+F NSDB.H;1                          	nsdb.h
+F NSERVE.C;1                        	nserve.c
+F NSFUNC.C;1                        	nsfunc.c
+F NSLOG.H;1                         	nslog.h
+F NSPORTS.H;1                       	nsports.h
+F NSREC.C;1                         	nsrec.c
+F NSREC.H;1                         	nsrec.h
+F STDNS.H;1                         	stdns.h

@@ -1,0 +1,5 @@
+F DETACH.C;1                        	detach.c
+F KEYENVOY.C;1                      	keyenvoy.c
+F KEYSERV.C;1                       	keyserv.c
+F MAKEFILE.;1                       	Makefile
+F SETKEY.C;1                        	setkey.c

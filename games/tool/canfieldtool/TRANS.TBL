@@ -1,0 +1,13 @@
+F CANFIELD.C;1                      	canfieldtool.c
+F CARDS.H;1                         	cards.h
+F DECODE.C;1                        	decode.c
+F DEFS.H;1                          	defs.h
+F ICON.H;1                          	icon.h
+F INPUT.C;1                         	input.c
+F MAKEFILE.;1                       	Makefile
+F MENU.C;1                          	menu.c
+F MISC.C;1                          	misc.c
+F OUTLINE.H;1                       	outline.h
+F PIPE.C;1                          	pipe.c
+F SENDMOVE.C;1                      	sendmove.c
+F TEXT.H;1                          	text.h

@@ -1,0 +1,8 @@
+F MAKEFILE.;1                       	Makefile
+F NLIST.C;1                         	nlist.c
+F SETGID.C;1                        	setgid.c
+F SETUID.C;1                        	setuid.c
+F SIGNAL.C;1                        	signal.c
+F SLEEP.C;1                         	sleep.c
+F TIMEZONE.C;1                      	timezone.c
+F TTYSLOT.C;1                       	ttyslot.c

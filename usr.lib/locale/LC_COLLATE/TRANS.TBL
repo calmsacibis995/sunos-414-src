@@ -1,0 +1,12 @@
+F C.IN;1                            	C.in
+F CHARMAP.C;1                       	charmap.c
+F COLLDEF.H;1                       	colldef.h
+F COLLDEF.Y;1                       	colldef.y
+F DEBUG.C;1                         	debug.c
+F EXTERN.H;1                        	extern.h
+F LEX.C;1                           	lex.c
+F MAIN.C;1                          	main.c
+F MAKEFILE.;1                       	Makefile
+F ORDER.C;1                         	order.c
+F SUBSTITU.C;1                      	substitute.c
+F UTILS.C;1                         	utils.c

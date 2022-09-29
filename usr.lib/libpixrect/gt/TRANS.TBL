@@ -1,0 +1,16 @@
+F GT.C;1                            	gt.c
+F GT.MK;1                           	gt.mk
+F GTVAR.H;1                         	gtvar.h
+F GT_BATCH.C;1                      	gt_batch.c
+F GT_COLOR.C;1                      	gt_colormap.c
+F GT_FBI.H;1                        	gt_fbi.h
+F GT_GETPU.C;1                      	gt_getput.c
+F GT_IOCTL.C;1                      	gt_ioctl.c
+F GT_LINT.C;1                       	gt_lint.c
+F GT_OPS.C;1                        	gt_ops.c
+F GT_REGIO.C;1                      	gt_region.c
+F GT_ROP.C;1                        	gt_rop.c
+F GT_RP.H;1                         	gt_rp.h
+F GT_STENC.C;1                      	gt_stencil.c
+F GT_VECTO.C;1                      	gt_vector.c
+L SCCS.;1                           	SCCS	../SCCS/../gt/SCCS

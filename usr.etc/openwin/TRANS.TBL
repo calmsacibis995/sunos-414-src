@@ -1,0 +1,11 @@
+F EVQLOAD.;1                        	evqload
+F EVQMOD-S.000;1                    	evqmod-sun4.o
+F EVQMOD-S.001;1                    	evqmod-sun4c.o
+F EVQMOD-S.O;1                      	evqmod-sun4m.o
+F MAKEFILE.;1                       	Makefile
+F RPC.CMS;1                         	rpc.cmsd
+F RPC.TTD;1                         	rpc.ttdbserverd
+F WINLOCK-.000;1                    	winlock-sun4.o
+F WINLOCK-.001;1                    	winlock-sun4c.o
+F WINLOCK-.O;1                      	winlock-sun4m.o
+F WINLOCKL.;1                       	winlockload

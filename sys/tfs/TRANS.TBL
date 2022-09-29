@@ -1,0 +1,8 @@
+F DBX_TFS.C;1                       	dbx_tfs.c
+F MAKEFILE.;1                       	Makefile
+F TFS.H;1                           	tfs.h
+F TFS_SUBR.C;1                      	tfs_subr.c
+F TFS_VFSO.C;1                      	tfs_vfsops.c
+F TFS_VNOD.C;1                      	tfs_vnodeops.c
+F TFS_XDR.C;1                       	tfs_xdr.c
+F TNODE.H;1                         	tnode.h

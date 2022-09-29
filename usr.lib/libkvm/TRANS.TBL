@@ -1,0 +1,11 @@
+F KVM.H;1                           	kvm.h
+F KVMGETCM.C;1                      	kvmgetcmd.c
+F KVMGETU.C;1                       	kvmgetu.c
+F KVMNEXTP.C;1                      	kvmnextproc.c
+F KVMNLIST.C;1                      	kvmnlist.c
+F KVMOPEN.C;1                       	kvmopen.c
+F KVMRDWR.C;1                       	kvmrdwr.c
+F KVM_IMPL.H;1                      	kvm_impl.h
+F MAKEFILE.;1                       	Makefile
+F TEST.C;1                          	test.c
+F VERSION.;1                        	version

@@ -1,0 +1,198 @@
+.\" @(#)List.3v 1.1 94/10/31 SMI;
+.if \n(zZ=1 .ig zZ
+.TH LIST 3V "30 January 1988"
+.SH LIST OF SYSTEM V LIBRARY FUNCTIONS
+.nf
+.sp
+.ta 20n; +20n
+\fBName	Appears on Page	Description\fR
+.sp
+.zZ
+\fB_tolower(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fB_toupper(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBaddch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBaddstr(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBasctime(\|)\fR	\fBctime\fR(3V)	 convert date and time
+\fBassert(\|)\fR	\fBassert\fR(3V)	 verify program assertion
+\fBattroff(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBattron(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBattrset(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBbaudrate(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBbeep(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBbox(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBcbreak(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBclear(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBclearerr(\|)\fR	\fBferror\fR(3V)	 stream status inquiries
+\fBclearok(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBclrtobot(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBclrtoeol(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBctime(\|)\fR	\fBctime\fR(3V)	 convert date and time
+\fBctype(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBcurses(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBcurses(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBdelay_output(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBdelch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBdeleteln(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBdelwin(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBdoupdate(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBecho(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBendpwent(\|)\fR	\fBgetpwent\fR(3V)	 get password file entry
+\fBendwin(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBerase(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBerasechar(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBfdopen(\|)\fR	\fBfopen\fR(3V)	 open a stream
+\fBfeof(\|)\fR	\fBferror\fR(3V)	 stream status inquiries
+\fBferror(\|)\fR	\fBferror\fR(3V)	 stream status inquiries
+\fBfgetc(\|)\fR	\fBgetc\fR(3V)	 get character or integer from stream
+\fBfgetpwent(\|)\fR	\fBgetpwent\fR(3V)	 get password file entry
+\fBfileno(\|)\fR	\fBferror\fR(3V)	 stream status inquiries
+\fBfixterm(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBflash(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBflushinp(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBfopen(\|)\fR	\fBfopen\fR(3V)	 open a stream
+\fBfprintf(\|)\fR	\fBprintf\fR(3V)	 formatted output conversion
+\fBfreopen(\|)\fR	\fBfopen\fR(3V)	 open a stream
+\fBfscanf(\|)\fR	\fBscanf\fR(3V)	 formatted input conversion
+\fBgetc(\|)\fR	\fBgetc\fR(3V)	 get character or integer from stream
+\fBgetch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBgetchar(\|)\fR	\fBgetc\fR(3V)	 get character or integer from stream
+\fBgetpass(\|)\fR	\fBgetpass\fR(3V)	 read a password
+\fBgetpwent(\|)\fR	\fBgetpwent\fR(3V)	 get password file entry
+\fBgetpwnam(\|)\fR	\fBgetpwent\fR(3V)	 get password file entry
+\fBgetpwuid(\|)\fR	\fBgetpwent\fR(3V)	 get password file entry
+\fBgetstr(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBgettmode(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBgetw(\|)\fR	\fBgetc\fR(3V)	 get character or integer from stream
+\fBgetyx(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBgmtime(\|)\fR	\fBctime\fR(3V)	 convert date and time
+\fBhas_ic(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBhas_il(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBidlok(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBinch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBinitscr(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBinsch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBinsertln(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBintrflush(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBisalnum(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBisalpha(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBisascii(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBiscntrl(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBisdigit(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBisgraph(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBislower(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBisprint(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBispunct(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBisspace(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBisupper(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBisxdigit(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBkeypad(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBkillchar(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBleaveok(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBlocaltime(\|)\fR	\fBctime\fR(3V)	 convert date and time
+\fBlongname(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmeta(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmove(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvaddch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvaddstr(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvcur(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvdelch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvgetch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvgetstr(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvinch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvinsch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvprintw(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvscanw(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvwaddch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvwaddstr(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvwdelch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvwgetch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvwgetstr(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvwin(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvwinch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvwinsch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvwprintw(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBmvwscanw(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBnewpad(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBnewterm(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBnewwin(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBnice(\|)\fR	\fBnice\fR(3V)	 change priority of a process
+\fBnl(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBnocbreak(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBnodelay(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBnoecho(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBnonl(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBnoraw(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBoverlay(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBoverwrite(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBpnoutrefresh(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBprintf(\|)\fR	\fBprintf\fR(3V)	 formatted output conversion
+\fBrand(\|)\fR	\fBrand\fR(3V)	 simple random number generator
+\fBraw(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBrefresh(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBresetterm(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBresetty(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBsaveterm(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBsavetty(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBscanf(\|)\fR	\fBscanf\fR(3V)	 formatted input conversion
+\fBscanw(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBscroll(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBscrollok(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBset_term(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBsetbuf(\|)\fR	\fBsetbuf\fR(3V)	 assign buffering to a stream
+\fBsetbuffer(\|)\fR	\fBsetbuf\fR(3V)	 assign buffering to a stream
+\fBsetgid(\|)\fR	\fBsetuid\fR(3V)	 set user and group IDs
+\fBsetlinebuf(\|)\fR	\fBsetbuf\fR(3V)	 assign buffering to a stream
+\fBsetpwent(\|)\fR	\fBgetpwent\fR(3V)	 get password file entry
+\fBsetpwfile(\|)\fR	\fBgetpwent\fR(3V)	 get password file entry
+\fBsetscrreg(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBsetterm(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBsetuid(\|)\fR	\fBsetuid\fR(3V)	 set user and group IDs
+\fBsetupterm(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBsetvbuf(\|)\fR	\fBsetbuf\fR(3V)	 assign buffering to a stream
+\fBsignal(\|)\fR	\fBsignal\fR(3V)	 simplified software signal facilities
+\fBsleep(\|)\fR	\fBsleep\fR(3V)	 suspend execution for interval
+\fBsprintf(\|)\fR	\fBprintf\fR(3V)	 formatted output conversion
+\fBsrand(\|)\fR	\fBrand\fR(3V)	 simple random number generator
+\fBsscanf(\|)\fR	\fBscanf\fR(3V)	 formatted input conversion
+\fBstandend(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBstandout(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBsubwin(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBtimegm(\|)\fR	\fBctime\fR(3V)	 convert date and time
+\fBtimelocal(\|)\fR	\fBctime\fR(3V)	 convert date and time
+\fBtimes(\|)\fR	\fBtimes\fR(3V)	 get process and child process times
+\fBtoascii(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBtolower(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBtouchwin(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBtoupper(\|)\fR	\fBctype\fR(3V)	 character classification and conversion macros and functions
+\fBtraceoff(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBtraceon(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBttyslot(\|)\fR	\fBttyslot\fR(3V)	 find the slot in the utmp file of the current process
+\fBtypeahead(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBtzset(\|)\fR	\fBctime\fR(3V)	 convert date and time
+\fBtzsetwall(\|)\fR	\fBctime\fR(3V)	 convert date and time
+\fBunctrl(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwaddch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwaddstr(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwattroff(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwattron(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwattrset(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwclear(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwclrtobot(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwclrtoeol(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwdelch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwdeleteln(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwerase(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwgetch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwgetstr(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwinch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwinsch(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwinsertln(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwmove(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwnoutrefresh(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwprintw(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwrefresh(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwscanw(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwsetscrreg(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwstandend(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+\fBwstandout(\|)\fR	\fBcurses\fR(3V)	 System V cursor addressing and screen display library
+.fi

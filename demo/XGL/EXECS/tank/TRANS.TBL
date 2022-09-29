@@ -1,0 +1,13 @@
+F ANGELFIS.CHA;1                    	angelfish.char
+F ANGELFIS.VFF;1                    	angelfish.vff
+F BUBBLE.VFF;1                      	bubble.vff
+F CRAZY.CHA;1                       	crazy.char
+F CRAZY.VFF;1                       	crazy.vff
+F FRACTAL.VFF;1                     	fractal.vff
+F GOLDFISH.CHA;1                    	goldfish.char
+F GOLDFISH.VFF;1                    	goldfish.vff
+F MAKEFILE.;1                       	Makefile
+F SHARK.CHA;1                       	shark.char
+F SHARK.VFF;1                       	shark.vff
+F TANK.ABO;1                        	tank.about_text
+F TANK.HEL;1                        	tank.help_text

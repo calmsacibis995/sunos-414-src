@@ -1,0 +1,15 @@
+F CG1.C;1                           	cg1.c
+F CG1.MK;1                          	cg1.mk
+F CG1REG.H;1                        	cg1reg.h
+F CG1VAR.H;1                        	cg1var.h
+F CG1_BATC.C;1                      	cg1_batch.c
+F CG1_COLO.C;1                      	cg1_colormap.c
+F CG1_GETP.C;1                      	cg1_getput.c
+F CG1_LINT.C;1                      	cg1_lint.c
+F CG1_OPS.C;1                       	cg1_ops.c
+F CG1_POLY.C;1                      	cg1_polypoint.c
+F CG1_REGI.C;1                      	cg1_region.c
+F CG1_ROP.C;1                       	cg1_rop.c
+F CG1_STEN.C;1                      	cg1_stencil.c
+F CG1_VEC.C;1                       	cg1_vec.c
+F CG1_VECB.S;1                      	cg1_vecbres.S

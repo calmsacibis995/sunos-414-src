@@ -1,0 +1,12 @@
+F DBX_PCFS.C;1                      	dbx_pcfs.c
+F MAKEFILE.;1                       	Makefile
+F PC_ALLOC.C;1                      	pc_alloc.c
+F PC_DIR.C;1                        	pc_dir.c
+F PC_DIR.H;1                        	pc_dir.h
+F PC_FS.H;1                         	pc_fs.h
+F PC_LABEL.H;1                      	pc_label.h
+F PC_NODE.C;1                       	pc_node.c
+F PC_NODE.H;1                       	pc_node.h
+F PC_SUBR.C;1                       	pc_subr.c
+F PC_VFSOP.C;1                      	pc_vfsops.c
+F PC_VNODE.C;1                      	pc_vnodeops.c

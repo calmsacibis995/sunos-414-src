@@ -1,0 +1,98 @@
+.\" @(#)List.3m 1.1 94/10/31 SMI; from UCB 4.3 BSD
+.if \n(zZ=1 .ig zZ
+.TH LIST 3M "18 January 1988"
+.SH LIST OF MATH LIBRARY FUNCTIONS
+.nf
+.sp
+.ta 20n; +20n
+.zZ
+.B Name	Appears on Page	Description
+.sp
+\-	\fBbessel\fR(3M)	 Bessel functions
+\-	\fBfrexp\fR(3M)	 floating-point analysis
+\-	\fBhyperbolic\fR(3M)	 hyperbolic functions
+\-	\fBieee_functions\fR(3M)	 IEEE classification
+\-	\fBieee_test\fR(3M)	 IEEE tests for compliance
+\-	\fBieee_values\fR(3M)	 returns double-precision IEEE infinity
+\-	\fBtrig\fR(3M)	 trigonometric functions
+\fBacos\fP	\fBtrig\fP(3M)	 trigonometric functions
+\fBacosh\fP	\fBhyperbolic\fP(3M)	 hyperbolic functions
+\fBaint\fP	\fBrint\fP(3M)	 round to integral value in floating-point or integer format
+\fBanint\fP	\fBrint\fP(3M)	 round to integral value in floating-point or integer format
+\fBannuity\fP	\fBexp\fP(3M)	 exponential, logarithm, power
+\fBasin\fP	\fBtrig\fP(3M)	 trigonometric functions
+\fBasinh\fP	\fBhyperbolic\fP(3M)	 hyperbolic functions
+\fBatan\fP	\fBtrig\fP(3M)	 trigonometric functions
+\fBatan2\fP	\fBtrig\fP(3M)	 trigonometric functions
+\fBatanh\fP	\fBhyperbolic\fP(3M)	 hyperbolic functions
+\fBcbrt\fP	\fBsqrt\fP(3M)	 cube root, square root
+\fBceil\fP	\fBrint\fP(3M)	 round to integral value in floating-point or integer format
+\fBcompound\fP	\fBexp\fP(3M)	 exponential, logarithm, power
+\fBcopysign\fP	\fBieee_functions\fP(3M)	miscellaneous functions for IEEE arithmetic
+\fBcos\fP	\fBtrig\fP(3M)	 trigonometric functions
+\fBcosh\fP	\fBhyperbolic\fP(3M)	 hyperbolic functions
+\fBerf\fP	\fBerf\fP(3M)	 error functions
+\fBerfc\fP	\fBerf\fP(3M)	 error functions
+\fBexp\fP	\fBexp\fP(3M)	 exponential, logarithm, power
+\fBexp2\fP	\fBexp\fP(3M)	 exponential, logarithm, power
+\fBexp10\fP	\fBexp\fP(3M)	 exponential, logarithm, power
+\fBexpm1\fP	\fBexp\fP(3M)	 exponential, logarithm, power
+\fBfabs\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBfinite\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBfloor\fP	\fBrint\fP(3M)	 round to integral value in floating-point or integer format
+\fBfmod\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBfp_class\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBfrexp\fP	\fBfrexp\fP(3M)	 traditional UNIX functions
+\fB\s-1HUGE\s0\fP	\fBieee_values\fP(3M)	 functions that return extreme values of IEEE arithmetic
+\fB\s-1HUGE_VAL\s0\fP	\fBieee_values\fP(3M)	 functions that return extreme values of IEEE arithmetic
+\fBhypot\fP	\fBhypot\fP(3M)	 Euclidean distance
+\fBieee_flags\fP	\fBieee_flags\fP(3M)	 mode and status function for IEEE standard arithmetic
+\fBieee_functions\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBieee_handler\fP	\fBieee_handler\fP(3M)	 IEEE exception trap handler function
+\fBieee_test\fP	\fBieee_test\fP(3M)	 IEEE test functions for verifying standard compliance
+\fBieee_values\fP	\fBieee_values\fP(3M)	 functions that return extreme values of IEEE arithmetic
+\fBilogb\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBinfinity\fP	\fBieee_values\fP(3M)	 functions that return extreme values of IEEE arithmetic
+\fBirint\fP	\fBrint\fP(3M)	 round to integral value in floating-point or integer format
+\fBisinf\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBisnan\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBisnormal\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBissubnormal\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBiszero\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBj0\fP	\fBbessel\fP(3M)	 Bessel functions
+\fBj1\fP	\fBbessel\fP(3M)	 Bessel functions
+\fBjn\fP	\fBbessel\fP(3M)	 Bessel functions
+\fBldexp\fP	\fBfrexp\fP(3M)	 traditional UNIX functions
+\fBlgamma\fP	\fBlgamma\fP(3M)	 log gamma function
+\fBlog\fP	\fBexp\fP(3M)	 exponential, logarithm, power
+\fBlog2\fP	\fBexp\fP(3M)	 exponential, logarithm, power
+\fBlog10\fP	\fBexp\fP(3M)	 exponential, logarithm, power
+\fBlog1p\fP	\fBexp\fP(3M)	 exponential, logarithm, power
+\fBlogb\fP	\fBieee_test\fP(3M)	 IEEE test functions for verifying standard compliance
+\fBmatherr\fP	\fBmatherr\fP(3M)	 math library exception-handling function
+\fBmax_normal\fP	\fBieee_values\fP(3M)	 functions that return extreme values of IEEE arithmetic
+\fBmax_subnormal\fP	\fBieee_values\fP(3M)	 functions that return extreme values of IEEE arithmetic
+\fBmin_normal\fP	\fBieee_values\fP(3M)	 functions that return extreme values of IEEE arithmetic
+\fBmin_subnormal\fP	\fBieee_values\fP(3M)	 functions that return extreme values of IEEE arithmetic
+\fBmodf\fP	\fBfrexp\fP(3M)	 traditional UNIX functions
+\fBnextafter\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBnint\fP	\fBrint\fP(3M)	 round to integral value in floating-point or integer format
+\fBpow\fP	\fBexp\fP(3M)	 exponential, logarithm, power
+\fBquiet_nan\fP	\fBieee_values\fP(3M)	 functions that return extreme values of IEEE arithmetic
+\fBremainder\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBrint\fP	\fBrint\fP(3M)	 round to integral value in floating-point or integer format
+\fBscalb\fP	\fBieee_test\fP(3M)	 IEEE test functions for verifying standard compliance
+\fBscalbn\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBsignaling_nan\fP	\fBieee_values\fP(3M)	 functions that return extreme values of IEEE arithmetic
+\fBsignbit\fP	\fBieee_functions\fP(3M)	 miscellaneous functions for IEEE arithmetic
+\fBsignificant\fP	\fBieee_test\fP(3M)	 IEEE test functions for verifying standard compliance
+\fBsin\fP	\fBtrig\fP(3M)	 trigonometric functions
+\fBsingle_precision\fP	\fBsingle_precision\fP(3M)	 single-precision access to libm functions
+\fBsinh\fP	\fBhyperbolic\fP(3M)	 hyperbolic functions
+\fBsqrt\fP	\fBsqrt\fP(3M)	 cube root, square root
+\fBtan\fP	\fBtrig\fP(3M)	 trigonometric functions
+\fBtanh\fP	\fBhyperbolic\fP(3M)	 hyperbolic functions
+\fBy0\fP	\fBbessel\fP(3M)	 Bessel functions
+\fBy1\fP	\fBbessel\fP(3M)	 Bessel functions
+\fByn\fP	\fBbessel\fP(3M)	 Bessel functions
+.fi

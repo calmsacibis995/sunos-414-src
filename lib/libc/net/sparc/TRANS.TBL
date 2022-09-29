@@ -1,0 +1,5 @@
+F HTONL.C;1                         	htonl.c
+F HTONS.C;1                         	htons.c
+F MAKEFILE.;1                       	Makefile
+F NTOHL.C;1                         	ntohl.c
+F NTOHS.C;1                         	ntohs.c

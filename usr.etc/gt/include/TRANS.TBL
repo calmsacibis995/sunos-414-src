@@ -1,0 +1,7 @@
+F FILEHDR.H;1                       	filehdr.h
+F LINENUM.H;1                       	linenum.h
+F N10AOUTH.H;1                      	n10aouth.h
+F RELOC.H;1                         	reloc.h
+F SCNHDR.H;1                        	scnhdr.h
+F STORCLAS.H;1                      	storclass.h
+F SYMS.H;1                          	syms.h

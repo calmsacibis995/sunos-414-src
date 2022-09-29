@@ -1,0 +1,12 @@
+F CHECK_IN.;1                       	check_install
+F CHECK_PE.SH;1                     	check_perm.sh
+F CHECK_TE.;1                       	check_test
+F EXEC_UPG.;1                       	exec_upgrade
+F FORMATTE.;1                       	formatter
+F HOUSE_KE.;1                       	house_keeper
+F INOUT.;1                          	inout
+F MAKEFILE.;1                       	Makefile
+F SCRIPT_G.;1                       	script_gen
+F SUNUPGRA.SH;1                     	sunupgrade.sh
+F UPGRADE.;1                        	upgrade
+F UPGRADE_.;1                       	upgrade_client

@@ -1,0 +1,10 @@
+F MAKEFILE.;1                       	Makefile
+F SPIFTEST.C;1                      	spiftest.c
+F SPIFTEST.H;1                      	spiftest.h
+F SPIF_DEV.H;1                      	spif_dev.h
+F SPIF_MSG.C;1                      	spif_msg.c
+F SPIF_MSG.H;1                      	spif_msg.h
+F SP_READ.C;1                       	sp_read.c
+F SP_WRITE.C;1                      	sp_write.c
+F STCIO.H;1                         	stcio.h
+F STCREG.H;1                        	stcreg.h

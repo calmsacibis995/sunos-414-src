@@ -1,0 +1,13 @@
+F ADJACENT.C;1                      	adjacentscreens.c
+F CLEAR_FU.C;1                      	clear_functions.c
+F GET_ALAR.C;1                      	get_alarm.c
+F LOCKSCRE.000;1                    	lockscreen.c
+F LOCKSCRE.C;1                      	lockscreen_default.c
+F MAKEFILE.;1                       	Makefile
+F OVERVIEW.C;1                      	overview.c
+F RING_ALA.C;1                      	ring_alarm.c
+F SETKEYS.C;1                       	setkeys.c
+F SET_ALAR.C;1                      	set_alarm.c
+F SWIN.C;1                          	swin.c
+F SWITCHER.C;1                      	switcher.c
+F TOOLPLAC.C;1                      	toolplaces.c

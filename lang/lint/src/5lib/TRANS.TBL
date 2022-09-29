@@ -1,0 +1,7 @@
+F LLIB-LAN.;1                       	llib-lansic
+F LLIB-LC.;1                        	llib-lc
+F LLIB-LCU.;1                       	llib-lcurses
+F LLIB-LPO.;1                       	llib-lposix
+F LLIB-LSV.;1                       	llib-lsvid89
+F LLIB-LSV.000;1                    	llib-lsvidii
+F LLIB-LTE.;1                       	llib-ltermcap

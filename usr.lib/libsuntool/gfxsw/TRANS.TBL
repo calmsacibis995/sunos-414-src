@@ -1,0 +1,4 @@
+F GFXSW.C;1                         	gfxsw.c
+F GFXSW_IN.C;1                      	gfxsw_input.c
+F GFXSW_NO.C;1                      	gfxsw_nocur.c
+F MAKEFILE.;1                       	Makefile

@@ -1,0 +1,313 @@
+.\" @(#)List.8 1.1 94/10/31 SMI
+.if \n(zZ=1 .ig zZ
+.TH LIST 8 "16 August 1991"
+.SH LIST OF COMMANDS
+.nf
+.sp
+.ta 20n; +22n
+\fBName 	Appears on Page 	Description\fR
+.sp
+.zZ
+\fBac\fP	\fBac\fP(8)	 login accounting
+\fBacctcms\fP	\fBacctcms\fP(8)	 command summary from per-process accounting records
+\fBacctcon1\fP	\fBacctcon\fP(8)	 connect-time accounting
+\fBacctcon2\fP	\fBacctcon\fP(8)	 connect-time accounting
+\fBacctdisk\fP	\fBacct\fP(8)	 miscellaneous accounting commands
+\fBacctdusg\fP	\fBacct\fP(8)	 miscellaneous accounting commands
+\fBacctmerg\fP	\fBacctmerg\fP(8)	 merge or add total accounting files
+\fBaccton\fP	\fBacct\fP(8)	 miscellaneous accounting commands
+\fBaccton\fP	\fBsa\fP(8)	 system accounting
+\fBacctprc1\fP	\fBacctprc\fP(8)	 process accounting
+\fBacctprc2\fP	\fBacctprc\fP(8)	 process accounting
+\fBacctwtmp\fP	\fBacct\fP(8)	 miscellaneous accounting commands
+\fBadbgen\fP	\fBadbgen\fP(8)	 generate adb script
+\fBadd_client\fP	\fBadd_client\fP(8)	 create a diskless network bootable \s-1NFS\s0 client on a server
+\fBadd_services\fP	\fBadd_services\fP(8)	 provide software installation services for any architecture
+\fBadd_user\fP	\fBadd_user\fP(8)	 shellscript to add a user account to a machine
+\fBadduser\fP	\fBadduser\fP(8)	 procedure for adding new users
+\fBadv\fP	\fBadv\fP(8)	 advertise a directory for remote access with \s-1RFS\s0
+\fBanalyze\fP	\fBold-analyze\fP(8)	 postmortem system crash analyzer
+\fBarp\fP	\fBarp\fP(8C)	 address resolution display and control
+\fBaudit\fP	\fBaudit\fP(8)	 audit trail maintenance
+\fBauditd\fP	\fBauditd\fP(8)	 audit daemon
+\fBaudit_warn\fP	\fBaudit_warn\fP(8)	 audit daemon warning script
+\fBautomount\fP	\fBautomount\fP(8)	 automatically mount \s-1NFS\s0 file systems
+\fBbiod\fP	\fBnfsd\fP(8)	 \s-1NFS\s0 daemons
+\fBboot\fP	\fBboot\fP(8S)	 start the system kernel or a standalone program
+\fBbootparamd\fP	\fBbootparamd\fP(8)	 boot parameter server
+\fBC2conv\fP	\fBc2conv\fP(8)	 convert system to or from C2 security
+\fBC2unconv\fP	\fBc2conv\fP(8)	 convert system to or from C2 security
+\fBcaptoinfo\fP	\fBcaptoinfo\fP(8V)	 convert a termcap description into a terminfo description
+\fBcatman\fP	\fBcatman\fP(8)	 create the cat files for the manual
+\fBchange_login\fP	\fBchange_login\fP(8)	 control screen blanking and choice of login utility
+\fBchargefee\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBcheck4\fP	\fBset4\fP(8)	 check the virtual address space limit flag in a module
+\fBchown\fP	\fBchown\fP(8)	 change owner
+\fBchroot\fP	\fBchroot\fP(8)	 change root directory for a command
+\fBchrtbl\fP	\fBchrtbl\fP(8)	 generate character classification table
+\fBckpacct\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBclient\fP	\fBclient\fP(8)	 add or remove diskless Sun386i systems
+\fBclri\fP	\fBclri\fP(8)	 clear inode
+\fBcolldef\fP	\fBcolldef\fP(8)	 convert collation sequence source definition
+\fBcomsat\fP	\fBcomsat\fP(8C)	 biff server
+\fBconfig\fP	\fBconfig\fP(8)	 build system configuration files
+\fBcopy_home\fP	\fBcopy_home\fP(8)	 fetch default startup files for new home directories
+\fBcrash\fP	\fBcrash\fP(8)	 examine system images
+\fBcron\fP	\fBcron\fP(8)	 clock daemon
+\fBdbconfig\fP	\fBdbconfig\fP(8)	 initializes the dial box
+\fBdcheck\fP	\fBdcheck\fP(8)	 file system directory consistency check
+\fBdevinfo\fP	\fBdevinfo\fP(8S)	 print out system device information
+\fBdevnm\fP	\fBdevnm\fP(8V)	 device name
+\fBdiskusg\fP	\fBdiskusg\fP(8)	 generate disk accounting data by user
+\fBdkctl\fP	\fBdkctl\fP(8)	 control special disk operations
+\fBdkinfo\fP	\fBdkinfo\fP(8)	 report information about a disk's geometry and partitioning
+\fBdmesg\fP	\fBdmesg\fP(8)	 collect system diagnostic messages to form error log
+\fBdname\fP	\fBdname\fP(8)	 print \s-1RFS\s0 domain and network names
+\fBdodisk\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBdorfs\fP	\fBdorfs\fP(8)	 initialize, start and stop \s-1RFS\s0 automatically
+\fBdump\fP	\fBdump\fP(8)	 incremental file system dump
+\fBdumpfs\fP	\fBdumpfs\fP(8)	 dump file system information
+\fBedquota\fP	\fBedquota\fP(8)	 edit user quotas
+\fBeeprom\fP	\fBeeprom\fP(8S)	 \s-1EEPROM\s0 display and load utility
+\fBetherd\fP	\fBetherd\fP(8C)	 Ethernet statistics server
+\fBetherfind\fP	\fBetherfind\fP(8C)	 find packets on Ethernet
+\fBexportfs\fP	\fBexportfs\fP(8)	 export and unexport directories to \s-1NFS\s0 clients
+\fBextract_files\fP	\fBextract_files\fP(8)	 extract files from release media
+\fBextract_unbundled\fP	\fBextract_unbundled\fP(8)	 extract and execute unbundled-product installation scripts
+\fBfastboot\fP	\fBfastboot\fP(8)	 reboot/halt the system without checking the disks
+\fBfasthalt\fP	\fBfastboot\fP(8)	 reboot/halt the system without checking the disks
+\fBfingerd\fP	\fBfingerd\fP(8C)	 remote user information server
+\fBformat\fP	\fBformat\fP(8S)	 disk partitioning and maintenance utility
+\fBfpa_download\fP	\fBfpa_download\fP(8)	 download to the Floating Point Accelerator
+\fBfparel\fP	\fBfparel\fP(8)	 Sun \s-1FPA\s0 online reliability tests
+\fBfpaversion\fP	\fBfpaversion\fP(8)	 print \s-1FPA\s0 version, load microcode
+\fBfpurel\fP	\fBfpurel\fP(8)	 perform tests the Sun Floating Point Co-processor
+\fBfpuversion4\fP	\fBfpuversion4\fP(8)	 print the Sun-4 \s-1FPU\s0 version
+\fBfsck\fP	\fBfsck\fP(8)	 file system consistency check and interactive repair
+\fBfsirand\fP	\fBfsirand\fP(8)	 install random inode generation numbers
+\fBftpd\fP	\fBftpd\fP(8C)	 \s-1TCP/IP\s0 Internet File Transfer Protocol server
+\fBfumount\fP	\fBfumount\fP(8)	 force unmount of an advertised \s-1RFS\s0 resource
+\fBfusage\fP	\fBfusage\fP(8)	 \s-1RFS\s0 disk access profiler
+\fBfuser\fP	\fBfuser\fP(8)	 identify processes using a file or file structure
+\fBfwtmp\fP	\fBfwtmp\fP(8)	 manipulate connect accounting records
+\fBgencat\fP	\fBinstalltxt\fP(8)	 create a message archive
+\fBgettable\fP	\fBgettable\fP(8C)	 get \s-1DARPA\s0 Internet format host table from a host
+\fBgetty\fP	\fBgetty\fP(8)	 set terminal mode
+\fBgid_allocd\fP	\fBuid_allocd\fP(8C)	 \s-1UID\s0 and \s-1GID\s0 allocator daemons
+\fBgpconfig\fP	\fBgpconfig\fP(8)	 initialize the Graphics Processor
+\fBgrpck\fP	\fBgrpck\fP(8V)	 check group database entries
+\fBgtconfig\fP	\fBgtconfig\fP(8)	 initialize the GT graphics accelerator and download microcode
+\fBgt_lpconfig\fP	\fBgt_lpconfig\fP(8)	 configure GT lightpen parameters
+\fBgxtest\fP	\fBgxtest\fP(8S)	 stand alone test for the Sun video graphics board
+\fBhalt\fP	\fBhalt\fP(8)	 stop the processor
+\fBhostconfig\fP	\fBhostconfig\fP(8C)	 configure a system's host parameters
+\fBhostrfs\fP	\fBhostrfs\fP(8)	 Convert \s-1IP\s0 addresses to \s-1RFS\s0 format
+\fBhtable\fP	\fBhtable\fP(8)	 convert DoD Internet format host table
+\fBicheck\fP	\fBicheck\fP(8)	 file system storage consistency check
+\fBidload\fP	\fBidload\fP(8)	 \s-1RFS\s0 user and group mapping
+\fBifconfig\fP	\fBifconfig\fP(8C)	 configure network interface parameters
+\fBimemtest\fP	\fBimemtest\fP(8S)	 stand alone memory test
+\fBin.comsat\fP	\fBcomsat\fP(8C)	 biff server
+\fBinetd\fP	\fBinetd\fP(8C)	 Internet services daemon
+\fBin.fingerd\fP	\fBfingerd\fP(8C)	 remote user information server
+\fBinfocmp\fP	\fBinfocmp\fP(8V)	 compare or print out terminfo descriptions
+\fBin.ftpd\fP	\fBftpd\fP(8C)	 \s-1TCP/IP\s0 Internet File Transfer Protocol server
+\fBinit\fP	\fBinit\fP(8)	 process control initialization
+\fBin.named\fP	\fBnamed\fP(8C)	 Internet domain name server
+\fBin.rexecd\fP	\fBrexecd\fP(8C)	 remote execution server
+\fBin.rlogind\fP	\fBrlogind\fP(8C)	 remote login server
+\fBin.routed\fP	\fBrouted\fP(8C)	 network routing daemon
+\fBin.rshd\fP	\fBrshd\fP(8C)	 remote shell server
+\fBin.rwhod\fP	\fBrwhod\fP(8C)	 system status server
+\fBinstallboot\fP	\fBinstallboot\fP(8S)	 install bootblocks in a disk partition
+\fBinstall_small_kernel\fP	\fBinstall_small_kernel\fP(8)	install a small, pre-configured kernel
+\fBinstalltxt\fP	\fBinstalltxt\fP(8)	 create a message archive 
+\fBin.talkd\fP	\fBtalkd\fP(8C)	 server for talk program
+\fBin.telnetd\fP	\fBtelnetd\fP(8C)	 \s-1TCP/IP\s0 \s-1TELNET\s0 protocol server
+\fBin.tftpd\fP	\fBtftpd\fP(8C)	 \s-1TCP/IP\s0 Trivial File Transfer Protocol server
+\fBin.tnamed\fP	\fBtnamed\fP(8C)	 \s-1TCP/IP\s0 Trivial name server
+\fBintr\fP	\fBintr\fP(8)	 allow a command to be interruptible
+\fBiostat\fP	\fBiostat\fP(8)	 report I/O statistics
+\fBipallocd\fP	\fBipallocd\fP(8C)	 Ethernet-to-\s-1IP\s0 address allocator
+\fBkadb\fP	\fBkadb\fP(8S)	 adb-like kernel and standalone-program debugger
+\fBkeyenvoy\fP	\fBkeyenvoy\fP(8C)	 talk to keyserver
+\fBkeyserv\fP	\fBkeyserv\fP(8C)	 server for storing public and private keys
+\fBkgmon\fP	\fBkgmon\fP(8)	 generate a dump of the operating system's profile buffers
+\fBlastlogin\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBldconfig\fP	\fBldconfig\fP(8)	 link-editor configuration
+\fBlink\fP	\fBlink\fP(8V)	 exercise link and unlink system calls
+\fBlist_files\fP	\fBlist_files\fP(8)	 list files from release media
+\fBlisten\fP	\fBnlsadmin\fP(8)	 network listener service administration for \s-1RFS\s0
+\fBlockd\fP	\fBlockd\fP(8C)	 network lock daemon
+\fBlogintool\fP	\fBlogintool\fP(8)	 graphic login interface
+\fBlpc\fP	\fBlpc\fP(8)	 line printer control program
+\fBlpd\fP	\fBlpd\fP(8)	 printer daemon
+\fBmailstats\fP	\fBmailstats\fP(8)	 print statistics collected by sendmail
+\fBmakedbm\fP	\fBmakedbm\fP(8)	 make a \s-1NIS\s0 ndbm file
+\fBMAKEDEV\fP	\fBmakedev\fP(8)	 make system special files
+\fBmakekey\fP	\fBmakekey\fP(8)	 generate encryption key
+\fBmc68881version\fP	\fBmc68881version\fP(8)	 print the \s-1MC\s068881 mask number and approximate clock rate
+\fBmconnect\fP	\fBmconnect\fP(8)	 connect to \s-1SMTP\s0 mail server socket
+\fBmkfile\fP	\fBmkfile\fP(8)	 create a file
+\fBmkfs\fP	\fBmkfs\fP(8)	 construct a file system
+\fBmknod\fP	\fBmknod\fP(8)	 build special file
+\fBmkproto\fP	\fBmkproto\fP(8)	 construct a prototype file system
+\fBmodload\fP	\fBmodload\fP(8)	 load a module
+\fBmodstat\fP	\fBmodstat\fP(8)	 display status of loadable modules
+\fBmodunload\fP	\fBmodunload\fP(8)	 unload a module
+\fBmonacct\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBmonitor\fP	\fBmonitor\fP(8S)	 system \s-1ROM\s0 monitor
+\fBmountd\fP	\fBmountd\fP(8C)	 \s-1NFS\s0 mount request server
+\fBmount\fP	\fBmount\fP(8)	 mount and unmount file systems
+\fBmount_tfs\fP	\fBmount_tfs\fP(8)	 mount and dismount \s-1TFS\s0 filesystems
+\fBnamed\fP	\fBnamed\fP(8C)	 Internet domain name server
+\fBncheck\fP	\fBncheck\fP(8)	 generate names from i-numbers
+\fBndbootd\fP	\fBndbootd\fP(8C)	\s-1ND\s0 boot block server
+\fBnetconfig\fP	\fBnetconfig\fP(8C)	 \s-1PNP\s0 boot service
+\fBnetstat\fP	\fBnetstat\fP(8C)	 show network status
+\fBnewaliases\fP	\fBnewaliases\fP(8)	 rebuild the data base for the mail aliases file
+\fBnewfs\fP	\fBnewfs\fP(8)	 create a new file system
+\fBnewkey\fP	\fBnewkey\fP(8)	 create a new key in the publickey database
+\fBnfsd\fP	\fBnfsd\fP(8)	 \s-1NFS\s0 daemons
+\fBnfsstat\fP	\fBnfsstat\fP(8C)	 Network File System statistics
+\fBnlsadmin\fP	\fBnlsadmin\fP(8)	 network listener service administration for \s-1RFS\s0
+\fBnslookup\fP	\fBnslookup\fP(8C)	 query domain name servers interactively
+\fBnsquery\fP	\fBnsquery\fP(8)	 \s-1RFS\s0 name server query
+\fBnulladm\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBold-analyze\fP	\fBold-analyze\fP(8)	 postmortem system crash analyzer
+\fBopenboot\fP	\fBopenboot\fP(8S)	 start the system kernel or a standalone program
+\fBpac\fP	\fBpac\fP(8)	 printer/plotter accounting information
+\fBpanic\fP	\fBpanic\fP(8S)	 what happens when the system crashes
+\fBping\fP	\fBping\fP(8C)	 send \s-1ICMP\s0 \s-1ECHO_REQUEST\s0 packets to network hosts
+\fBpnpboot\fP	\fBpnpboot\fP(8C)	 pnp diskless boot service
+\fBpnpd\fP	\fBpnpd\fP(8C)	 \s-1PNP\s0 daemon
+\fBpnp.s386\fP	\fBpnpboot\fP(8C)	 pnp diskless boot service
+\fBportmap\fP	\fBportmap\fP(8C)	 \s-1TCP/IP\s0 port to \s-1RPC\s0 program number mapper
+\fBpraudit\fP	\fBpraudit\fP(8)	 print contents of an audit trail file
+\fBprctmp\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBprdaily\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBprtacct\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBpstat\fP	\fBpstat\fP(8)	 print system facts
+\fBpwck\fP	\fBpwck\fP(8V)	 check password database entries
+\fBpwdauthd\fP	\fBpwdauthd\fP(8C)	 server for authenticating passwords
+\fBquotacheck\fP	\fBquotacheck\fP(8)	 file system quota consistency checker
+\fBquotaoff\fP	\fBquotaon\fP(8)	 turn file system quotas on and off
+\fBquotaon\fP	\fBquotaon\fP(8)	 turn file system quotas on and off
+\fBquot\fP	\fBquot\fP(8)	 summarize file system ownership
+\fBrarpd\fP	\fBrarpd\fP(8C)	 \s-1TCP/IP\s0 Reverse Address Resolution Protocol server
+\fBrc\fP	\fBrc\fP(8)	 command scripts for auto-reboot and daemons
+\fBrc.boot\fP	\fBrc\fP(8)	 command scripts for auto-reboot and daemons
+\fBrc.local\fP	\fBrc\fP(8)	 command scripts for auto-reboot and daemons
+\fBrdate\fP	\fBrdate\fP(8C)	 set system date from a remote host
+\fBrdump\fP	\fBdump\fP(8)	 incremental file system dump
+\fBreboot\fP	\fBreboot\fP(8)	 restart the operating system
+\fBrenice\fP	\fBrenice\fP(8)	 alter nice value of running processes
+\fBrepquota\fP	\fBrepquota\fP(8)	 summarize quotas for a file system
+\fBrestore\fP	\fBrestore\fP(8)	 incremental file system restore
+\fBrexd\fP	\fBrexd\fP(8C)	 \s-1RPC\s0-based remote execution server
+\fBrexecd\fP	\fBrexecd\fP(8C)	 remote execution server
+\fBrfadmin\fP	\fBrfadmin\fP(8)	 \s-1RFS\s0 domain administration
+\fBrfpasswd\fP	\fBrfpasswd\fP(8)	 change \s-1RFS\s0 host password
+\fBrfstart\fP	\fBrfstart\fP(8)	 start \s-1RFS\s0
+\fBrfstop\fP	\fBrfstop\fP(8)	 stop the \s-1RFS\s0 environment
+\fBrfuadmin\fP	\fBrfuadmin\fP(8)	 \s-1RFS\s0 notification shell script
+\fBrfudaemon\fP	\fBrfudaemon\fP(8)	 Remote File Sharing daemon
+\fBrlogind\fP	\fBrlogind\fP(8C)	 remote login server
+\fBrmail\fP	\fBrmail\fP(8C)	 handle remote mail received via uucp
+\fBrm_client\fP	\fBrm_client\fP(8)	 remove an \s-1NFS\s0 client
+\fBrmntstat\fP	\fBrmntstat\fP(8)	 display \s-1RFS\s0 mounted resource information
+\fBrmt\fP	\fBrmt\fP(8C)	 remote magtape protocol module
+\fBroute\fP	\fBroute\fP(8C)	 manually manipulate the routing tables
+\fBrouted\fP	\fBrouted\fP(8C)	 network routing daemon
+\fBrpc.etherd\fP	\fBetherd\fP(8C)	 Ethernet statistics server
+\fBrpcinfo\fP	\fBrpcinfo\fP(8C)	 report \s-1RPC\s0 information
+\fBrpc.lockd\fP	\fBlockd\fP(8C)	 network lock daemon
+\fBrpc.mountd\fP	\fBmountd\fP(8C)	 \s-1NFS\s0 mount request server
+\fBrpc.rexd\fP	\fBrexd\fP(8C)	 \s-1RPC\s0-based remote execution server
+\fBrpc.rquotad\fP	\fBrquotad\fP(8C)	 remote quota server
+\fBrpc.rstatd\fP	\fBrstatd\fP(8C)	 kernel statistics server
+\fBrpc.rusersd\fP	\fBrusersd\fP(8C)	 network username server
+\fBrpc.rwalld\fP	\fBrwalld\fP(8C)	 network rwall server
+\fBrpc.sprayd\fP	\fBsprayd\fP(8C)	 spray server
+\fBrpc.statd\fP	\fBstatd\fP(8C)	 network status monitor
+\fBrpc.yppasswdd\fP	\fByppasswdd\fP(8C)	 server for modifying \s-1NIS\s0 password file
+\fBrpc.ypupdated\fP	\fBypupdated\fP(8C)	 server for changing \s-1NIS\s0 information
+\fBrquotad\fP	\fBrquotad\fP(8C)	 remote quota server
+\fBrrestore\fP	\fBrestore\fP(8)	 incremental file system restore
+\fBrshd\fP	\fBrshd\fP(8C)	 remote shell server
+\fBrstatd\fP	\fBrstatd\fP(8C)	 kernel statistics server
+\fBrunacct\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBrunacct\fP	\fBrunacct\fP(8)	 run daily accounting
+\fBrusage\fP	\fBrusage\fP(8)	 print resource usage for a command
+\fBrusersd\fP	\fBrusersd\fP(8C)	 network username server
+\fBrwalld\fP	\fBrwalld\fP(8C)	 network rwall server
+\fBrwhod\fP	\fBrwhod\fP(8C)	 system status server
+\fBsa\fP	\fBsa\fP(8)	 system accounting
+\fBsavecore\fP	\fBsavecore\fP(8)	 save a core dump of the operating system
+\fBsendmail\fP	\fBsendmail\fP(8)	 send mail over the internet
+\fBset4\fP	\fBset4\fP(8)	 set the virtual address space limit flag in a module
+\fBsetsid\fP	\fBsetsid\fP(8V)	 set process to session leader
+\fBshowfhd\fP	\fBshowfhd\fP(8C)	 showfh daemon run on the \s-1NFS\s0 servers
+\fBshowfh\fP	\fBshowfh\fP(8C)	 print full pathname of file from the \s-1NFS\s0 file handle
+\fBshowmount\fP	\fBshowmount\fP(8)	 show all remote mounts
+\fBshowrev\fP	\fBshowrev\fP(8)	 show machine and software revision information
+\fBshutacct\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBshutdown\fP	\fBshutdown\fP(8)	 close down the system at a given time
+\fBskyversion\fP	\fBskyversion\fP(8)	 print the \s-1SKYFFP\s0 board microcode version number
+\fBsprayd\fP	\fBsprayd\fP(8C)	 spray server
+\fBspray\fP	\fBspray\fP(8C)	 spray packets
+\fBstart_applic\fP	\fBstart_applic\fP(8)	 generic application startup procedures
+\fBstartup\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBstatd\fP	\fBstatd\fP(8C)	 network status monitor
+\fBsticky\fP	\fBsticky\fP(8)	 mark files for special treatment
+\fBsundiag\fP	\fBsundiag\fP(8)	 system diagnostics
+\fBsuninstall\fP	\fBsuninstall\fP(8)	 install and upgrade the SunOS operating system
+\fBswapon\fP	\fBswapon\fP(8)	 specify additional device for paging and swapping
+\fBsyslogd\fP	\fBsyslogd\fP(8)	 log system messages
+\fBsys-unconfig\fP	\fBsys-unconfig\fP(8)	 undo a system's configuration
+\fBtalkd\fP	\fBtalkd\fP(8C)	 server for talk program
+\fBtelnetd\fP	\fBtelnetd\fP(8C)	 \s-1TCP/IP\s0 \s-1TELNET\s0 protocol server
+\fBtfsd\fP	\fBtfsd\fP(8)	 \s-1TFS\s0 daemon
+\fBtftpd\fP	\fBtftpd\fP(8C)	 \s-1TCP/IP\s0 Trivial File Transfer Protocol server
+\fBtic\fP	\fBtic\fP(8V)	 terminfo compiler
+\fBtnamed\fP	\fBtnamed\fP(8C)	 \s-1TCP/IP\s0 Trivial name server
+\fBtrpt\fP	\fBtrpt\fP(8C)	 transliterate protocol trace
+\fBttysoftcar\fP	\fBttysoftcar\fP(8)	 enable/disable carrier detect
+\fBtunefs\fP	\fBtunefs\fP(8)	 tune up an existing file system
+\fBturnacct\fP	\fBacctsh\fP(8)	 shell procedures for accounting
+\fBtzsetup\fP	\fBtzsetup\fP(8)	 set up old-style time zone information in the kernel
+\fBuid_allocd\fP	\fBuid_allocd\fP(8C)	 \s-1UID\s0 and \s-1GID\s0 allocator daemons
+\fBumount\fP	\fBmount\fP(8)	 mount and unmount file systems
+\fBumount_tfs\fP	\fBmount_tfs\fP(8)	 mount and dismount \s-1TFS\s0 filesystems
+\fBunadv\fP	\fBunadv\fP(8)	 unadvertise a Remote File Sharing resource
+\fBunconfigure\fP	\fBunconfigure\fP(8)	 reset the network configuration for a Sun386i system
+\fBunixname2bootname\fP	\fBunixname2bootname\fP(8)	 convert SunOS device name to boot device name
+\fBunlink\fP	\fBlink\fP(8V)	 exercise link and unlink system calls
+\fBunset4\fP	\fBset4\fP(8)	 unset the virtual address space limit flag in a module
+\fBupdate\fP	\fBupdate\fP(8)	 periodically update the super block
+\fBuser_agentd\fP	\fBuser_agentd\fP(8C)	 user agent daemon
+\fBuucheck\fP	\fBuucheck\fP(8C)	 check the \s-1UUCP\s0 directories and Permissions file
+\fBuucico\fP	\fBuucico\fP(8C)	 file transport program for the \s-1UUCP\s0 system
+\fBuuclean\fP	\fBuuclean\fP(8C)	 uucp spool directory clean-up
+\fBuucleanup\fP	\fBuucleanup\fP(8C)	 \s-1UUCP\s0 spool directory clean-up
+\fBuucpd\fP	\fBuucpd\fP(8C)	 \s-1UUCP\s0 server
+\fBuusched\fP	\fBuusched\fP(8C)	 the scheduler for the \s-1UUCP\s0 file transport program
+\fBuuxqt\fP	\fBuuxqt\fP(8C)	 execute remote command requests
+\fBvipw\fP	\fBvipw\fP(8)	 edit the password file
+\fBvmstat\fP	\fBvmstat\fP(8)	 report virtual memory statistics
+\fBwtmpfix\fP	\fBfwtmp\fP(8)	 manipulate connect accounting records
+\fBypbatchupd\fP	\fBypbatchupd\fP(8C)	 \s-1NIS\s0 batch update daemon
+\fBypbind\fP	\fBypserv\fP(8)	 \s-1NIS\s0 server and binder processes
+\fBypinit\fP	\fBypinit\fP(8)	 build and install \s-1NIS\s0 database
+\fBypmake\fP	\fBypmake\fP(8)	 rebuild \s-1NIS\s0 database
+\fByppasswdd\fP	\fByppasswdd\fP(8C)	 server for modifying \s-1NIS\s0 password file
+\fByppoll\fP	\fByppoll\fP(8)	 version of \s-1NIS\s0 map at \s-1NIS\s0 server
+\fByppush\fP	\fByppush\fP(8)	 force propagation of changed \s-1NIS\s0 map
+\fBypserv\fP	\fBypserv\fP(8)	 \s-1NIS\s0 server and binder processes
+\fBypset\fP	\fBypset\fP(8)	 point ypbind at a particular server
+\fBypsync\fP	\fBypsync\fP(8)	 collect most up-to-date \s-1NIS\s0 maps
+\fBypupdated\fP	\fBypupdated\fP(8C)	 server for changing \s-1NIS\s0 information
+\fBypxfr\fP	\fBypxfr\fP(8)	 transfer \s-1NIS\s0 map from \s-1NIS\s0 server to here
+\fBzdump\fP	\fBzdump\fP(8)	 time zone dumper
+\fBzic\fP	\fBzic\fP(8)	 time zone compiler
+.fi

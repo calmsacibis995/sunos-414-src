@@ -1,0 +1,9 @@
+F ALLREGS.H;1                       	allregs.h
+F ASM_LINK.H;1                      	asm_linkage.h
+F GENASSYM.C;1                      	genassym.c
+F LOCORE.S;1                        	locore.s
+F MACHDEP.C;1                       	machdep.c
+F MAKEFILE.;1                       	Makefile
+F MAP.S;1                           	map.s
+F REG.H;1                           	reg.h
+F STUBS.C;1                         	stubs.c

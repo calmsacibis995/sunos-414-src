@@ -1,0 +1,5 @@
+D COMPILE                           	compile
+D LIBCURSE                          	libcurses
+D LIBTERML                          	libtermlib
+D LIBY                              	liby
+F MAKEFILE.;1                       	Makefile

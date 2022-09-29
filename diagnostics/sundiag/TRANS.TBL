@@ -1,0 +1,8 @@
+F GET_REF_.;1                       	get_ref_file
+D INCLUDE                           	include
+D LIB                               	lib
+F MAKEFILE.;1                       	Makefile
+D PROBE                             	probe
+D SUNVIEW                           	sunview
+D TESTS                             	tests
+F WHAT_REV.;1                       	what_rev

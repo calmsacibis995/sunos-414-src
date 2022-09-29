@@ -1,0 +1,10 @@
+F MAKEFILE.;1                       	Makefile
+F SELECTIO.C;1                      	selection.c
+F SEL_APPL.C;1                      	sel_appl.c
+F SEL_CLNT.C;1                      	sel_clnt.c
+F SEL_COMM.C;1                      	sel_common.c
+F SEL_DEBU.C;1                      	sel_debug.c
+F SEL_POLI.C;1                      	sel_policy.c
+F SEL_SVC.C;1                       	sel_svc.c
+F SEL_WRIT.C;1                      	sel_writable_data.c
+F SEL_XDR.C;1                       	sel_xdr.c

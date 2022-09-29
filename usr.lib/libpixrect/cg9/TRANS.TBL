@@ -1,0 +1,12 @@
+F CG9.C;1                           	cg9.c
+F CG9.MK;1                          	cg9.mk
+F CG9VAR.H;1                        	cg9var.h
+F CG9_COLO.C;1                      	cg9_colormap.c
+F CG9_GETP.C;1                      	cg9_getput.c
+F CG9_IOCT.C;1                      	cg9_ioctl.c
+F CG9_LINT.C;1                      	cg9_lint.c
+F CG9_OPS.C;1                       	cg9_ops.c
+F CG9_REGI.C;1                      	cg9_region.c
+F CG9_ROP.C;1                       	cg9_rop.c
+F CG9_VECT.C;1                      	cg9_vector.c
+L SCCS.;1                           	SCCS	../SCCS/../cg9/SCCS

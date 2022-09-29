@@ -1,0 +1,9 @@
+F BITMASK.C;1                       	bitmask.c
+F CMDLINE.C;1                       	cmdline.c
+F CURSOR.C;1                        	cursor.c
+F GETLOGIN.C;1                      	getlogindir.c
+F HASHFN.C;1                        	hashfn.c
+F MAKEFILE.;1                       	Makefile
+F PF.C;1                            	pf.c
+F SETENV.C;1                        	setenv.c
+F SV_MALLO.C;1                      	sv_malloc.c

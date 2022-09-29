@@ -1,0 +1,10 @@
+F CACHE.S;1                         	cache.s
+F CONF.C;1                          	conf.c
+F ENABLE.S;1                        	enable.s
+F GETIDPRO.S;1                      	getidprom.s
+F MAKEFILE.;1                       	Makefile
+F MAKEFILE.STA;1                    	Makefile.standalone
+F MAP.S;1                           	map.s
+F MMU_H.BAK;1                       	mmu.h.bak
+F SRT0.S;1                          	srt0.s
+F STUBS.S;1                         	stubs.s

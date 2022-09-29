@@ -1,0 +1,5 @@
+D FONT                              	font
+D FONTINFO                          	fontinfo
+F MAKEFILE.;1                       	Makefile
+F MAKEFILE.MAS;1                    	Makefile.master
+D VFONT                             	vfont

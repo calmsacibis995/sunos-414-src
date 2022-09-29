@@ -1,0 +1,10 @@
+F CLOCK.C;1                         	clock.c
+F CLOCKHAN.000;1                    	clockhands.c
+F CLOCKHAN.C;1                      	clockhands.rom.c
+F CLOCKHAN.H;1                      	clockhands.h
+F MAKEFILE.;1                       	Makefile
+F METER.C;1                         	meter.c
+F METER.H;1                         	meter.h
+F PERFMETE.000;1                    	perfmeter.c
+F PERFMETE.C;1                      	perfmeter_hands.c
+F PERFMON.C;1                       	perfmon.c

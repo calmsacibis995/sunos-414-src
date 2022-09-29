@@ -1,0 +1,6 @@
+F HEADER.;1                         	header
+D INCLUDE                           	include
+D LIBUCB                            	libucb
+D LIBUTIL                           	libutil
+D LIBXDR                            	libxdr
+F MAKEFILE.;1                       	Makefile

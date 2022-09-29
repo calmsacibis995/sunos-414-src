@@ -1,0 +1,8 @@
+F CG3.C;1                           	cg3.c
+F CG3.MK;1                          	cg3.mk
+F CG3VAR.H;1                        	cg3var.h
+F CG3_COLO.C;1                      	cg3_colormap.c
+F CG3_LINT.C;1                      	cg3_lint.c
+F CG3_OPS.C;1                       	cg3_ops.c
+F CG3_REGI.C;1                      	cg3_region.c
+L SCCS.;1                           	SCCS	../SCCS/../cg3/SCCS

@@ -1,0 +1,11 @@
+F MAKEFILE.;1                       	Makefile
+F SD.C;1                            	sd.c
+F SDDEF.H;1                         	sddef.h
+F SD_CONF.C;1                       	sd_conf.c
+F SF.C;1                            	sf.c
+F SFDEF.H;1                         	sfdef.h
+F SR.C;1                            	sr.c
+F SRDEF.H;1                         	srdef.h
+F ST.C;1                            	st.c
+F STDEF.H;1                         	stdef.h
+F ST_CONF.C;1                       	st_conf.c

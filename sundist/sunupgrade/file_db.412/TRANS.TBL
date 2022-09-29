@@ -1,0 +1,11 @@
+F KVM_MEDI.000;1                    	kvm_media_files_database.sun4
+F KVM_MEDI.001;1                    	kvm_media_files_database.sun4c
+F KVM_MEDI.002;1                    	kvm_media_files_database.sun4m
+F KVM_MEDI.003;1                    	kvm_media_paths.sun4
+F KVM_MEDI.004;1                    	kvm_media_paths.sun4c
+F KVM_MEDI.SUN;1                    	kvm_media_paths.sun4m
+F MAKEFILE.;1                       	Makefile
+F ROOT_MED.;1                       	root_media_files_database
+F ROOT_MED.000;1                    	root_media_paths
+F USR_MEDI.;1                       	usr_media_files_database
+F USR_MEDI.000;1                    	usr_media_paths

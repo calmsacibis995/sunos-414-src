@@ -1,0 +1,8 @@
+F COMMANDS.H;1                      	commands.h
+F DAD_MODE.H;1                      	dad_mode.h
+F INQUIRY.H;1                       	inquiry.h
+F MAKEFILE.;1                       	Makefile
+F MESSAGE.H;1                       	message.h
+F MODE.H;1                          	mode.h
+F SENSE.H;1                         	sense.h
+F STATUS.H;1                        	status.h

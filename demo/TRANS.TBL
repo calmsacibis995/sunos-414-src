@@ -1,0 +1,17 @@
+D BUTTONBO                          	BUTTONBOX
+D CDROM                             	CDROM
+D DIALBOX                           	DIALBOX
+F GRAPHICS.6;1                      	graphics_demos.6
+F MAKEFILE.;1                       	Makefile
+F MAKEFILE.000;1                    	Makefile.release
+F MAKEFILE.DAT;1                    	Makefile.datafiles
+F MAKEFILE.INS;1                    	Makefile.install
+F MAKEFILE.REL;1                    	Makefile.src.release
+F MAKEFILE.SHO;1                    	Makefile.show
+F README.;1                         	README
+F READ_ME.;1                        	READ_ME
+F READ_ME_.;1                       	READ_ME_SHOW
+D SOUND                             	SOUND
+D SUNVIDEO                          	SUNVIDEO
+D SUNVIEW                           	SUNVIEW
+D XGL                               	XGL

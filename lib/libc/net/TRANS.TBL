@@ -1,0 +1,15 @@
+F BINDRESV.C;1                      	bindresvport.c
+F ETHER_AD.C;1                      	ether_addr.c
+F GETHOSTE.C;1                      	gethostent.c
+F GETNETEN.C;1                      	getnetent.c
+F GETNETGR.C;1                      	getnetgrent.c
+F GETPROTO.C;1                      	getprotoent.c
+F GETRPCEN.C;1                      	getrpcent.c
+F GETRPCPO.C;1                      	getrpcport.c
+F GETSERVE.C;1                      	getservent.c
+F INNETGR.C;1                       	innetgr.c
+F MAKEFILE.;1                       	Makefile
+F RCMD.C;1                          	rcmd.c
+F REXEC.C;1                         	rexec.c
+F RUSERPAS.C;1                      	ruserpass.c
+D SPARC                             	sparc

@@ -1,0 +1,6 @@
+F CUSERID.C;1                       	cuserid.c
+F FCNTL.C;1                         	fcntl.c
+F FCNTL.H;1                         	fcntl.h
+F FCNTLCOM.H;1                      	fcntlcom.h
+F MAKEFILE.;1                       	Makefile
+D SPARC                             	sparc

@@ -1,0 +1,21 @@
+F GP1.C;1                           	gp1.c
+F GP1.MK;1                          	gp1.mk
+F GP1CMDS.H;1                       	gp1cmds.h
+F GP1REG.H;1                        	gp1reg.h
+F GP1VAR.H;1                        	gp1var.h
+F GP1_COLO.C;1                      	gp1_colormap.c
+F GP1_IOCT.C;1                      	gp1_ioctl.c
+F GP1_LINE.C;1                      	gp1_line.c
+F GP1_LINT.C;1                      	gp1_lint.c
+F GP1_LOAD.C;1                      	gp1_loadtex.c
+F GP1_OPS.C;1                       	gp1_ops.c
+F GP1_POLY.000;1                    	gp1_polygon2.c
+F GP1_POLY.C;1                      	gp1_polyline.c
+F GP1_REGI.C;1                      	gp1_region.c
+F GP1_REPL.C;1                      	gp1_replrop.c
+F GP1_ROP.C;1                       	gp1_rop.c
+F GP1_SHME.C;1                      	gp1_shmem.c
+F GP1_SHME.IL;1                     	gp1_shmem.IL
+F GP1_UTIL.C;1                      	gp1_util.c
+F GP1_VEC.C;1                       	gp1_vec.c
+L SCCS.;1                           	SCCS	../SCCS/../gp1/SCCS

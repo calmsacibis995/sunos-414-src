@@ -1,0 +1,5 @@
+F AUTOCONF.H;1                      	autoconf.h
+F DEVICE.H;1                        	device.h
+F MAKEFILE.;1                       	Makefile
+F SCSI_CON.000;1                    	scsi_confdata.c
+F SCSI_CON.C;1                      	scsi_confsubr.c

@@ -1,0 +1,14 @@
+F MAKEFILE.;1                       	Makefile
+F MANDELBR.;1                       	mandelbrot
+F MANDELBR.C;1                      	mandelbrot.c
+F P_INCLUD.H;1                      	P_include.h
+F QUAT_UTI.C;1                      	quat_utils.c
+F README.;1                         	README
+F SPHERE_I.TRI;1                    	sphere_i.tri
+F TEST_SPH.;1                       	test_sphere
+F TEST_SPH.C;1                      	test_sphere.c
+F VIEW_3D_.C;1                      	view_3d_set.c
+F WS_MACRO.H;1                      	WS_macros.h
+F XGL.ICO;1                         	XGL.icon
+F XGL_LOGO.;1                       	xgl_logo
+F XGL_LOGO.C;1                      	xgl_logo.c

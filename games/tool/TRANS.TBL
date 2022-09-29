@@ -1,0 +1,7 @@
+D BOGGLETO                          	boggletool
+D CANFIELD                          	canfieldtool
+D CHESSTOO                          	chesstool
+F GAMEMERG.C;1                      	gamemerge.c
+D GAMMONTO                          	gammontool
+D LIFE                              	life
+F MAKEFILE.;1                       	Makefile

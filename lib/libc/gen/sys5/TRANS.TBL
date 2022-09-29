@@ -1,0 +1,13 @@
+F ASSERT.C;1                        	assert.c
+F MAKEFILE.;1                       	Makefile
+F NLIST.C;1                         	nlist.c
+F SETGID.C;1                        	setgid.c
+F SETUID.C;1                        	setuid.c
+F SGETL.C;1                         	sgetl.c
+F SIGHOLD.C;1                       	sighold.c
+F SIGNAL.C;1                        	signal.c
+F SLEEP.C;1                         	sleep.c
+F SPUTL.C;1                         	sputl.c
+F TOLOWER.C;1                       	tolower.c
+F TOUPPER.C;1                       	toupper.c
+F TTYSLOT.C;1                       	ttyslot.c

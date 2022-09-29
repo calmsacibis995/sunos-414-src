@@ -1,0 +1,88 @@
+.\" @(#)List.3l 1.1 94/10/31 SMI;
+.if \n(zZ=1 .ig zZ
+.TH LIST 3L "18 January 1988"
+.SH LIST OF LWP LIBRARY FUNCTIONS
+.nf
+.sp
+.ta 20n; +20n
+\fBName	Appears on Page	Description\fR
+.sp
+.zZ
+\fBagt_create\fP	\fBagt_create\fP(3L)	 map LWP events into messages
+\fBagt_enumerate\fP	\fBagt_create\fP(3L)	 map LWP events into messages
+\fBagt_trap\fP	\fBagt_create\fP(3L)	 map LWP events into messages
+\fB\s-1CHECK\s0\fP	\fBlwp_newstk\fP(3L)	 LWP stack management
+\fBcv_broadcast\fP	\fBcv_create\fP(3L)	 manage LWP condition variables
+\fBcv_create\fP	\fBcv_create\fP(3L)	 manage LWP condition variables
+\fBcv_destroy\fP	\fBcv_create\fP(3L)	 manage LWP condition variables
+\fBcv_enumerate\fP	\fBcv_create\fP(3L)	 manage LWP condition variables
+\fBcv_notify\fP	\fBcv_create\fP(3L)	 manage LWP condition variables
+\fBcv_send\fP	\fBcv_create\fP(3L)	 manage LWP condition variables
+\fBcv_wait\fP	\fBcv_create\fP(3L)	 manage LWP condition variables
+\fBcv_waiters\fP	\fBcv_create\fP(3L)	 manage LWP condition variables
+\fBexc_bound\fP	\fBexc_handle\fP(3L)	 LWP exception handling
+\fBexc_handle\fP	\fBexc_handle\fP(3L)	 LWP exception handling
+\fBexc_notify\fP	\fBexc_handle\fP(3L)	 LWP exception handling
+\fBexc_on_exit\fP	\fBexc_handle\fP(3L)	 LWP exception handling
+\fBexc_raise\fP	\fBexc_handle\fP(3L)	 LWP exception handling
+\fBexc_unhandle\fP	\fBexc_handle\fP(3L)	 LWP exception handling
+\fBexc_uniqpatt\fP	\fBexc_handle\fP(3L)	 LWP exception handling
+\fBlwp_checkstkset\fP	\fBlwp_newstk\fP(3L)	 LWP stack management
+\fBlwp_create\fP	\fBlwp_create\fP(3L)	 LWP thread creation and destruction primitives
+\fBlwp_ctxinit\fP	\fBlwp_ctxinit\fP(3L)	 special LWP context operations
+\fBlwp_ctxmemget\fP	\fBlwp_ctxinit\fP(3L)	 special LWP context operations
+\fBlwp_ctxmemset\fP	\fBlwp_ctxinit\fP(3L)	 special LWP context operations
+\fBlwp_ctxremove\fP	\fBlwp_ctxinit\fP(3L)	 special LWP context operations
+\fBlwp_ctxset\fP	\fBlwp_ctxinit\fP(3L)	 special LWP context operations
+\fBlwp_datastk\fP	\fBlwp_newstk\fP(3L)	 LWP stack management
+\fBlwp_destroy\fP	\fBlwp_create\fP(3L)	 LWP thread creation and destruction primitives
+\fBlwp_enumerate\fP	\fBlwp_status\fP(3L)	 LWP status information
+\fBlwp_errstr\fP	\fBlwp_perror\fP(3L)	 LWP error handling
+\fBlwp_fpset\fP	\fBlwp_ctxinit\fP(3L)	 special LWP context operations
+\fBlwp_geterr\fP	\fBlwp_perror\fP(3L)	 LWP error handling
+\fBlwp_getregs\fP	\fBlwp_status\fP(3L)	 LWP status information
+\fBlwp_getstate\fP	\fBlwp_status\fP(3L)	 LWP status information
+\fBlwp_join\fP	\fBlwp_yield\fP(3L)	 control LWP scheduling
+\fBlwp_libcset\fP	\fBlwp_ctxinit\fP(3L)	 special LWP context operations
+\fBlwp_newstk\fP	\fBlwp_newstk\fP(3L)	 LWP stack management
+\fBlwp_perror\fP	\fBlwp_perror\fP(3L)	 LWP error handling
+\fBlwp_ping\fP	\fBlwp_status\fP(3L)	 LWP status information
+\fBlwp_resched\fP	\fBlwp_yield\fP(3L)	 control LWP scheduling
+\fBlwp_resume\fP	\fBlwp_yield\fP(3L)	 control LWP scheduling
+\fBlwp_self\fP	\fBlwp_status\fP(3L)	 LWP status information
+\fBlwp_setpri\fP	\fBlwp_yield\fP(3L)	 control LWP scheduling
+\fBlwp_setregs\fP	\fBlwp_status\fP(3L)	 LWP status information
+\fBlwp_setstkcache\fP	\fBlwp_newstk\fP(3L)	 LWP stack management
+\fBlwp_sleep\fP	\fBlwp_yield\fP(3L)	 control LWP scheduling
+\fBlwp_stkcswset\fP	\fBlwp_newstk\fP(3L)	 LWP stack management
+\fBlwp_suspend\fP	\fBlwp_yield\fP(3L)	 control LWP scheduling
+\fBlwp_yield\fP	\fBlwp_yield\fP(3L)	 control LWP scheduling
+\fB\s-1MINSTACKSZ\s0\fP	\fBlwp_newstk\fP(3L)	 LWP stack management
+\fBmon_break\fP	\fBmon_create\fP(3L)	 LWP routines to manage critical sections
+\fBmon_cond_enter\fP	\fBmon_create\fP(3L)	 LWP routines to manage critical sections
+\fBmon_create\fP	\fBmon_create\fP(3L)	 LWP routines to manage critical sections
+\fBmon_destroy\fP	\fBmon_create\fP(3L)	 LWP routines to manage critical sections
+\fBmon_enter\fP	\fBmon_create\fP(3L)	 LWP routines to manage critical sections
+\fBmon_enumerate\fP	\fBmon_create\fP(3L)	 LWP routines to manage critical sections
+\fBmon_exit\fP	\fBmon_create\fP(3L)	 LWP routines to manage critical sections
+\fBmon_waiters\fP	\fBmon_create\fP(3L)	 LWP routines to manage critical sections
+\fB\s-1MONITOR\s0\fP	\fBmon_create\fP(3L)	 LWP routines to manage critical sections
+\fBmsg_enumrecv\fP	\fBmsg_send\fP(3L)	 LWP send and receive messages
+\fBmsg_enumsend\fP	\fBmsg_send\fP(3L)	 LWP send and receive messages
+\fBmsg_recv\fP	\fBmsg_send\fP(3L)	 LWP send and receive messages
+\fB\s-1MSG_RECVALL\s0\fP	\fBmsg_send\fP(3L)	 LWP send and receive messages
+\fBmsg_reply\fP	\fBmsg_send\fP(3L)	 LWP send and receive messages
+\fBmsg_send\fP	\fBmsg_send\fP(3L)	 LWP send and receive messages
+\fBpod_exit\fP	\fBlwp_create\fP(3L)	 LWP thread creation and destruction primitives
+\fBpod_getexit\fP	\fBlwp_create\fP(3L)	 LWP thread creation and destruction primitives
+\fBpod_getmaxpri\fP	\fBpod_getmaxpri\fP(3L)	 control LWP scheduling priority
+\fBpod_getmaxsize\fP	\fBpod_getmaxpri\fP(3L)	 control LWP scheduling priority
+\fBpod_setexit\fP	\fBlwp_create\fP(3L)	 LWP thread creation and destruction primitives
+\fBpod_setmaxpri\fP	\fBpod_getmaxpri\fP(3L)	 control LWP scheduling priority
+.br
+.ne 5
+\fB\s-1SAMECV\s0\fP	\fBcv_create\fP(3L)	 manage LWP condition variables
+\fB\s-1SAMEMON\s0\fP	\fBmon_create\fP(3L)	 LWP routines to manage critical sections
+\fB\s-1SAMETHREAD\s0\fP	\fBlwp_create\fP(3L)	 LWP thread creation and destruction primitives
+\fB\s-1STKTOP\s0\fP	\fBlwp_newstk\fP(3L)	 LWP stack management
+.fi

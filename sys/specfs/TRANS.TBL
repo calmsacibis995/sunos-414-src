@@ -1,0 +1,10 @@
+F BDEV_DSO.C;1                      	bdev_dsort.c
+F FIFO.H;1                          	fifo.h
+F FIFONODE.H;1                      	fifonode.h
+F FIFO_VNO.C;1                      	fifo_vnodeops.c
+F MAKEFILE.;1                       	Makefile
+F SNODE.H;1                         	snode.h
+F SPEC_CLO.C;1                      	spec_clone.c
+F SPEC_SUB.C;1                      	spec_subr.c
+F SPEC_VFS.C;1                      	spec_vfsops.c
+F SPEC_VNO.C;1                      	spec_vnodeops.c

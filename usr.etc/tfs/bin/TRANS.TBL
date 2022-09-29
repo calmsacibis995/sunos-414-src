@@ -1,0 +1,6 @@
+F COPYRIGH.C;1                      	copyright.c
+F LSW.C;1                           	lsw.c
+F MAKEFILE.;1                       	Makefile
+F MOUNT_TF.C;1                      	mount_tfs.c
+F UMOUNT_T.C;1                      	umount_tfs.c
+F UNWHITEO.C;1                      	unwhiteout.c

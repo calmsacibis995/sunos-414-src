@@ -1,0 +1,5 @@
+F CONF.C;1                          	conf.c
+F SIMCONS.C;1                       	simcons.c
+F SIMDISK.C;1                       	simdisk.c
+F SIMUTIL.S;1                       	simutil.s
+F SWAPGENE.C;1                      	swapgeneric.c

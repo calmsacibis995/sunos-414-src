@@ -1,0 +1,24 @@
+F CG6.C;1                           	cg6.c
+F CG6.MK;1                          	cg6.mk
+F CG6FBC.H;1                        	cg6fbc.h
+F CG6TEC.H;1                        	cg6tec.h
+F CG6THC.H;1                        	cg6thc.h
+F CG6VAR.H;1                        	cg6var.h
+F CG6_BATC.C;1                      	cg6_batch.c
+F CG6_COLO.C;1                      	cg6_colormap.c
+F CG6_GETP.C;1                      	cg6_getput.c
+F CG6_LINE.C;1                      	cg6_line.c
+F CG6_LINT.C;1                      	cg6_lint.c
+F CG6_OPS.C;1                       	cg6_ops.c
+F CG6_POLY.000;1                    	cg6_polygon2.c
+F CG6_POLY.001;1                    	cg6_polyline.c
+F CG6_POLY.002;1                    	cg6_polyline0.c
+F CG6_POLY.C;1                      	cg6_polypoint.c
+F CG6_REGI.C;1                      	cg6_region.c
+F CG6_REPL.C;1                      	cg6_replrop.c
+F CG6_ROP.C;1                       	cg6_rop.c
+F CG6_STEN.C;1                      	cg6_stencil.c
+F CG6_UTIL.C;1                      	cg6_util.c
+F CG6_VEC.C;1                       	cg6_vec.c
+F CG6_VEC0.C;1                      	cg6_vec0.c
+L SCCS.;1                           	SCCS	../SCCS/../cg6/SCCS

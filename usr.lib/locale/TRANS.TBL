@@ -1,0 +1,8 @@
+D LANGINFO                          	LANGINFO
+D LC_COLLA                          	LC_COLLATE
+D LC_CTYPE                          	LC_CTYPE
+D LC_MESSA                          	LC_MESSAGES
+D LC_MONET                          	LC_MONETARY
+D LC_NUMER                          	LC_NUMERIC
+D LC_TIME                           	LC_TIME
+F MAKEFILE.;1                       	Makefile
